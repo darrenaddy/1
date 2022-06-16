@@ -1,0 +1,43 @@
+<!-- Start Navbar Area -->
+<div class="container">
+<div class="navbar-area">
+   
+    <div class="main-navbar">
+        
+            <nav class="navbar navbar-expand-md navbar-light">
+
+                <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                      {{ $currentPage := . }}
+                      {{ range .Site.Menus.main }}
+                          {{ if .HasChildren }}
+                              <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }} nav-item">
+                                  <a href="#" class="nav-link">
+                                      {{ .Pre }}
+                                      <span>{{ .Name }}</span>
+                                      <i class='bx bx-chevron-down'></i>
+                                  </a>
+                                  <ul class="dropdown-menu">
+                                      {{ range .Children }}
+                                          <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                                              <a href="{{ .URL }}">{{ .Name }}</a>
+                                          </li>
+                                      {{ end }}
+                                  </ul>
+                              </li>
+
+                          {{ else }}
+                              <li class="nav-item">
+                                  <a href="{{ .URL }}" class="nav-link">
+                                      {{ .Pre }}
+                                      <span>{{ .Name }}</span>
+                                  </a>
+                              </li>
+                          {{ end }}
+                      {{ end }}
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+<!-- End Navbar Area -->

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head" . -}}
+    <body>
+        {{- partial "header" . -}}
+        {{ if .IsHome }}
+            {{ partial "flexorhero.html" . }}
+        {{ end }}
+        
+        
+        {{- block "main" . }}{{- end }}
+        
+        {{- partial "footer" . -}}
+        {{- partial "scriptage" . -}}
+    </body>
+</html>

@@ -1,0 +1,18 @@
+<!-- JavaScript and dependencies -->
+  <!-- Vendor JS Files -->
+  <script src="/vendorpkgs/aos/aos.js"></script>
+  <script src="/vendorpkgs/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/vendorpkgs/glightbox/js/glightbox.min.js"></script>
+  <script src="/vendorpkgs/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/vendorpkgs/swiper/swiper-bundle.min.js"></script>
+  <script src="/vendorpkgs/php-email-form/validate.js"></script>
+
+
+<!-- Bootstrap Made Flexor main.js -->
+  <!-- Template Main JS File -->
+  {{ $js2 := resources.Get "js/main.js" }}
+  {{ with $js2 }}
+  <script src="{{ $js2.RelPermalink }}" defer></script>
+  {{ else }}
+  {{ printf "No main.js resource" }}
+  {{ end }} 

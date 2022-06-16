@@ -1,0 +1,29 @@
+@media (min-width : 992px) {
+    .offcanvas {
+      visibility      : visible;
+      position        : relative;
+      background      : none;
+      border          : none;
+      justify-content: flex-start;
+      color           :#cccccc;
+    }
+  }
+  
+  @media (max-width : 992px) {
+    .offcanvas-body {
+      width : 350px !important;
+    }
+  
+    .offcanvas-start-lg {
+      top          : 0;
+      left         : 0;
+      background-color: $primary;
+      border-right : 2px solid rgba(0, 0, 0, .2);
+      transform    : translateX(-100%);
+    }
+  
+  }
+  
+  .navbar-nav li a {
+  color: #000 !important;
+  }

@@ -1,0 +1,90 @@
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: $primary;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    transition: all 0.4s;
+  }
+  .back-to-top i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 0;
+  }
+  .back-to-top:hover {
+    background: $primary;
+    color: #fff;
+  }
+  .back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  /*--------------------------------------------------------------
+  # Disable aos animation delay on mobile devices
+  --------------------------------------------------------------*/
+  @media screen and (max-width: 768px) {
+    [data-aos-delay] {
+      transition-delay: 0 !important;
+    }
+  }
+
+
+@media (min-width : 992px) {
+  .offcanvas {
+    visibility      : visible;
+    position        : relative;
+    background      : none;
+    border          : none;
+    justify-content : end;
+    color           : #999999;
+  }
+}
+
+@media (max-width : 992px) {
+  .offcanvas {
+    width : 250px !important;
+  }
+  .offcanvas-start-lg {
+    top          : 0;
+    left         : 0;
+    border-right : 1px solid rgba(0, 0, 0, .2);
+    transform    : translateX(-100%);
+  }
+}
+
+.navbar .offcanvas-body {
+   align-content: flex-start;
+   color: $secondary;
+  }
+
+.navbar a .nav-link {
+  color: #000 !important;
+}
+
+.navbar a .nav-link:hover {
+    color: $primary;
+    background: rgba(0, 0, 0, .2);
+}
+
+.navbar a .dropdown-toggle {
+  ::after {
+    vertical-align: middle;
+  }
+}
+
+.navbar-nav li a {
+  color: #000 !important;
+  .getstarted {
+  align-content: flex-start;
+  color: #fff !important;
+  }
+}
