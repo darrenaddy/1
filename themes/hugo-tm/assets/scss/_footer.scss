@@ -34,6 +34,11 @@
         font-weight: 700;
       }
 
+      i {
+        position: relative;
+        font-size: 14px;
+      }
+
       p {
         font-size: 14px;
         line-height: 24px;
@@ -125,22 +130,9 @@
     .footer-newsletter {
       margin-bottom: 25px;
   
-      .contact {      
-          i {
-            font-size: 20px;
-            color: $secondary;
-            float: left;
-            width: 44px;
-            height: 44px;
-            background: lighten($secondary, 55);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 50px;
-            transition: all 0.3s ease-in-out;
-          }
       
-          h4 {
+      
+          h3 {
             padding: 0 0 0 10px;
             font-size: 24px;
             font-weight: 700;
@@ -154,19 +146,6 @@
             font-size: 18px;
             color: #fff;
           }
-      
-          .email, .phone {
-            margin-top: 20px;
-          }
-      
-          .email:hover, .address:hover, .phone:hover {
-            i {
-              background: $secondary;
-              color: $white;
-            }
-          }
-        
-      
       
         .php-email-form {
           width: 100%;
@@ -250,7 +229,6 @@
               background: darken($primary, 10%);
             }
           }
-        
         }
       
         @keyframes animate-loading {
@@ -280,5 +258,4 @@
       }
     }
   }
-}
 }

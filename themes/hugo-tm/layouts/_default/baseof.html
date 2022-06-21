@@ -2,7 +2,7 @@
 <html>
     {{- partial "head" . -}}
     <body>
-        {{- partial "header" . -}}
+        {{- partial "headerX" . -}}
         {{ if .IsHome }}
             {{ partial "flexorhero.html" . }}
         {{ end }}
@@ -10,7 +10,7 @@
         
         {{- block "main" . }}{{- end }}
         
-        {{- partial "footer" . -}}
+        {{- partial "footer2" . -}}
         {{- partial "scriptage" . -}}
     </body>
 </html>

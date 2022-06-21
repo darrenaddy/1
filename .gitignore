@@ -2,6 +2,3 @@
 /resources
 .hugo_build.lock
 .vscode/
-/node_modules/*
-!/node_modules/swiper/
-!/node_modules/aos/

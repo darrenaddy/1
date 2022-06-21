@@ -1,229 +1,131 @@
 /*--------------------------------------------------------------
-# Desktop Navigation
+# Navigation Menu
 --------------------------------------------------------------*/
-@media (min-width: 1280px) {
 
-  .navbar {
+/**
+* Desktop Navigation 
+*/
+.navbar {
+  padding: 0;
+
+  ul {
+    margin: 0;
     padding: 0;
-  
-    ul {
-      margin: 0;
-      padding: 0;
-      display: flex;
-      list-style: none;
-      align-items: center;
-    }
-  
-    li {
-      position: relative;
-    }
-    
-    a, a:focus {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 15px 0 15px 30px;
-      font-family: var(--font-default);
-      font-size: 15px; 
-      font-weight: 500;
-      color: rgba(#777777, .6);
-      white-space: nowrap;
-      transition: 0.3s;
-  
-      i {
-        font-size: 12px;
-        line-height: 0;
-        margin-left: 5px;
-      }
-    }
-  
-    a:hover, .active, .active:focus, li:hover > a  {
-      color: $primary;
-    }
-  
-    .dropdown {
-  
-      ul {
-        display: block;
-        position: absolute;
-        left: 14px;
-        top: calc(100% + 30px);
-        margin: 0;
-        padding: 10px 0;
-        z-index: 99;
-        opacity: 0;
-        visibility: hidden;
-        background: #777777;
-        box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-        transition: 0.2s;
-        
-        li {
-          min-width: 200px;
-        }
-  
-        a {
-          padding: 10px 20px;
-          font-size: 15px;
-          text-transform: none;
-          color: $secondary;
-          
-          i {
-            font-size: 12px;
-          }
-        }
-  
-        a:hover, .active:hover, li:hover > a {
-          color: $primary;
-        }
-  
-      }
-  
-      &:hover > ul {
-        opacity: 1;
-        top: 100%;
-        visibility: visible;
-      }
-  
-    }
-  
-    .dropdown .dropdown {
-      
-      ul {
-        top: 0;
-        left: calc(100% - 30px);
-        visibility: hidden;
-      }
-  
-      &:hover > ul {
-        opacity: 1;
-        top: 0;
-        left: 100%;
-        visibility: visible;
-      }
-  
-      @media (max-width: 1366px) {
-        ul {
-          left: -90%;
-        }
-  
-        &:hover > ul {
-          left: -100%;
-        }
-      }
-    }
+    display: flex;
+    list-style: none;
+    align-items: flex-start;
+  }
 
-    
+  li {
+    position: relative;
+    list-style-type: none;
   }
   
-  .mobile-nav-show, .mobile-nav-hide {
-    display: none;
-  }
-  
-}
-
-
-/*--------------------------------------------------------------
-# Mobile Navigation
---------------------------------------------------------------*/
-@media (max-width: 1279px) {
-
-  .navbar {
-    position: fixed;
-    top: 0;
-    right: -100%;
-    width: 100%;
-    max-width: 400px;
-    bottom: 0;
+  a, a:focus {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-family: $font-secondary;
+    font-size: 15px; 
+    font-weight: 500;
+    color: $secondary;
+    white-space: nowrap;
     transition: 0.3s;
-    z-index:9997;
-    
+  
+
+    i {
+      font-size: 12px;
+      line-height: 0;
+      margin-left: 5px;
+    }
+  }
+
+  .getstarted, .getstarted:focus {
+    background: $primary;
+    padding: 8px 25px;
+    border-radius: 4px;
+    font-weight: 400;
+    color: #fff;
+    &:hover {
+      color: #fff;
+      background: lighten($primary, 8);
+    }
+  }
+
+  .dropdown {
+
     ul {
+      display: block;
       position: absolute;
-      inset: 0;
-      padding: 50px 0 10px 0;
+      left: 14px;
+      top: calc(100% + 30px);
       margin: 0;
-      background: rgba($secondary, 0.9);
-      overflow-y: auto;
-      transition: 0.3s;
-      z-index:9998;
+      padding: 10px 0;
+      z-index: 99;
+      opacity: 0;
+      visibility: hidden;
+      background: #fff;
+      transition: 0.3s; 
     }
-  
-    a, a:focus {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 10px 20px;
-      font-family: var(--font-default);
-      font-size: 15px; 
-      font-weight: 600;
-      color: rgba(255, 255, 255, .7);
-      white-space: nowrap;
-      transition: 0.3s;
-      i {
-        font-size: 12px;
-        line-height: 0;
-        margin-left: 5px;
+      
+      li {
+        min-width: 200px; 
+        .nav-item .dropdown-toggle {
+            vertical-align: middle;
+            }
+          }  
+
+      a {
+        padding: 10px 20px;
+        font-size: 15px;
+        text-transform: none;
+        font-weight: 400;
+        i {
+          font-size: 12px;
+        }
       }
+
+      a:hover, .active:hover, li:hover > a {
+        color: $primary;
+      }
+
     }
-  
-    a:hover, .active, .active:focus, li:hover > a  {
-      color: $primary;
-    } 
-  
-    .dropdown, .dropdown .dropdown {
-  
+
+    &:hover > ul {
+      opacity: 1;
+      top: 100%;
+      visibility: visible;
+    }
+  }
+
+  .dropdown .dropdown {
+    ul {
+      top: 0;
+      left: calc(100% - 30px);
+      visibility: hidden;
+    }
+
+    &:hover > ul {
+      opacity: 1;
+      top: 0;
+      left: 100%;
+      visibility: visible;
+    }
+
+    @media (max-width: 1366px) {
       ul {
-        position: static;
-        display: none;
-        padding: 10px 0;
-        margin: 10px 20px;
-        background-color: rgba(darken($secondary, 5), .6);
+        left: -90%;
       }
 
-
-      > .dropdown-active {
-        display: block;
-      }
-  
-    }
-  
-  }
-
-  .mobile-nav-show {
-    color: rgba(#777777, 0.9);
-    font-size: 28px;
-    cursor: pointer;
-    line-height: 0;
-    transition: 0.5s;
-  }
-
-  .mobile-nav-hide {
-    color: rgba(#777777, 0.9);
-    font-size: 32px;
-    cursor: pointer;
-    line-height: 0;
-    transition: 0.5s;
-    position: fixed;
-    right: 15px;
-    top: 15px;
-    z-index:9999;
-  }
-
-  .mobile-nav-active {
-    overflow: hidden;
-   
-    .navbar {
-      right: 0;
- 
-      &:before {
-        content: "";
-        position:fixed;
-        inset: 0;
-        background: rgba($secondary, 0.7);
-        z-index:9996;
+      &:hover > ul {
+        left: -100%;
       }
     }
-
   }
-  
-}
+
+
+/**
+* Mobile Navigation - see _nav-offcanvas.scss 
+*/
+

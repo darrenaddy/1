@@ -9,30 +9,27 @@
   padding: 0;
 
   ul {
-    margin: 0;
+    margin: 30;
     padding: 0;
     display: flex;
     list-style: none;
-    align-items: flex-start;
+    align-items: left;
   }
 
   li {
     position: relative;
-    list-style-type: none;
   }
   
   a, a:focus {
-    display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
     padding: 10px 0 10px 30px;
-    font-family: $font-secondary;
+    font-family: $secondary;
     font-size: 15px; 
-    font-weight: 500;
-    color: $secondary;
+    font-weight: 600;
+    color: #000;
     white-space: nowrap;
     transition: 0.3s;
-  
 
     i {
       font-size: 12px;
@@ -41,20 +38,34 @@
     }
   }
 
+  a:hover, .active, .active:focus, li:hover > a  {
+    color: $primary;
+  }
+
+  
+
+  button {
+    .navbar-toggle {
+      width: 32px;
+    }
   .getstarted, .getstarted:focus {
+    width: 150px;
     background: $primary;
-    padding: 8px 25px;
+    padding: 4px 4px;
+    margin-left: 0px;
     border-radius: 4px;
-    font-weight: 400;
+    font-weight: 600;
     color: #fff;
     &:hover {
       color: #fff;
-      background: lighten($primary, 8);
+      background: lighten($primary, .8);
     }
   }
+}
+
+
 
   .dropdown {
-
     ul {
       display: block;
       position: absolute;
@@ -66,21 +77,19 @@
       opacity: 0;
       visibility: hidden;
       background: #fff;
-      transition: 0.3s; 
-    }
+      box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+      transition: 0.3s;
       
       li {
-        min-width: 200px; 
-        .nav-item .dropdown-toggle {
-            vertical-align: middle;
-            }
-          }  
+        min-width: 200px;
+      }
 
       a {
         padding: 10px 20px;
         font-size: 15px;
+        color: #000;
         text-transform: none;
-        font-weight: 400;
+        font-weight: 600;
         i {
           font-size: 12px;
         }
@@ -89,7 +98,18 @@
       a:hover, .active:hover, li:hover > a {
         color: $primary;
       }
+    }
 
+    a {
+      .nav-link {
+        border: 0;
+        padding: 15px;
+								color: #000;
+        &.active {
+          color: $white;
+          background: $primary;
+        }
+      }
     }
 
     &:hover > ul {
@@ -97,9 +117,11 @@
       top: 100%;
       visibility: visible;
     }
+
   }
 
   .dropdown .dropdown {
+    
     ul {
       top: 0;
       left: calc(100% - 30px);
@@ -124,8 +146,6 @@
     }
   }
 
-
-/**
-* Mobile Navigation - see _nav-offcanvas.scss 
-*/
+}
+/* For Mobile Navigation Styling see _nav-offcanvas.scss */
 

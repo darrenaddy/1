@@ -98,7 +98,7 @@ relativeURLS = true
   name = 'Open Stringer Saw'
   identifier = 'open_stringer_saw'
   parent = 'stairs'
-  URL = 'machine/open_stringer_saw'
+  URL = 'machine/Open_Stringer_Saw'
   weight = 41
 
     
@@ -183,7 +183,6 @@ relativeURLS = true
 
 [taxonomies]
   category = 'categories'
-  thisCategory = 'thisCategory'
   tag = 'tags'
 
 [params]

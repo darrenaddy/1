@@ -1,0 +1,81 @@
+<!-- ======= Top Bar ======= -->
+<section id="topbar" class="d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-center">
+        <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:sales@merrickmachine.com">Click to Email!</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><a href="tel:18005687423">Click to Call!</a></i>
+        </div>    
+    </div>
+</section>
+  
+<!-- ======= Header ======= -->
+    <div class="container">       
+        <!-- .navbar -->
+        <nav class='navbar navbar-expand-lg navbar-light bg-white'>
+            <div class='container-fluid'>
+              <a class='navbar-brand text-black' href='/'><img src="/img/logo.png" class="logo" alt="Triad Logo"></a>
+              <button class='navbar-toggler' type='button' data-bs-toggle='offcanvas' data-bs-target='#offcanvasExample' aria-controls='offcanvasExample'
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class='offcanvas offcanvas-start-lg bg-white' tabindex='-1' id='offcanvasExample'
+                   aria-labelledby='offcanvasExampleLabel'
+              >
+                <div class='offcanvas-header d-flex d-lg-none'>
+                  <h5 class='offcanvas-title text-black' id='offcanvasExampleLabel'><img src="/img/logo.png" class="logo" alt="Triad Logo"></a></h5>
+                  <a href='javascript:void(0) '
+                          class='text-reset p-0'
+                          data-bs-dismiss='offcanvas'
+                          aria-label='close'
+                  >
+                    <svg xmlns='http://www.w3.org/2000/svg'
+                         width='24'
+                         height='24'
+                         fill='#000'
+                         class='bi bi-x-circle'
+                         viewBox='0 0 16 16'
+                    >
+                      <path d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/>
+                      <path d='M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z'/>
+                    </svg>
+                  </a>
+                </div>
+                <div class='offcanvas-body p-lg-0'>
+                  <ul class='navbar-nav'>
+                            {{ $currentPage := . }}
+                            {{ range $index, $element := .Site.Menus.main }}
+                                {{ if .HasChildren }}
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle active" href="{{ .URL }}" data-bs-toggle="dropdown" id="dropdown{{$index}}" role="button" aria-expanded="false">
+                                            {{ .Pre }}
+                                            <span>{{ .Name }}</span>
+                                        </a>
+                                    
+                                        <ul class="dropdown-menu fade-up" aria-labelledby="dropdown{{$index}}">
+                                        {{ range .Children }}
+                                            <li>
+                                                <a class="dropdown-item link-primary" href="{{ .URL }}">{{.Pre}}{{ .Name }}</a>
+                                            </li>
+                                        {{ end }}
+                                        </ul>
+                                    </li>
+                                
+                                {{ else }}   
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="{{ .URL }}">
+                                            {{ .Pre }}
+                                            <span>{{ .Name }}</span>
+                                        </a>
+                                    </li>
+                                    {{ end }}
+                                {{ end }}
+                                <button class="btn btn-danger"><a href="http://triadruvoparts.com" class="getstarted" target="_blank">Parts & Service</a></button>
+                                <!-- <li class="ms-2" style="color:white;"><button class="btn btn-danger"><a href="http://triadruvoparts.com" class="getstarted" target="_blank">Parts & Service</a></button></li> -->
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+      </div>
+    </header><!-- End Header -->
+  
