@@ -1,7 +1,7 @@
 ---
 title: "Open Stringer Saw"
 date: 2022-06-21T14:30:14-05:00
-category: "Wood" # Wood, Steel, Stairs, Specialty, "Material Handling"
+category: "stairs" # Wood, Steel, Stairs, Specialty, "Material Handling"
 category_weight: 00
 tags: ["open stringer", "saw", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 tags_weight: 1
@@ -10,7 +10,7 @@ featuredImages: ["",""] #images in same (page bundle) folder for responsive proc
 genericAlt: "Triad Open Stringer Saw Product Image"
 video: "4LlkAuRqX7s"
 singleTag: ""
-thisCategoryHeading: "For Timber/Stick Builders"
+thisCategoryHeading: "For Pro Stair Builders"
 categoryHeadingURL: ""
 summary: "Whether you are looking for a simple component machine, or an entire modular line, Triad surely has just what you need."
 testimonialItem: false
