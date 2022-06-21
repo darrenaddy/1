@@ -23,6 +23,10 @@ draft: false
 
 Triad’s Open Stringer Saw (OSS) was designed to increase productivity and cut a perfect stringer every time. The OSS is powered by two soft start motors and uses two 30”x 80 tooth carbide tipped blades. The OSS is PC controlled and has automatic indexing and cutting. An in-feed and out-feed roller conveyor comes as standard equipment with the unit.
 
+### Video Demonstration
+
+{{< youtube  4LlkAuRqX7s >}}
+
 ### Specifications*
 
 - Electrical Standard: 240 Vac, 3 PH, 60 AMPs

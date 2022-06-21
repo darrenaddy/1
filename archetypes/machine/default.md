@@ -1,6 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
+kind: "machine"
 category: "Wood" # Wood, Steel, Stairs, Specialty, "Material Handling"
 category_weight: 00
 tags: ["open stringer", "saw", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
