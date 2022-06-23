@@ -174,10 +174,10 @@
 {{ partial "team-bootslander" . }} 
 <!-- End Team Section -->
 
-  
+ 
 
   
-{{ .Content }}
+{{ .Content | markdownify }}
 
 
 {{ end }}

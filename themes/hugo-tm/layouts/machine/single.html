@@ -1,0 +1,131 @@
+{{ define "main"}}
+<main id="main">
+
+<!-- ========== Machine Name and Breadcrumbs ========== -->
+<div class="breadcrumbs d-flex align-items-center" style="background-image: url('/img/{{ .Params.category}}-breadcrumbs-bg.jpg');">
+    <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
+        <img src="/img/logo-egg.png" alt="Triad logo" class="image-fluid"> 
+      <h2>{{ .Params.title }}</h2>
+      <ol>
+        <li><a href="/">Machines</a></li>
+        <li><a href="{{ .Params.thisCategoryURL }}">{{ .Params.thisCategoryHeading }}</a></li>
+        <li>{{ .Params.title }}</li>
+      </ol>
+    </div>
+</div><!-- End Breadcrumbs -->
+   <!-- ======= Blog Single Section ======= -->
+   <section id="blog" class="blog">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row">
+
+        <div class="col-lg-8 entries">
+
+          <article class="entry entry-single">
+              {{ if eq .Params.carouselEnable true }}
+              {{ partial "carousel.html" (dict "context" . "items" "1" "height" "50" "unit" "%" "duration" "7000") }}
+              {{ end }}
+
+            
+            {{ .Content }}
+            
+
+            <div class="entry-footer">
+              <i class="bi bi-folder"></i>
+              <ul class="cats">
+                <li><a href="#">{{ .Params.thisCategoryHeading }}</a></li>
+              </ul>
+
+              <i class="bi bi-tags"></i>
+              <ul class="tags">
+                  {{ $tags := .Params.tags }}
+                  {{ range $tags }}
+                    <li><a href="tags/{{ . }}/">{{ . | humanize }}</a></li>
+                  {{ end }}
+              </ul>
+            </div>
+
+          </article><!-- End blog entry -->
+
+          <!-- End blog author bio -->
+        </div>
+
+
+    <div class="col-lg-4">
+
+        <div class="sidebar">
+
+          <h3 class="sidebar-title">Search</h3>
+          <div class="sidebar-item search-form">
+            <form action="">
+              <input type="text">
+              <button type="submit"><i class="bi bi-search"></i></button>
+            </form>
+          </div><!-- End sidebar search formn-->
+
+          <h3 class="sidebar-title">General Machine Categories</h3>
+          <div class="sidebar-item categories">
+            <ul>
+              <li><a href="#">For Wood<span>(25)</span></a></li>
+              <li><a href="#">For Steel <span>(22)</span></a></li>
+              <li><a href="#">For Stairs<span>(9)</span></a></li>
+              <li><a href="#">For Material Handling<span>(22)</span></a></li>
+              <li><a href="#">For Pallet-Making<span>(1)</span></a></li>
+              <li><a href="#">For Drawer-Making<span>(1)</span></a></li>
+            </ul>
+          </div><!-- End sidebar categories-->
+
+          <h3 class="sidebar-title">Recent News</h3>
+          <div class="sidebar-item recent-posts">
+            <div class="post-item clearfix">
+              <img src="assets/img/blog/blog-recent-1.jpg" alt="">
+              <h4><a href="blog-single.html">Links to a Lowell LinkedIn article</a></h4>
+              <time datetime="2020-01-01">Jan 1, 2020</time>
+            </div>
+
+            <div class="post-item clearfix">
+              <img src="assets/img/blog/blog-recent-2.jpg" alt="">
+              <h4><a href="blog-single.html">Press Release: Triad StairBoss Pro</a></h4>
+              <time datetime="2020-01-01">Jan 1, 2020</time>
+            </div>
+
+            <div class="post-item clearfix">
+              <img src="assets/img/blog/blog-recent-3.jpg" alt="">
+              <h4><a href="blog-single.html">Material Handling: Plate Cart Redesigned</a></h4>
+              <time datetime="2020-01-01">Jan 1, 2020</time>
+            </div>
+
+            <div class="post-item clearfix">
+              <img src="assets/img/blog/blog-recent-4.jpg" alt="">
+              <h4><a href="blog-single.html">See Triad Machines at Upcoming BCMC Show</a></h4>
+              <time datetime="2020-01-01">Jan 1, 2020</time>
+            </div>
+
+          </div><!-- End sidebar recent posts-->
+
+          <h3 class="sidebar-title">Stair-Related Tags</h3>
+          <div class="sidebar-item tags">
+            <ul>
+              <li><a href="#">Stringer Saw</a></li>
+              <li><a href="#">Open Stringers</a></li>
+              <li><a href="#">Opencut Stringers</a></li>
+              <li><a href="#">Skirt-boards</a></li>
+              <li><a href="#">Stair Router</a></li>
+              <li><a href="#">Stair Assembly Clamp</a></li>
+              <li><a href="#">Stair Lift</a></li>
+              <li><a href="#">CNC</a></li>
+              <li><a href="#">Fanuc</a></li>
+              <li><a href="#">Wedge & Glue Block Machine</a></li>
+              <li><a href="#">Upcycle Scrap</a></li>
+              <li><a href="#">Bullnose Saw</a></li>
+              <li><a href="#">Balluster / Handrail Machine</a></li>
+              <li><a href="#">Stringer Cart</a></li>
+            </ul>
+          </div><!-- End sidebar tags-->
+        </div>
+        <!-- End sidebar -->
+      </div><!-- End blog sidebar -->
+    </div>
+</div>
+</section><!-- End blog entries list -->  
+{{ end }}     

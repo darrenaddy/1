@@ -1,12 +1,12 @@
 ---
-title: StairBoss Pro
-date: 2022-06-23T15:41:44-05:00
+title: Heavy Duty Stringer Cart
+date: 2022-06-23T15:40:02-05:00
 kind: "machine"
 category: "Wood" # Wood, Steel, Stairs, Specialty, "Material Handling"
 category_weight: 00
 tags: ["open stringer", "saw", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 productImage: "" #images in same (page bundle) folder for responsive processing
-genericAlt: "Triad StairBoss Pro Product Image"
+genericAlt: "Triad Heavy Duty Stringer Cart Product Image"
 carouselEnable: false
 video: "4LlkAuRqX7s"
 singleTag: ""

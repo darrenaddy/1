@@ -8,13 +8,26 @@
     <h2>{{ .Title }}</h2>
     <ol>
       <li><a href="index.html">Home</a></li>
-      {{ $categoryHeading := .thisCategoryHeading }}
+      {{ $categoryHeading := .Params.thisCategoryHeading }}
       <li>{{ $categoryHeading }}</li>
-      <li>{{ .SingleTag }}</li>
+      <li>{{ .Params.SingleTag }}</li>
     </ol>
   </div>
 </div><!-- End Breadcrumbs -->
-
+<!-- =========== Carousel section =========== -->
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        {{ $array := slice( "zero" "one" "two" "three") }}
+        {{ range $elem_index, $elem_val := $array }}
+          {{ $elem_index }} -- {{ $elem_val }}
+        {{ end }}
+        
+      </div>
+    </div>
+  </div>
+</section>
 <!-- ======= Projet Details Section ======= -->
 <section id="project-details" class="project-details">
   <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -23,9 +36,7 @@
       <div class="slides-1 portfolio-details-slider swiper">
         <div class="swiper-wrapper align-items-center">
           {{ $slides := ( $.Page.Resources.Match "slide*")}}
-            {{ with .Get "title"}}
-              <h4>{{ . }}</h4>
-            {{ end }}
+           
             {{ range $key, $value := $slides }}
 							{{ $active := "" }}
 							{{ if eq $key 0 }}
@@ -53,18 +64,18 @@
             {{ .Summary }}
           </p>
 
-          {{ with .testimonialItem }}
+          {{ with .Params.testimonialItem }}
             <div class="testimonial-item">
               <p>
                 <i class="bi bi-quote quote-icon-left"></i>
-                  {{ .testimonialQuote }}
+                  {{ .Params.testimonialQuote }}
                 <i class="bi bi-quote quote-icon-right"></i>
               </p>
             <div>
               {{ $authorImage := .authorImageURL }}
-              <img src="{{ $authorImage }}" class="testimonial-img" alt="{{ .testimonialAuthor }}'s photo">
-              <h3>{{ .testimonialAuthor }}</h3>
-              <h4>{{ .authorTitle }}</h4>
+              <img src="{{ .Params.authorImage }}" class="testimonial-img" alt="{{ .Params.testimonialAuthor }}'s photo">
+              <h3>{{ .Params.testimonialAuthor }}</h3>
+              <h4>{{ .Params.authorTitle }}</h4>
             </div>
           </div>
           
@@ -76,7 +87,7 @@
 
       <div class="col-lg-3">
         <div class="portfolio-info">
-          {{ .Content }}
+          {{ .Content | markdownify }}
         </div>
       </div>
 
