@@ -91,14 +91,14 @@ relativeURLS = true
   name = 'StairBoss Pro'
   identifier = 'stairboss_pro'
   parent = 'stairs'
-  URL = 'machine/StairBoss_Pro'
+  URL = 'machine/stairboss_pro'
   weight = 40
   
   [[menu.main]]
   name = 'Open Stringer Saw'
   identifier = 'open_stringer_saw'
   parent = 'stairs'
-  URL = 'machine/Open_Stringer_Saw/'
+  URL = 'machine/open_stringer_saw/'
   weight = 41
 
     
@@ -106,35 +106,35 @@ relativeURLS = true
   name = 'Template Stair Router'
   identifier = 'template_stair_router'
   parent = 'stairs'
-  URL = 'machine/Template_Stair_Router'
+  URL = 'machine/template_stair_router'
   weight = 42
 
   [[menu.main]]
   name = 'Wedge and Glue Block Cutter'
   identifier = 'wedge_and_glue_block_cutter'
   parent = 'stairs'
-  URL = 'machine/Wedge_and_Glue_Block_Cutter'
+  URL = 'machine/wedge_and_glue_block_cutter'
   weight = 43
 
   [[menu.main]]
   name = 'Staircase Assembly Clamp'
   identifier = 'staircase_assembly_clamp'
   parent = 'stairs'
-  URL = 'machine/Staircase_Assembly_Clamp'
+  URL = 'machine/staircase_assembly_clamp'
   weight = 44
   
   [[menu.main]]
   name = 'Handrail Boring Machine'
   identifier = 'handrail_machine'
   parent = 'stairs'
-  URL = 'machine/Balluster-Handrail_Boring_Machine'
+  URL = 'machine/balluster-handrail_boring_machine'
   weight = 45
 
   [[menu.main]]
   name = 'Bullnose Saw'
   identifier = 'bullnose_saw'
   parent = 'stairs'
-  URL = 'Bullnose_Saw'
+  URL = 'bullnose_saw'
   weight = 46
 
 
@@ -142,14 +142,14 @@ relativeURLS = true
   name = 'XSL Overhead Stair Lift'
   identifier = 'xsl_stair_lift'
   parent = 'stairs'
-  URL = 'XSL_Overhead_Stair_Lift'
+  URL = 'xsl_stair_lift'
   weight = 47
 
   [[menu.main]]
   name = 'Heavy Duty Stringer Cart'
   identifier = 'heavy_duty_stringer_cart'
   parent = 'stairs'
-  URL = 'Heavy_Duty_Stringer_Cart'
+  URL = 'heavy_duty_stringer_cart'
   weight = 48
 
   [[menu.main]]
