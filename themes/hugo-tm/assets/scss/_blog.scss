@@ -2,10 +2,9 @@
 # Blog
 --------------------------------------------------------------*/
 .blog {
-
   padding: 40px 0 20px 0;
+  background-color: #f2e3c4;
   background-image: url("../img/ash-architextures.jpg");
-
   background-size: cover;
   background-position: center, center;
   background-attachment: fixed;
@@ -18,7 +17,7 @@
     border-width: 2px;
     padding: 30px;
     margin-bottom: 60px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.8);
 
     .entry-img {
       max-height: 440px;
@@ -28,6 +27,7 @@
 
     iframe {
       padding-bottom: 50px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.8);
     }
 
     h3 {
@@ -388,7 +388,7 @@
     border-width: 2px;
     padding: 30px;
     margin: 0 0 60px 20px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.8);
 
     .sidebar-title {
       font-size: 20px;

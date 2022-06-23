@@ -1,8 +1,8 @@
-baseURL = '/'
+baseURL = 'http://ruvodoormachines.com/triad/'
 languageCode = 'en-us'
 title = 'Triad Machines'
 theme = 'hugo-tm'
-relativeURLS = true
+relativeURLS = false
 
 ############################## navigation ###############################
 [menu]
