@@ -5,9 +5,10 @@ kind: "machine"
 category: "Wood" # Wood, Steel, Stairs, Specialty, "Material Handling"
 category_weight: 00
 tags: ["open stringer", "saw", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
-productImage: "" #images in same (page bundle) folder for responsive processing
+featuredImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad {{ replace .Name "_" " " | title }} Product Image"
-carouselEnable: false
+galleryEnable: false
+gallery: [ image1.png, image2.png, image3.png ]
 video: "4LlkAuRqX7s"
 singleTag: ""
 thisCategoryHeading: "For Professional Stair Builders"
@@ -41,6 +42,8 @@ Triad’s Open Stringer Saw (OSS) was designed to increase productivity and cut 
 - Cut up to four separate 2" x 10" or 2" x 12" stringers at one time.
 
 - Accommodates stringer angles from 25 degrees to 45 degrees.
+
+{{< youtube id="XXXXXXXXX" autoplay="true" color="white" yt_start="2" >}}
 
 ### Options
 

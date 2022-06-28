@@ -1,17 +1,28 @@
+// Adapted from Hugo Codex: https://hugocodex.org/add-ons/slider-carousel/ but reading page resources instead of data
+
 {{ .context.Scratch.Set "height" .height }}
 {{ .context.Scratch.Set "unit" .unit }}
 {{ .context.Scratch.Set "items" .items }}
+
 <div id="carousel10" class="carousel" duration="{{ .duration }}" items="{{ .items }}">
     <ul>
-        {{ range $index, $slide := .context.Site.Data.carousel.images }}
-          <li id="c10_slide{{ add $index 1}}" style="min-width: calc(100%/{{ $.context.Scratch.Get "items" }}); padding-bottom: {{ $.context.Scratch.Get "height" }}{{ $.context.Scratch.Get "unit" }};"><img src="{{ $slide.image }}" alt="" /><div><div>{{ $slide.content_html }}</div></div></li>
-        {{ end }}
-    </ul>
-    <ol>
-      {{ range $index, $page := .context.Site.Data.carousel.images }}
-        <li><a href="#c10_slide{{ add $index 1 }}"></a></li>
-      {{ end }}
-    </ol>
-    <div class="prev">&lsaquo;</div>
-    <div class="next">&rsaquo;</div>
+		{{ $slides := .Page.Resources.Match "slides/*" }}
+			{{ range $index, $slide := $slides }}
+			<div class="carousel_slide">
+				<li id="c10_slide{{ add $index 1}}" style="min-width: calc(100%/{{ $.context.Scratch.Get "items" }}); padding-bottom: {{ $.context.Scratch.Get "height" }}{{ $.context.Scratch.Get "unit" }};"><img src="{{ $slide.RelPermalink }}" alt="" />
+				</li>
+			</div>
+			{{end}}
+
+	</ul>
+	<ol>
+		{{ $slides := .Page.Resources.Match "slides/*" }}
+			{{ range $index, $slide := $slides }}
+			<li><a href="#c10_slide{{ add $index 1 }}"></a>
+			</li>
+			{{ end }}
+
+	</ol>
+	<div class="prev">&lsaquo;</div>
+	<div class="next">&rsaquo;</div>
 </div>

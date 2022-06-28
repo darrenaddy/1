@@ -6,7 +6,9 @@ category_weight: 00
 tags: ["open stringer", "saw", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 tags_weight: 1
 type: "machine"
-productImage: "machine-1.png" #images in same (page bundle) folder for responsive processing
+featuredImage: "" #images in same (page bundle) folder for responsive processing
+galleryEnable: true
+gallery: [ "slide-1.jpg", "slide-2.jpg", "slide-5.jpg" ]
 genericAlt: "Triad {{ .Title }} Product Image"
 video: "4LlkAuRqX7s"
 singleTag: ""
@@ -19,8 +21,6 @@ testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
 authorTitle: "Author's Title Goes in page Frontmatter"
 draft: false
 ---
-
-{{<post-image image="machine-1.png" alt="Open Stringer Saw, main product image"/>}}
 
 ### Description
 

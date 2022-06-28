@@ -9,6 +9,13 @@
   <script src="/vendorpkgs/php-email-form/validate.js"></script>
   <script src="/js/carousel.js"></script>
 
+  <!-- Splide Carousel JS -->
+  {{ $js1 := resources.Get "js/splide.min.js" }}
+  {{ with $js1 }}
+  <script src="{{ $js1.RelPermalink }}" defer></script>
+  {{ else }}
+  {{ printf "No Splide JS resource" }}
+  {{ end }}
 
 <!-- Bootstrap Made Flexor main.js -->
   <!-- Template Main JS File -->
