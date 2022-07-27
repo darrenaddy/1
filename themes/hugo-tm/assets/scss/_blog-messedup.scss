@@ -2,51 +2,148 @@
 # Blog
 --------------------------------------------------------------*/
 .blog {
-
-  padding: 20px 0;
+  padding: 40px 0 20px 0;
+  background-color: #f2e3c4;
   background-image: url("../img/ash-architextures.jpg");
   background-size: cover;
   background-position: center, center;
   background-attachment: fixed;
-  code {
-    color: darken($primary, 10);
+
+  
+  .carousel-inner {
+    .carousel-item {
+      -webkit-transition-property: opacity;
+      transition-property: opacity;
+      background-position: center top;
+    }
+
+    .carousel-item,
+    .active.carousel-item-start,
+    .active.carousel-item-end {
+      opacity: 0;
+    }
+
+    .active,
+    .carousel-item-next.carousel-item-start,
+    .carousel-item-prev.carousel-item-end {
+      opacity: 1;
+      transition: 0.5s;
+    }
+
+    .carousel-item-next,
+    .carousel-item-prev,
+    .active.carousel-item-start,
+    .active.carousel-item-end {
+      left: 0;
+      transform: translate3d(0, 0, 0);
+    }
   }
+
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    background: none;
+    font-size: 30px;
+    line-height: 0;
+    width: auto;
+    height: auto;
+    border-radius: 50px;
+    transition: 0.3s;
+    color: $primary;
+    width: 54px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+      background: rgba($white, .3);
+      color: rgba($white, .8);
+    }
+    
+  }
+
+  .carousel-indicators li {
+    cursor: pointer;
+    background: $red;
+    overflow: hidden;
+    border: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    opacity: .6;
+    transition: 0.3s;
+    &.active {
+      opacity: 1;
+      background: $primary;
+    }
+  }
+
+  .btn-get-started {
+    font-family: $font-primary;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 14px 32px;
+    border-radius: 4px;
+    transition: 0.5s;
+    line-height: 1;
+    color: #fff;
+    animation-delay: 0.8s;
+    background: $primary;
+    &:hover {
+      background: lighten($primary, 5);
+    }
+  }
+
+  @media (max-width: 992px) {
+    height: 100vh;
+    .carousel-container {
+      top: 8px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 28px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .carousel-control-prev, .carousel-control-next {
+      width: 5%;
+      color: $primary;
+    }
+  }
+
+  @media (max-height: 500px) {
+    height: 120vh;
+  }
+
 
   .entry {
     background-color: #fff;
+    border-style: solid;
+    border-color: #000;
+    border-width: 2px;
     padding: 30px;
     margin-bottom: 60px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
-
-    .carousel-control-prev a {
-      background-color: rgb(5, 249, 33) !important;
-      }
-
-    .carousel-control-next a {
-        background-color: rgb(5, 249, 33) !important;
-        }
-
-    .carousel-indicators {
-      background-color:rgb(251, 109, 43) !important;
-      .active {
-      background-color: rgb(5, 249, 33) !important;
-      }
-
-    .carousel-item {
-      background-color: rgb(5, 249, 33) !important;
-    }
-
-    .carousel-control-next-icon { 
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='w3.org/2000/svg' fill='%2305f921' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-      } 
-    .carousel-control-prev-icon { 
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='w3.org/2000/svg' fill='%2305f921' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-      }
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.8);
 
     .entry-img {
       max-height: 440px;
       margin: -30px -30px 20px -30px;
       overflow: hidden;
+    }
+
+    iframe {
+      padding-bottom: 50px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.8);
+    }
+
+    h3 {
+      font-family: 'Racing Sans One', cursive;
+      font-size: 28px;
+      margin-top: 30px;
+      font-weight: 400;
     }
 
     .entry-title {
@@ -117,7 +214,7 @@
       }
 
       h3 {
-        color: darken($primary, 15);
+        font-family: $font-primary;
         font-size: 22px;
         margin-top: 30px;
         font-weight: bold;
@@ -152,7 +249,10 @@
           margin-top: 20px;
           margin-bottom: 20px;
         }
+
       }
+
+
     }
     
     .entry-footer {
@@ -205,11 +305,15 @@
           padding-left: 5px;
         }
       }
+
+
     }
+
+  }
 
   .entry-single {
     margin-bottom: 30px;
-    }
+  }
 
   .blog-author {
     padding: 20px;
@@ -219,6 +323,13 @@
     img {
       width: 120px;
       margin-right: 20px;
+    }
+
+    h3 {
+      font-family: 'Racing Sans One', cursive;
+      font-size: 28px;
+      margin-top: 30px;
+      font-weight: 400;
     }
 
     h4 {
@@ -380,17 +491,20 @@
   }
 
   .sidebar {
-    background-color: #ffffff;
+    background-color: #fff;
+    border-style: solid;
+    border-color: #000;
+    border-width: 2px;
     padding: 30px;
     margin: 0 0 60px 20px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.8);
 
     .sidebar-title {
       font-size: 20px;
       font-weight: 700;
       padding: 0 0 0 0;
       margin: 0 0 15px 0;
-      color: darken($primary, 15);
+      color: $secondary;
       position: relative;
     }
 
@@ -400,7 +514,7 @@
 
     .search-form {
       form {
-        background: #ffffff;
+        background: #fff;
         border: 1px solid #ddd;
         padding: 3px 10px;
         position: relative;
@@ -434,7 +548,6 @@
             background: lighten($primary, 4);
           }
         }
-
       }
     }
 
@@ -504,12 +617,11 @@
         }
 
         a {
-          color: darken($secondary, 25);
+          color: lighten($secondary, 25);
           font-size: 14px;
           padding: 6px 14px;
           margin: 0 6px 8px 0;
-          background: rgb(222, 221, 221);
-          border: 1px solid darken($primary, 15);
+          border: 1px solid lighten($secondary, 70);
           display: inline-block;
           transition: 0.3s;
           &:hover {
@@ -525,7 +637,7 @@
         }
       }
     }
+
   }
-    }
-  }
+
 }

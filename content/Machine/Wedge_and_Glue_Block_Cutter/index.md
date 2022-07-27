@@ -2,8 +2,8 @@
 title: Wedge and Glue Block Cutter
 date: 2022-06-23T15:38:16-05:00
 kind: "machine"
-category: "Wood" # Wood, Steel, Stairs, Specialty, "Material Handling"
-category_weight: 00
+category: "Stairs" # Wood, Steel, Stairs, Specialty, "Material Handling"
+Weight: 08
 tags: ["open stringer", "saw", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 productImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad Wedge and Glue Block Cutter Product Image"
@@ -11,8 +11,9 @@ carouselEnable: false
 video: "4LlkAuRqX7s"
 singleTag: ""
 thisCategoryHeading: "For Professional Stair Builders"
-categoryHeadingURL: ""
-summary: "Whether you are looking for a simple component machine, or an entire modular line, Triad surely has just what you need."
+thisCategoryURL: "/for-professional-stair-builders/"
+categoryImage: categoryImage.jpg
+summary: "Turn your waste lumber into wedges and/or glue blocks. Create a new profit center!"
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"

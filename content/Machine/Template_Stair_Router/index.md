@@ -2,16 +2,17 @@
 title: Template Stair Router
 date: 2022-06-23T15:39:05-05:00
 kind: "machine"
-category: "Wood" # Wood, Steel, Stairs, Specialty, "Material Handling"
-category_weight: 00
-tags: ["open stringer", "saw", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
+category: "Stairs" # Wood, Steel, Stairs, Specialty, "Material Handling"
+Weight: 07
+categoryImage: categoryImage.jpg
+tags: ["open stringer", "template", "router", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 productImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad Template Stair Router Product Image"
 carouselEnable: false
 video: "4LlkAuRqX7s"
 singleTag: ""
 thisCategoryHeading: "For Professional Stair Builders"
-categoryHeadingURL: ""
+thisCategoryURL: "/for-professional-stair-builders/"
 summary: "Whether you are looking for a simple component machine, or an entire modular line, Triad surely has just what you need."
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"

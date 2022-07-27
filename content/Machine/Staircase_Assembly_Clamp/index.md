@@ -2,8 +2,9 @@
 title: Staircase Assembly Clamp
 date: 2022-06-23T15:33:22-05:00
 kind: "machine"
-category: "Wood" # Wood, Steel, Stairs, Specialty, "Material Handling"
-category_weight: 00
+category: "Stairs" # Wood, Steel, Stairs, Specialty, "Material Handling"
+categoryImage: categoryImage.jpg
+Weight: 06
 tags: ["open stringer", "saw", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 productImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad Staircase Assembly Clamp Product Image"
@@ -11,7 +12,7 @@ carouselEnable: false
 video: "4LlkAuRqX7s"
 singleTag: ""
 thisCategoryHeading: "For Professional Stair Builders"
-categoryHeadingURL: ""
+thisCategoryURL: "/for-professional-stair-builders/"
 summary: "Triad's unsurpassed StairBoss Pro headlines a suite of professional stair machines that are successfully powering Pro Stair Shops all across North America."
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"

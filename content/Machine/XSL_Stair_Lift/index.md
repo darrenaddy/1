@@ -2,9 +2,10 @@
 title: XSL Stair Lift
 date: 2022-06-23T15:39:39-05:00
 kind: "machine"
-category: "Wood" # Wood, Steel, Stairs, Specialty, "Material Handling"
-category_weight: 00
+category: "Stairs" # Wood, Steel, Stairs, Specialty, "Material Handling"
+categoryImage: categoryImage.jpg
 tags: ["open stringer", "saw", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
+Weight: 09
 productImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad XSL Stair Lift Product Image"
 carouselEnable: false

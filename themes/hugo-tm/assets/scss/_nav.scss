@@ -41,30 +41,7 @@
   a:hover, .active, .active:focus, li:hover > a  {
     color: $primary;
   }
-
   
-
-  button {
-    .navbar-toggle {
-      width: 32px;
-    }
-  .getstarted, .getstarted:focus {
-    width: 150px;
-    background: $primary;
-    padding: 4px 4px;
-    margin-left: 0px;
-    border-radius: 4px;
-    font-weight: 600;
-    color: #fff;
-    &:hover {
-      color: #fff;
-      background: lighten($primary, .8);
-    }
-  }
-}
-
-
-
   .dropdown {
     ul {
       display: block;

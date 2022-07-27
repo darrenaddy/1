@@ -47,10 +47,11 @@
   </section><!-- End Why Us Section -->
 
 
-  <!-- ======= Services Section ======= -->
-  <section id="services" class="services">
-    <div class="container" data-aos="fade-up">
-
+  <!-- ======= TriadServices Section ======= -->
+ {{ $bgimage := resources.Get "img/bg.png"}} 
+  <section id="triadservices" class="triadservices">
+    <div class="container" ata-aos="fade-up">
+      <div id="bg" style="background-image:url'({{$bgimage.RelPermalink}});'">
       <div class="section-header">
         <p>No matter what size your business, or what might be your building specialty, Triad Machines has you covered.</p>
         <h3>We Manufacture Machines for:</h3>
@@ -59,7 +60,7 @@
       <div class="row gy-5">
 
         <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
-          <div class="service-item">
+          <div class="card h-100">
             <div class="img">
               <img src="/img/services-1.png" class="img-fluid" alt="">
             </div>
@@ -67,16 +68,18 @@
               <div class="icon">
                 <i class="bi bi-activity"></i>
               </div>
+              <div class="details-inner">
               <a href="#" class="stretched-link">
                 <h3>Modular Plants</h3>
               </a>
               <p>Triad Machines, including MEPs and ginormous Tilt/Transfer Tables, can be found in many of the most successful modular plants in North America. Explore our offerings!</p>
             </div>
           </div>
+          </div>
         </div><!-- End Service Item -->
 
         <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
-          <div class="service-item">
+          <div class="card h-100">
             <div class="img">
               <img src="/img/services-2.png" class="img-fluid" alt="">
             </div>
@@ -84,16 +87,18 @@
               <div class="icon">
                 <i class="bi bi-broadcast"></i>
               </div>
+              <div class="details-inner">
               <a href="#" class="stretched-link">
                 <h3>Stick Builders</h3>
               </a>
               <p>Let us help you with your off-site manufacturing and panelization equipment. Framing Tables, Sheathing Bridges, Floor Cassettes, Component Machines. Learn more!</p>
             </div>
           </div>
+          </div>
         </div><!-- End Service Item -->
 
         <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
-          <div class="service-item">
+          <div class="card h-100">
             <div class="img">
               <img src="/img/services-3.png" class="img-fluid" alt="">
             </div>
@@ -101,16 +106,18 @@
               <div class="icon">
                 <i class="bi bi-easel"></i>
               </div>
+              <div class="details-inner">
               <a href="#" class="stretched-link">
                 <h3>Steel Builders</h3>
               </a>
               <p>We design & manufacture machines and machine lines made especially for the needs of the light gauge steel stud builder. Explore your options!</p>
             </div>
           </div>
+          </div>
         </div><!-- End Service Item -->
 
         <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
-          <div class="service-item">
+          <div class="card h-100">
             <div class="img">
               <img src="/img/services-4.png" class="img-fluid" alt="">
             </div>
@@ -118,6 +125,7 @@
               <div class="icon">
                 <i class="bi bi-bounding-box-circles"></i>
               </div>
+              <div class="details-inner">
               <a href="#" class="stretched-link">
                 <h3>Shed Builders <br />& Tiny House</h3>
               </a>
@@ -125,10 +133,11 @@
               <a href="#" class="stretched-link"></a>
             </div>
           </div>
+          </div>
         </div><!-- End Service Item -->
 
         <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
-          <div class="service-item">
+          <div class="card h-100">
             <div class="img">
               <img src="/img/services-5.png" class="img-fluid" alt="">
             </div>
@@ -136,6 +145,7 @@
               <div class="icon">
                 <i class="bi bi-calendar4-week"></i>
               </div>
+              <div class="details-inner">
               <a href="#" class="stretched-link">
                 <h3>Pro Stair Builders</h3>
               </a>
@@ -143,10 +153,11 @@
               <a href="#" class="stretched-link"></a>
             </div>
           </div>
+          </div>
         </div><!-- End Service Item -->
 
         <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="700">
-          <div class="service-item">
+          <div class="card h-100">
             <div class="img">
               <img src="/img/services-6.png" class="img-fluid" alt="">
             </div>
@@ -154,6 +165,7 @@
               <div class="icon">
                 <i class="bi bi-chat-square-text"></i>
               </div>
+              <div class="details-inner">
               <a href="#" class="stretched-link">
                 <h3>Specialty Industries</h3>
               </a>
@@ -161,12 +173,12 @@
               <a href="#" class="stretched-link"></a>
             </div>
           </div>
+          </div>
         </div><!-- End Service Item -->
-
       </div>
-
     </div>
-  </section><!-- End Services Section -->
+  </div>
+</section><!-- End Services Section -->
 
 <!-- ======= Team Section ======= -->
 {{ partial "team-bootslander" . }} 

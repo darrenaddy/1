@@ -2,17 +2,18 @@
 title: Balluster-Handrail Boring Machine
 date: 2022-06-23T15:40:57-05:00
 kind: "machine"
-category: "Wood" # Wood, Steel, Stairs, Specialty, "Material Handling"
-category_weight: 00
-tags: ["open stringer", "saw", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
+category: "Stairs" # Wood, Steel, Stairs, Specialty, "Material Handling"
+Weight: 04
+categoryImage: categoryImage.jpg
+tags: ["handrail", "drill", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 productImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad Balluster-Handrail Boring Machine Product Image"
 carouselEnable: false
-video: "4LlkAuRqX7s"
+video: "u7B-4PAH78Y"
 singleTag: ""
 thisCategoryHeading: "For Professional Stair Builders"
-categoryHeadingURL: ""
-summary: "Whether you are looking for a simple component machine, or an entire modular line, Triad surely has just what you need."
+thisCategoryURL: "/for-professional-stair-builders/"
+summary: 'This versatile machine makes boring perfectly angled and spaced handrail holes for spindles a snap!'
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
@@ -22,29 +23,35 @@ draft: false
 
 ### Description
 
-Triad’s Open Stringer Saw (OSS) was designed to increase productivity and cut a perfect stringer every time. The OSS is powered by two soft start motors and uses two 30”x 80 tooth carbide tipped blades. The OSS is PC controlled and has automatic indexing and cutting. An in-feed and out-feed roller conveyor comes as standard equipment with the unit.
+Triad’s Handrail Boring Machine securely holds handrails as wide as 6". This versatile machine makes handrail boring jobs "a snap!" The machine is easy to operate, adjust and maintain. It is equipped with a screw system for six adjustable wheels. These wheels are a guide for the handrail and ensure a secure hold. You choose and lock-in the angle (between Zero and 45 degrees) and set the desired hole spacing.
 
 ### Specifications*
 
-- Electrical Standard: 240 Vac, 3 PH, 60 AMPs
+- Electrical Standard: 208/240/480 VA, 3 PH
 
-- Air Requirements: 100 PSI, 2 CFM
+- Air Requirements: 90 PSI, .1 CFM
+
+- HP: 3
 
 - Size: 36' L x 15'10" W
 
-- Weight: 2700 lbs.
+- Weight: 1500 lbs.
 
 - `Specifications subject to change without notice.`
 
 ### Capabilities
 
-- Cut up to four separate 2" x 10" or 2" x 12" stringers at one time.
+- Drill Diameter: 1/2" to 1"
 
-- Accommodates stringer angles from 25 degrees to 45 degrees.
+- Drill Depth: 2-1/2" Max
+
+- Drill Angle Range: 0 Degrees to 45 Degrees
+
+- Hole Spacing Range: Hole Spacing: 2-1/4" to 7-1/2"
 
 ### Options
 
-- Under-Carriage Waste Conveyor (transports the waste from cuts from under the machine for more convenient clean-up.)
+- None
 
 ### Have a Question?
 

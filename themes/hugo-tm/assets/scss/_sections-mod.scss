@@ -1,3 +1,10 @@
+main .main-section {
+  background-size: cover;
+  background-position: center, center;
+  background-image: url(/img/triad-wood-texture-h-cool80.png);
+  background-attachment: fixed;
+}
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -6,9 +13,6 @@ section {
   overflow: hidden;
 }
 
-.section-bg {
-  background-color: lighten($secondary, 59);
-}
 
 .section-header {
   text-align: center;
@@ -438,98 +442,159 @@ section {
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
-.services {
-  background-color: $secondary;
-  background-size: cover;
-  background-position: center, center;
-  background-image: url("/img/triad-wood-texture-h-cool90.png");
-  background-attachment: fixed;
-}
 
-.services .section-header {
-  h3 {
-    color: $white;
-  }
-  p {
-    color: $white;
-  }
-}
-
-.services .img {
-  border-radius: 8px;
-  overflow: hidden;
-}
-.services .img img {
-  transition: 0.6s;
-}
-.services .service-item .details {
-  padding: 50px 30px;
-  margin: -100px 30px 0 30px;
-  transition: all ease-in-out 0.3s;
-  background: $white;
-  opacity: 0.9;
+.services .card {
+  border: 1px solid rgba(14, 29, 52, 0.15);
+  background: #fff;
   position: relative;
-  text-align: center;
-  border-radius: 8px;
-  box-shadow: 0px 0 25px #000000, 0.1;
-  -webkit-box-shadow: 0px 0 25px #000000, 0.1;
-  -moz-box-shadow: 0px 0 25px #000000, 0.1;
+  border-radius: 0;
+  height: 100%;
 }
-.services .details .icon {
-  margin: 0;
-  width: 72px;
-  height: 72px;
-  background: $primary;
-  border-radius: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
-  color: $white;
-  font-size: 28px;
-  transition: ease-in-out 0.3s;
-  position: absolute;
-  top: -36px;
-  left: calc(50% - 36px);
-  border: 6px solid $white;
+
+.services .card .card-img {
+  overflow: hidden;
+  margin-bottom: 15px;
+  border-radius: 0;
 }
-.services .details h3 {
-  color: $secondary;
+
+.services .card .card-img img {
+  transition: 0.3s ease-in-out;
+}
+
+.services .card h3 {
   font-weight: 700;
-  margin: 10px 0 15px 0;
-  font-size: 22px;
-  transition: ease-in-out 0.3s;
-}
-.services .details p {
-  color: $black;
-  line-height: 24px;
-  font-size: 14px;
-  margin-bottom: 0;
-}
-.services .service-item:hover .details h3 {
-  color: $primary;
-}
-.services .service-item:hover .details .icon {
-  background: $white;
-  border: 2px solid $primary;
-}
-.services .service-item:hover .details .icon i {
-  color: $primary;
-}
-.services .service-item:hover .img img {
-  transform: scale(1.2);
+  font-size: 18px;
+  margin-bottom: 5px;
+  padding: 10px 30px;
+  text-transform: uppercase;
 }
 
+.services .card a {
+  color: #001973;
+  transition: 0.3;
+}
 
+.services .card a:hover {
+  color: var(--color-primary);
+}
+
+.services .card p {
+  padding: 0 30px;
+  margin-bottom: 30px;
+  color: var(--color-secondary);
+  font-size: 15px;
+}
+
+.services .card:hover .card-img img {
+  transform: scale(1.1);
+}
+
+/*--------------------------------------------------------------
+# triadservices
+--------------------------------------------------------------*/
+.triadservices {
+  
+  .details {
+    background-color: #fff;
+    padding: 5px 5px 5px 5px;
+  }
+
+  .card {
+    padding: 5px 5px 5px 5px;
+  }
+
+  .details-inner {
+    padding: 40px 15px 1px 15px;
+  }
+  
+  .section-header h3 {
+    color: #fff;
+  }
+
+  .section-header p {
+    color: #fff;
+  }
+
+  .icon-box {
+    padding: 50px 20px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    text-align: center;
+    height: 200px;
+    position: relative;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.10);
+  }
+
+  .icon {
+    position: absolute;
+    top: -36px;
+    left: calc(50% - 36px);
+    transition: 0.2s;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 72px;
+    height: 72px;
+    background: $primary;
+
+    i {
+      color: $white;
+      font-size: 24px;
+      line-height: 0;
+    }
+
+  }
+
+  .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    a {
+      color: $black;
+    }
+  }
+
+  .icon-box:hover  {
+    .icon {
+      background: $white;
+  
+      border: 2px solid $primary;
+      i {
+        color: $primary;
+      }
+    }
+
+    .title a {
+      color: $primary;
+    }
+
+  }
+
+  .description {
+    line-height: 24px;
+    font-size: 14px;
+  }
+}
 
 /*--------------------------------------------------------------
 # Values
 --------------------------------------------------------------*/
 .values {
-  
+  background-color: $secondary;
+  background-size: cover;
+  background-position: center, center;
+  background-image: url("/img/triad-wood-texture-h-cool80.png");
+  background-attachment: fixed;
+
   .card {
     border: 0;
-    padding: 160px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
     position: relative;
     width: 100%;
     background-size: cover;
@@ -560,6 +625,20 @@ section {
     color: lighten($default, 10);
   }
 
+  .btn-primary {
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+    background: $primary;
+    border-color: $primary;
+    color: #fff;
+  }
+
+  .btn-primary:hover {
+    background: lighten($primary, 50%);
+    color: #000;
+  }
+
   .read-more {
     a {
       color: lighten($default, 20);
@@ -575,8 +654,9 @@ section {
 
   .card:hover  {
     .card-body {
-      background: $primary;
+      background: $white;
     }
+
     .read-more a, .card-title, .card-title a, .card-text {
       color: $white;
     }

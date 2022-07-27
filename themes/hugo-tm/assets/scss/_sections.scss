@@ -24,6 +24,7 @@ section {
     color: lighten($default, 40);
     font-family: $font-secondary;
   }
+  
 
   h2::after {
     content: "";
@@ -196,66 +197,62 @@ section {
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
-.services .img {
-  border-radius: 8px;
-  overflow: hidden;
-}
-.services .img img {
-  transition: 0.6s;
-}
-.services .details {
-  padding: 50px 30px;
-  margin: -100px 30px 0 30px;
-  transition: all ease-in-out 0.3s;
-  background: var(--color-white);
+.services .card {
+  border: 1px solid rgba(14, 29, 52, 0.15);
+  background: #fff;
   position: relative;
-  background: rgba(var(--color-white-rgb), 0.9);
-  text-align: center;
-  border-radius: 8px;
-  box-shadow: 0px 0 25px rgba(var(--color-black-rgb), 0.1);
+  border-radius: 6px;
+  height: 100%;
 }
-.services .details .icon {
-  margin: 0;
-  width: 72px;
-  height: 72px;
-  background: var(--color-primary);
-  border-radius: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
-  color: var(--color-white);
-  font-size: 28px;
-  transition: ease-in-out 0.3s;
-  position: absolute;
-  top: -36px;
-  left: calc(50% - 36px);
-  border: 6px solid var(--color-white);
+
+.services .card .card-img {
+  overflow: hidden;
+  margin-bottom: 15px;
+  border-radius: 0;
 }
-.services .details h3 {
-  color: var(--color-default);
+
+.services .card .card-img img {
+  transition: 0.3s ease-in-out;
+}
+
+.services .card h3 {
   font-weight: 700;
-  margin: 10px 0 15px 0;
-  font-size: 22px;
-  transition: ease-in-out 0.3s;
+  font-size: 18px;
+  margin-bottom: 5px;
+  padding: 10px 30px;
+  text-transform: uppercase;
 }
-.services .details p {
-  line-height: 24px;
-  font-size: 14px;
-  margin-bottom: 0;
+
+.services .card a {
+  color: $primary;
+  transition: 0.3;
 }
-.services .service-item:hover .details h3 {
+
+.services .card a:hover {
   color: var(--color-primary);
 }
-.services .service-item:hover .details .icon {
-  background: var(--color-white);
-  border: 2px solid var(--color-primary);
+
+.services .card p {
+  padding: 0 30px;
+  margin-bottom: 30px;
+  color: var(--color-secondary);
+  font-size: 15px;
 }
-.services .service-item:hover .details .icon i {
-  color: var(--color-primary);
+
+.services .card .btn-primary {
+  color:#fff;
+  background-color: $primary;
+  border-color: $primary;
 }
-.services .service-item:hover .img img {
-  transform: scale(1.2);
+
+.services .card .btn-primary:hover {
+  color: $font-primary;
+  background-color: $white;
+  border-color: $white;
+}
+
+.services .card:hover .card-img img {
+  transform: scale(1.1);
 }
 
 /*--------------------------------------------------------------
