@@ -2,7 +2,7 @@
 title: Bullnose Saw
 date: 2022-06-23T15:41:12-05:00
 kind: "machine"
-category: "Stairs" # Wood, Steel, Stairs, Specialty, "Material Handling"
+category: "Stairs" # Wood, Steel, Stairs, Specialty"
 Weight: 05
 tags: ["bullnose", "saw", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 categoryImage: "categoryImage.jpg"
@@ -21,11 +21,11 @@ authorTitle: "Author's Title Goes in page Frontmatter"
 draft: false
 ---
 
-### Description
+###### Description
 
 Triad’s Bullnose Saw was designed to make beautiful bends on one (or both) end of the bottom step to your staircases. How?The It makes a series of perfectly spaced simultaneous shallow cuts (up to 60 cuts!) allowing you to easily bend a beautiful radius for your bottom step. Once you have the Bullnose Saw, you'll never go back to your old way of creating the bullnose step!
 
-### Specifications*
+###### Specifications*
 
 - Electrical Standard: 208/240/480 V, 3 PH
 
@@ -37,7 +37,7 @@ Triad’s Bullnose Saw was designed to make beautiful bends on one (or both) end
 
 - `Specifications subject to change without notice.`
 
-### Capabilities
+###### Capabilities
 
 - Maximum depth of cuts: 1-1/4"
 
@@ -45,11 +45,11 @@ Triad’s Bullnose Saw was designed to make beautiful bends on one (or both) end
 
 - Cut Profile: Blades 1/8" wide, spaced 3/8" apart
 
-### Options
+###### Options
 
 - None
 
-### Have a Question?
+###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
 Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.

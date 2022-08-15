@@ -2,7 +2,7 @@
 title: StairBoss Pro
 date: 2022-06-28T17:38:16-05:00
 kind: "machine"
-category: "Stairs" # Wood, Steel, Stairs, Specialty, "Material Handling"
+category: "Stairs" # Wood, Steel, Stairs, Specialty"
 categoryImage: categoryImage.jpg
 Weight: 01
 tags: ["open stringer", "saw", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
@@ -14,7 +14,7 @@ video: "4LlkAuRqX7s"
 singleTag: ""
 thisCategoryHeading: "For Professional Stair Builders"
 thisCategoryURL: "/for-professional-stair-builders/"
-summary: "Whether you are looking for a simple component machine, or an entire modular line, Triad surely has just what you need."
+summary: "The industry's PREMIER stair router. It looks like nothing else & it performs like nothing else on the market."
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
@@ -22,35 +22,37 @@ authorTitle: "Author's Title Goes in page Frontmatter"
 draft: false
 ---
 
-### Description
+###### Description
 
-Triad’s Open Stringer Saw (OSS) was designed to increase productivity and cut a perfect stringer every time. The OSS is powered by two soft start motors and uses two 30”x 80 tooth carbide tipped blades. The OSS is PC controlled and has automatic indexing and cutting. An in-feed and out-feed roller conveyor comes as standard equipment with the unit.
+TThe Triad Stair Boss is the next generation of high-speed, automatic stair stringer routers. It is nearly three times more efficient than the original SSR, making you three times more productive. It is also **far** more versatile! Open stringers, skirt board cuts, and end cuts (or scribing - your choice).
 
-### Specifications*
+The Stair Boss is the product of a collaborative effort between Triad Machines and the world leader in CNC servo technology, Fanuc America. Through working together, the RTS (Rapid Transfer System) was created. In the RTS, the stair stringer pair moves horizontally and is constantly moving. With this system, there is no need to unclamp, reposition, and reclamp the stringer. Using the Stair Boss, it all happens in one fluid and precise motion.
 
-- Electrical Standard: 240 Vac, 3 PH, 60 AMPs
+A user-friendly touch screen is incorporated for easy value input for the stringers to be cut with precision. The screen display shows a picture of the step before it's cut. The stringers are laid on the conveyor, which is at an angle, utilizing gravity to help keep them entirely flush through the cutting process.
 
-- Air Requirements: 100 PSI, 2 CFM
+{{< youtube "9Biv7AcRT8E" >}}
 
-- Size: 36' L x 15'10" W
+###### Specifications*
+
+- Electrical Standard: 240 Vac, 3 PH, 40 AMPs
+
+- Air Requirements: 100 PSI
+
+- Size:
 
 - Weight: 2700 lbs.
 
 - `Specifications subject to change without notice.`
 
-### Capabilities
+###### Capabilities
 
-- Cut up to four separate 2" x 10" or 2" x 12" stringers at one time.
+- Up to 3" thick to 19" wide cutting area
 
-- Accommodates stringer angles from 25 degrees to 45 degrees.
+- Cuts dimensional lumber, LVL, or any other special engineered material
 
-{{< youtube id="XXXXXXXXX" autoplay="true" color="white" yt_start="2" >}}
+{{< youtube id="H0aIo__1NzM" autoplay="true" color="white" yt_start="2" >}}
 
-### Options
-
-- Under-Carriage Waste Conveyor (transports the waste from cuts from under the machine for more convenient clean-up.)
-
-### Have a Question?
+###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
 Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.

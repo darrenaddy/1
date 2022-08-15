@@ -1,8 +1,10 @@
 baseURL = '/'
 languageCode = 'en-us'
 title = 'Triad Machines'
-theme = 'hugo-tm'
+theme = 'half-fast'
 relativeURLS = true
+disableKinds = "sitemap"
+paginate = 9
 
 ############################## navigation ###############################
 [menu]
@@ -10,7 +12,7 @@ relativeURLS = true
   [[menu.main]]
   name = 'For Wood'
   identifier = 'wood'
-  URL = '/for-timber-stick-builders/'
+  URL = '/for-wood-timber-builders/'
   weight = 1
 
   [[menu.main]]
@@ -84,7 +86,7 @@ relativeURLS = true
   [[menu.main]]
   name = 'For Stairs'
   identifier = 'stairs'
-  URL = '/for-stair-builders/'
+  URL = '/for-professional-stair-builders/'
   weight = 4
   
   [[menu.main]]
@@ -175,9 +177,19 @@ relativeURLS = true
   URL = './#contact-us'
   weight = 6
 
+############################## taxonomies ###############################
 [taxonomies]
   category = 'categories'
   tag = 'tags'
 
+############################## params ###############################
 [params]
   jumbotronimg = '/img/4categories.jpg'
+
+############################## seo ###############################
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+  

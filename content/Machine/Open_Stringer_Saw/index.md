@@ -1,7 +1,7 @@
 ---
 title: "Open Stringer Saw"
 date: 2022-06-21T14:30:14-05:00
-category: "Stairs" # Wood, Steel, Stairs, Specialty, "Material Handling"
+category: "Stairs" # Wood, Steel, Stairs, Specialty"
 Weight: 02
 categoryImage: categoryImage.jpg
 tags: ["open stringer", "saw", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
@@ -23,15 +23,15 @@ authorTitle: "Author's Title Goes in page Frontmatter"
 draft: false
 ---
 
-### Description
+###### Description
 
 Triad’s Open Stringer Saw (OSS) was designed to increase productivity and cut a perfect stringer every time. The OSS is powered by two soft start motors and uses two 30” x 80 tooth carbide tipped blades. The OSS is PC controlled and has automatic indexing and cutting. An in-feed and out-feed roller conveyor comes as standard equipment with the unit.
 
-### Video Demonstration
+###### Video Demonstration
 
 {{< youtube  4LlkAuRqX7s >}}
 
-### Specifications*
+###### Specifications*
 
 - Electrical Standard: 240 Vac, 3 PH, 60 AMPs
 
@@ -43,17 +43,17 @@ Triad’s Open Stringer Saw (OSS) was designed to increase productivity and cut 
 
 `*Specifications subject to change without notice.`
 
-### Capabilities
+###### Capabilities
 
 - Cut up to four separate 2" x 10" or 2" x 12" stringers at one time.
 
 - Accommodates stringer angles from 25 degrees to 45 degrees.
 
-### Options
+###### Options
 
 - Waste Transport Conveyor (Recommended: Conveys the cut-off pieces out from under the machine, as they drop, for easy disposal.)
 
-### Have a Question?
+###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
 Or, if you prefer, feel free to call the factory at **1-800-568-7423**

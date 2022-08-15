@@ -2,7 +2,7 @@
 title: Balluster-Handrail Boring Machine
 date: 2022-06-23T15:40:57-05:00
 kind: "machine"
-category: "Stairs" # Wood, Steel, Stairs, Specialty, "Material Handling"
+category: "Stairs" # Wood, Steel, Stairs, Specialty"
 Weight: 04
 categoryImage: categoryImage.jpg
 tags: ["handrail", "drill", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
@@ -21,11 +21,15 @@ authorTitle: "Author's Title Goes in page Frontmatter"
 draft: false
 ---
 
-### Description
+###### Description
 
 Triad’s Handrail Boring Machine securely holds handrails as wide as 6". This versatile machine makes handrail boring jobs "a snap!" The machine is easy to operate, adjust and maintain. It is equipped with a screw system for six adjustable wheels. These wheels are a guide for the handrail and ensure a secure hold. You choose and lock-in the angle (between Zero and 45 degrees) and set the desired hole spacing.
 
-### Specifications*
+###### Video Demonstration
+
+{{< youtube  u7B-4PAH78Y >}}
+
+###### Specifications*
 
 - Electrical Standard: 208/240/480 VA, 3 PH
 
@@ -39,7 +43,7 @@ Triad’s Handrail Boring Machine securely holds handrails as wide as 6". This v
 
 - `Specifications subject to change without notice.`
 
-### Capabilities
+###### Capabilities
 
 - Drill Diameter: 1/2" to 1"
 
@@ -49,11 +53,11 @@ Triad’s Handrail Boring Machine securely holds handrails as wide as 6". This v
 
 - Hole Spacing Range: Hole Spacing: 2-1/4" to 7-1/2"
 
-### Options
+###### Options
 
 - None
 
-### Have a Question?
+###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
 Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.

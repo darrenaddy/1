@@ -2,8 +2,8 @@
 title: {{ replace .Name "_" " " | title }}
 date: {{ .Date }}
 kind: "machine"
-category: "Wood" # Wood, Steel, Stairs, Specialty, "Material Handling"
-category_weight: 00
+category: "Steel" # Wood, Steel, Stairs, Specialty"
+category_weight: 02
 tags: ["open stringer", "saw", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 featuredImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad {{ replace .Name "_" " " | title }} Product Image"
@@ -11,8 +11,8 @@ galleryEnable: false
 gallery: [ image1.png, image2.png, image3.png ]
 video: "4LlkAuRqX7s"
 singleTag: ""
-thisCategoryHeading: "For Professional Stair Builders"
-categoryHeadingURL: ""
+thisCategoryHeading: "For Steel Stud and Modular Builders"
+categoryHeadingURL: "for-light-gauge-steel-builders"
 summary: "Whether you are looking for a simple component machine, or an entire modular line, Triad surely has just what you need."
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"

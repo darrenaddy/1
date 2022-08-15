@@ -2,18 +2,18 @@
 title: Staircase Assembly Clamp
 date: 2022-06-23T15:33:22-05:00
 kind: "machine"
-category: "Stairs" # Wood, Steel, Stairs, Specialty, "Material Handling"
+category: "Stairs" # Wood, Steel, Stairs, Specialty"
 categoryImage: categoryImage.jpg
 Weight: 06
-tags: ["open stringer", "saw", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
+tags: ["staircase", "assembly", "clamp", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 productImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad Staircase Assembly Clamp Product Image"
 carouselEnable: false
-video: "4LlkAuRqX7s"
+video: "F3mJKYrSUYQ"
 singleTag: ""
 thisCategoryHeading: "For Professional Stair Builders"
 thisCategoryURL: "/for-professional-stair-builders/"
-summary: "Triad's unsurpassed StairBoss Pro headlines a suite of professional stair machines that are successfully powering Pro Stair Shops all across North America."
+summary: "The easy way to transport stringer material and finished stringers in an efficient professional stair shop."
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
@@ -21,33 +21,32 @@ authorTitle: "Author's Title Goes in page Frontmatter"
 draft: false
 ---
 
-### Description
+###### Description
 
-Triad’s Open Stringer Saw (OSS) was designed to increase productivity and cut a perfect stringer every time. The OSS is powered by two soft start motors and uses two 30”x 80 tooth carbide tipped blades. The OSS is PC controlled and has automatic indexing and cutting. An in-feed and out-feed roller conveyor comes as standard equipment with the unit.
+Every stair shop should have AT LEAST one Heavy Duty Stringer Cart. Shop efficiency depends upon proper material staging near your stringer saw or router. Finished stringers can also be easily transported to your next stage (such as the Triad Staircase Assembly Clamp).
 
-### Specifications*
+It's use is not limited to stair shops - virtually any warehousing or manufacturing application can make use of this handy, multi-level cart.
 
-- Electrical Standard: 240 Vac, 3 PH, 60 AMPs
+{{< youtube "F3mJKYrSUYQ" >}}
 
-- Air Requirements: 100 PSI, 2 CFM
+###### Specifications*
 
-- Size: 36' L x 15'10" W
-
-- Weight: 2700 lbs.
+- Extremely heavy duty construction withstands everyday use
+- Mar-resistant wheels
+- Each wheel is equipped with bearing grease zerks in axle and swivel assembly, providing easy movement
+- Dimensions: 60"H x 41"W x 60"L
 
 - `Specifications subject to change without notice.`
 
-### Capabilities
+###### Capabilities
 
-- Cut up to four separate 2" x 10" or 2" x 12" stringers at one time.
+- Cart Capacity: Up to 4000 lbs
 
-- Accommodates stringer angles from 25 degrees to 45 degrees.
+###### Options
 
-### Options
+- Available with or without the plywood shelving
 
-- Under-Carriage Waste Conveyor (transports the waste from cuts from under the machine for more convenient clean-up.)
-
-### Have a Question?
+###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
 Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.

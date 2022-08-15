@@ -2,7 +2,7 @@
 title: Template Stair Router
 date: 2022-06-23T15:39:05-05:00
 kind: "machine"
-category: "Stairs" # Wood, Steel, Stairs, Specialty, "Material Handling"
+category: "Stairs" # Wood, Steel, Stairs, Specialty"
 Weight: 07
 categoryImage: categoryImage.jpg
 tags: ["open stringer", "template", "router", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
@@ -13,7 +13,7 @@ video: "4LlkAuRqX7s"
 singleTag: ""
 thisCategoryHeading: "For Professional Stair Builders"
 thisCategoryURL: "/for-professional-stair-builders/"
-summary: "Whether you are looking for a simple component machine, or an entire modular line, Triad surely has just what you need."
+summary: "For those preferring the economy of the template system, the reliable Triad Template Stair Router is the obvious choice."
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
@@ -21,33 +21,35 @@ authorTitle: "Author's Title Goes in page Frontmatter"
 draft: false
 ---
 
-### Description
+###### Description
 
-Triad’s Open Stringer Saw (OSS) was designed to increase productivity and cut a perfect stringer every time. The OSS is powered by two soft start motors and uses two 30”x 80 tooth carbide tipped blades. The OSS is PC controlled and has automatic indexing and cutting. An in-feed and out-feed roller conveyor comes as standard equipment with the unit.
+Triad's Template Stair Router (TSR) was designed so an operator can load two 2"x12" stringers, set up the adjustable rise, run and nose clearance quickly, and start routing. The router pair cuts the top or bottom stringer only, OR both stringers simultaneously with the template guided stair profiles. Triad's TSR can accommodate standard profiles, no riser profiles, and split stringer configurations. There is mechanically aided material indexing, quick changing templates and composite followers, makes the TSR a versatile yet economical machine for any professional stair shop.
 
-### Specifications*
+###### Specifications*
 
-- Electrical Standard: 240 Vac, 3 PH, 60 AMPs
+- Electrical Standard: 120 VAC, 40 AMPs
 
-- Air Requirements: 100 PSI, 2 CFM
+- Air Requirements: 3 CFM, 100 PSI, ½" dedicated line
 
-- Size: 36' L x 15'10" W
+- Size:  7'W x 7'L x 6'H
 
-- Weight: 2700 lbs.
+- Weight: 1200 lbs.
 
 - `Specifications subject to change without notice.`
 
-### Capabilities
+###### Capabilities
 
-- Cut up to four separate 2" x 10" or 2" x 12" stringers at one time.
+- Tread: 7" run x 5-1/2"" rise to 12-1/2"" run x 9" rise
 
-- Accommodates stringer angles from 25 degrees to 45 degrees.
+- Tread Thickness: 1" to 1-3/4"
 
-### Options
+- Nose Extension: 0" or 1/2" to 2"
 
-- Under-Carriage Waste Conveyor (transports the waste from cuts from under the machine for more convenient clean-up.)
+- Stringer Material: 3/4" x 10", 3/4" x 12", 2"x10" and 2"x12"
 
-### Have a Question?
+- Bit Size: 1/2" to 1" Diameter Straight Flute Right Hand Standard
+
+###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
 Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.

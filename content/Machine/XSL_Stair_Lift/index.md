@@ -2,18 +2,18 @@
 title: XSL Stair Lift
 date: 2022-06-23T15:39:39-05:00
 kind: "machine"
-category: "Stairs" # Wood, Steel, Stairs, Specialty, "Material Handling"
+category: "Stairs" # Wood, Steel, Stairs, Specialty"
 categoryImage: categoryImage.jpg
-tags: ["open stringer", "saw", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
+tags: ["staircase", "lift", "material handling", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 Weight: 09
 productImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad XSL Stair Lift Product Image"
 carouselEnable: false
-video: "4LlkAuRqX7s"
+video: "c0MuJgEf8wA"
 singleTag: ""
 thisCategoryHeading: "For Professional Stair Builders"
 categoryHeadingURL: ""
-summary: "Whether you are looking for a simple component machine, or an entire modular line, Triad surely has just what you need."
+summary: "Triad's XSL Stair Lift provides easy lifting and transport of assembled staircases."
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
@@ -21,33 +21,30 @@ authorTitle: "Author's Title Goes in page Frontmatter"
 draft: false
 ---
 
-### Description
+###### Description
 
-Triad’s Open Stringer Saw (OSS) was designed to increase productivity and cut a perfect stringer every time. The OSS is powered by two soft start motors and uses two 30”x 80 tooth carbide tipped blades. The OSS is PC controlled and has automatic indexing and cutting. An in-feed and out-feed roller conveyor comes as standard equipment with the unit.
+The Triad XSL Stair Lift can be attached by hook to any overhead material handler, whether that be a overhead crane system, a gantry, or even a forklift. Adjustable to handle stair widths from a minimum of 30" to a maximum of 60", the lift uses mar-resistant gripping cleats. Handles on both sides for maneuverability. It is an all steel construction lift with a painted finish.
 
-### Specifications*
+###### Specifications*
 
-- Electrical Standard: 240 Vac, 3 PH, 60 AMPs
-
-- Air Requirements: 100 PSI, 2 CFM
-
-- Size: 36' L x 15'10" W
-
-- Weight: 2700 lbs.
+- Electrical Standard: N/A
+- Air Requirements: N/A
+- Size:
+- Weight: 75 lbs.
 
 - `Specifications subject to change without notice.`
 
-### Capabilities
+###### Capabilities
 
-- Cut up to four separate 2" x 10" or 2" x 12" stringers at one time.
+- Load capacity: 750 lbs.
 
-- Accommodates stringer angles from 25 degrees to 45 degrees.
+- Staircase width capacity: 30" to 60" wide
 
-### Options
+###### Options
 
-- Under-Carriage Waste Conveyor (transports the waste from cuts from under the machine for more convenient clean-up.)
+- None
 
-### Have a Question?
+###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
 Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.
