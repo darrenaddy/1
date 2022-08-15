@@ -1,16 +1,9 @@
 {{ define "main" }}
-{{ $category := .Page.Params.Category }}
-{{ $filenameBeginning := $category }}
-{{ $filenameEnding := "-breadcrumb-bg.jpg" }}
-{{ $combinedFilename := printf "%s%s" $filenameBeginning $filenameEnding }}
-{{ $directory := "img/"}}
-{{ $bgimage := printf "%s%s" $directory $combinedFilename }}
-{{ $assetImage := .Resources.GetMatch $bgimage}}
-
+{{ $bgimage := resources.Get "img/Wood-breadcrumbs-bg.jpg" }}
    
 <section id="category-pages" class="mentor-events pt-0">
     <div class="container" data-aos="fade-up">
-        <div class="bgimage" style="background-image:url('{{$assetImage.RelPermalink | safeURL }}');">
+        <div class="bgimage" style="background-image:url('{{$bgimage.RelPermalink | safeURL }}');">
         <div class="section-header py-4" style="color:black;">
             
             <h2>All Bridges for Sheathing Wood Wall Panels</h2>

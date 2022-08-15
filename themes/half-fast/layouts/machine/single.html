@@ -8,8 +8,12 @@
 {{ $combinedFilename := printf "%s%s" $filenameBeginning $filenameEnding }}
 {{ $directory := "img/"}}
 {{ $bgimage := printf "%s%s" $directory $combinedFilename }}
-{{ $assetImage := .Resources.GetMatch "$bgimage"}}
-<div class="breadcrumbs d-flex align-items-center" style="background-image:url('{{$assetImage.RelPermalink | safeURL }}');">
+{{ $assetImage := .Resources.GetMatch $bgimage}}
+{{ with $assetImage }}
+    <div class="breadcrumbs d-flex align-items-center" style="background-image:url('{{$assetImage.RelPermalink | safeURL }}');">
+{{ else }}
+   {{ warnf (printf "Page '%s', bgimage: %s" .TranslationKey $bgimage ) }}
+{{ end }}
     <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
         <img src="/img/logo-egg.png" alt="Triad logo" class="image-fluid"> 
       <h2>{{ .Params.title }}</h2>
