@@ -2,7 +2,7 @@
 title: Balluster-Handrail Boring Machine
 date: 2022-06-23T15:40:57-05:00
 kind: "machine"
-category: "Stairs" # Wood, Steel, Stairs, Specialty"
+category: ["Stairs"] # Wood, Steel, Stairs, Specialty"
 Weight: 04
 categoryImage: categoryImage.jpg
 tags: ["handrail", "drill", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
@@ -27,35 +27,35 @@ Triad’s Handrail Boring Machine securely holds handrails as wide as 6". This v
 
 ###### Video Demonstration
 
-{{< youtube  u7B-4PAH78Y >}}
+{{< youtube id="u7B-4PAH78Y" autoplay="true" color="white" yt_start="2" rel="0" >}}
 
 ###### Specifications*
 
-- Electrical Standard: 208/240/480 VA, 3 PH
+* Electrical Standard: 208/240/480 VA, 3 PH
 
-- Air Requirements: 90 PSI, .1 CFM
+* Air Requirements: 90 PSI, .1 CFM
 
-- HP: 3
+* HP: 3
 
-- Size: 36' L x 15'10" W
+* Size: 36' L x 15'10" W
 
-- Weight: 1500 lbs.
+* Weight: 1500 lbs.
 
 - `Specifications subject to change without notice.`
 
 ###### Capabilities
 
-- Drill Diameter: 1/2" to 1"
+* Drill Diameter: 1/2" to 1"
 
-- Drill Depth: 2-1/2" Max
+* Drill Depth: 2-1/2" Max
 
-- Drill Angle Range: 0 Degrees to 45 Degrees
+* Drill Angle Range: 0 Degrees to 45 Degrees
 
-- Hole Spacing Range: Hole Spacing: 2-1/4" to 7-1/2"
+* Hole Spacing Range: Hole Spacing: 2-1/4" to 7-1/2"
 
 ###### Options
 
-- None
+* None
 
 ###### Have a Question?
 

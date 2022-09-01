@@ -1,20 +1,20 @@
 ---
-title: Xpl Panel Lift
+title: XPL Panel Lift
 date: 2022-08-08T14:02:05-05:00
 kind: "machine"
-category: "Wood" # Wood, Steel, Stairs, Specialty"
+category: ["Wood"] # Wood, Steel, Stairs, Specialty"
 category_weight: 01
 categoryImage: categoryImage.jpg
-tags: ["open stringer", "saw", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
+tags: ["panel", "lift", "for-pro-wood-timber-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 featuredImage: "" #images in same (page bundle) folder for responsive processing
-genericAlt: "Triad Xpl Panel Lift Product Image"
+genericAlt: "Triad XPL Panel Lift Product Image"
 galleryEnable: false
 gallery: [ image1.png, image2.png, image3.png ]
 video: "4LlkAuRqX7s"
 singleTag: ""
 thisCategoryHeading: "For Stick and Modular Builders"
-categoryHeadingURL: "for-wood-builders"
-summary: "Whether you are looking for a simple component machine, or an entire modular line, Triad surely has just what you need."
+categoryHeadingURL: "for-wood-timber-builders"
+summary: "Triad’s XPL Panel Lift family comes in a variety of sizes and weight capacities. For use with your overhead crane or fork lift."
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
@@ -24,33 +24,25 @@ draft: false
 
 ### Description
 
-Triad’s Open Stringer Saw (OSS) was designed to increase productivity and cut a perfect stringer every time. The OSS is powered by two soft start motors and uses two 30”x 80 tooth carbide tipped blades. The OSS is PC controlled and has automatic indexing and cutting. An in-feed and out-feed roller conveyor comes as standard equipment with the unit.
+Triad’s XPL Panel Lift family comes in a variety of sizes and weight capacities. For use with your overhead crane or fork lift.
 
-### Specifications*
+The XPL-1000 can lift panels from 7' to 12' wall heights and has a weight capacity of 1/2 ton. The constant sizing feature allows the panel lift to be put into place without pushing and pulling by the operator. The ease of one-person operation increases production with less operator fatigue. When moving empty, the lift holds its size, always ready for the next panel.
 
-- Electrical Standard: 240 Vac, 3 PH, 60 AMPs
+{{< youtube id="c0MuJgEf8wA" autoplay="true" color="white" yt_start="2" rel="0" >}}
 
-- Air Requirements: 100 PSI, 2 CFM
+###### Specifications*
 
-- Size: 36' L x 15'10" W
+`*Specifications subject to change without notice.`
 
-- Weight: 2700 lbs.
+###### Capabilities
 
-- `Specifications subject to change without notice.`
+- Range: 7' to 12' wide (XPL-1000)
 
-### Capabilities
-
-- Cut up to four separate 2" x 10" or 2" x 12" stringers at one time.
-
-- Accommodates stringer angles from 25 degrees to 45 degrees.
-
-{{< youtube id="XXXXXXXXX" autoplay="true" color="white" yt_start="2" >}}
-
-### Options
+###### Options
 
 - Under-Carriage Waste Conveyor (transports the waste from cuts from under the machine for more convenient clean-up.)
 
-### Have a Question?
+###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
 Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.

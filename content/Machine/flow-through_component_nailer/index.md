@@ -2,7 +2,7 @@
 title: Flow-Through Component Nailer
 date: 2022-08-08T18:05:08-05:00
 kind: "machine"
-category: "Wood" # Wood, Steel, Stairs, Specialty"
+category: ["Wood"] # Wood, Steel, Stairs, Specialty"
 category_weight: 02
 categoryImage: categoryImage.jpg
 tags: ["open stringer", "saw", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
@@ -10,11 +10,11 @@ featuredImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad Flow-Through Component Nailer Product Image"
 galleryEnable: false
 gallery: [ image1.png, image2.png, image3.png ]
-video: "4LlkAuRqX7s"
+video: "3dKr5gUMBj8"
 singleTag: ""
-thisCategoryHeading: "For Steel Stud and Modular Builders"
-categoryHeadingURL: "for-light-gauge-steel-builders"
-summary: "Whether you are looking for a simple component machine, or an entire modular line, Triad surely has just what you need."
+thisCategoryHeading: "For Wood and Modular Builders"
+categoryHeadingURL: "for-wood-timber-builders"
+summary: "Speed the construction of your headers, trimmers, and other vital components with the Triad Flow-Through Component Nailer."
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
@@ -22,35 +22,35 @@ authorTitle: "Author's Title Goes in page Frontmatter"
 draft: false
 ---
 
-### Description
+###### Description
 
-Triad’s Open Stringer Saw (OSS) was designed to increase productivity and cut a perfect stringer every time. The OSS is powered by two soft start motors and uses two 30”x 80 tooth carbide tipped blades. The OSS is PC controlled and has automatic indexing and cutting. An in-feed and out-feed roller conveyor comes as standard equipment with the unit.
+There is a reason that Triad's Flow-Through Component Nailer is one of its most popular component machines. It was designed to cover all component manufacturing needs. It has adjustable, mounted guns allowing for unmatched versatility. With foot pedal firing, the nailer provides the speed rates required in high product operations. The Flow-Through Component Nailer is ideal for trimmers, partition leads, corners, headers, ells, jack studs, and more.
 
-### Specifications*
+###### Video Demonstration
 
-- Electrical Standard: 240 Vac, 3 PH, 60 AMPs
+{{< youtube id="3dKr5gUMBj8" autoplay="true" color="white" yt_start="2" rel="0">}}
 
-- Air Requirements: 100 PSI, 2 CFM
+###### Specifications*
 
-- Size: 36' L x 15'10" W
+* Electrical Standard: 
+* Air Requirements: 4 CFM, 100 PSI
+* Length Capacity: 122" (10' 2")
+* Size: 4' H x 21'L x 5'W
+* Weight: approx. 1500 lbs.
 
-- Weight: 2700 lbs.
+`*Specifications subject to change without notice.`
 
-- `Specifications subject to change without notice.`
+###### Capabilities
 
-### Capabilities
+* Vertical clamping pressure: 300 lbs. at 100 PSI
+* Horizontal clamping pressure: 300 lbs. at 100 PSI
+* Clamp opening: 13"
 
-- Cut up to four separate 2" x 10" or 2" x 12" stringers at one time.
+###### Options
 
-- Accommodates stringer angles from 25 degrees to 45 degrees.
+* Can be built in a right hand or left hand configuration.
 
-{{< youtube id="XXXXXXXXX" autoplay="true" color="white" yt_start="2" >}}
-
-### Options
-
-- Under-Carriage Waste Conveyor (transports the waste from cuts from under the machine for more convenient clean-up.)
-
-### Have a Question?
+###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
 Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.

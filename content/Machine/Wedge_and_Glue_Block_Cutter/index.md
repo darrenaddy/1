@@ -31,21 +31,25 @@ It is obvious why this machine is one of Triad's most popular machines for the p
 
 ###### Capabilities
 
-- Can mix stacks of 1X and 2X materials in the same holder/hopper
-- Cuts two wedges out of 1X material
-- Cuts one wedge out of 2X material
-- Self-Diagnostic
-- Walk-Away, Hands-Free Operation
-- At the end of a stack (if not reloaded), the machine has an auto shut-off feature so it doesn't continue to cycle endlessly.
-- Capability to cut glue blocks
+* Can mix stacks of 1X and 2X materials in the same holder/hopper
+* Cuts two wedges out of 1X material
+* Cuts one wedge out of 2X material
+* Self-Diagnostic
+* Walk-Away, Hands-Free Operation
+* At the end of a stack (if not reloaded), the machine has an auto shut-off feature so it doesn't continue to cycle endlessly.
+* Capability to cut glue blocks
 
-- `Specifications subject to change without notice.`
+\* `Specifications subject to change without notice.`
 
 ###### Specifications
 
-- Electrical Standard: 240 V, 3 PH, 20 AMPs
-- Air Requirements: 90 PSI, .5 CFM, 1/2 NPT
-- HP: 2
+* Electrical Standard: 240 V, 3 PH, 20 AMPs
+* Air Requirements: 90 PSI, .5 CFM, 1/2 NPT
+* HP: 2
+
+###### Video Demonstration
+
+{{< youtube id="lOc6Vcr0MFk" autoplay="true" color="white" yt_start="2" rel="0">}}
 
 ###### Options
 

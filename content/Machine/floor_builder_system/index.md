@@ -2,19 +2,19 @@
 title: Floor Builder System
 date: 2022-08-08T14:06:03-05:00
 kind: "machine"
-category: "Wood" # Wood, Steel, Stairs, Specialty"
+category: ["Wood"] # Wood, Steel, Stairs, Specialty"
 category_weight: 01
 categoryImage: categoryImage.jpg
-tags: ["open stringer", "saw", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
+tags: ["floor", "framing", "decking", "for-wood-timber-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 featuredImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad Floor Builder System Product Image"
 galleryEnable: false
 gallery: [ image1.png, image2.png, image3.png ]
-video: "4LlkAuRqX7s"
+video: ""
 singleTag: ""
 thisCategoryHeading: "For Stick and Modular Builders"
-categoryHeadingURL: "for-wood-builders"
-summary: "Whether you are looking for a simple component machine, or an entire modular line, Triad surely has just what you need."
+categoryHeadingURL: "for-wood-timber-builders"
+summary: "The Triad Floor Builder System is designed to be a state-of-the-art, single-table, floor system."
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
@@ -22,35 +22,59 @@ authorTitle: "Author's Title Goes in page Frontmatter"
 draft: false
 ---
 
-### Description
+###### Description
 
-Triad’s Open Stringer Saw (OSS) was designed to increase productivity and cut a perfect stringer every time. The OSS is powered by two soft start motors and uses two 30”x 80 tooth carbide tipped blades. The OSS is PC controlled and has automatic indexing and cutting. An in-feed and out-feed roller conveyor comes as standard equipment with the unit.
+Triad's Floor Builder System is a combination Framing Table, Material Bridge, and Decking Bridge (which can be outfitted with your choice of compatible nail or screw guns). The system accommodates 2x8 through 2x12 dimensional lumber, floor trusses, and I-joists. They can span either width *or* length within the table.
 
-### Specifications*
+The table can jig decks up to 16" increments from the base size up to 80' in length and up to 16' in width, with custom sizes also available.
 
-- Electrical Standard: 240 Vac, 3 PH, 60 AMPs
+###### Framing Specifications*
 
-- Air Requirements: 100 PSI, 2 CFM
+* Three pneumatic nailing tools on each side of the bridge for framing 2 x 8, 2 x 10, and 2 x 12 joists.
 
-- Size: 36' L x 15'10" W
+> Four nails are fired in 2 x 8 floors
+> Five nails are fired into 2 x 10 floors
+> Six nails are fired into 2 x 12 floors
 
-- Weight: 2700 lbs.
+* Down clamping pads are designed to clamp and flush the joists to the rims. Clamping pressure is 314 lbs. and activates simultaneously with tool-firing activation
 
-- `Specifications subject to change without notice.`
+* Clamp senses 2 x 8, 2 x 10, 2 x 12 joists for automatic setting of nail pattern
 
-### Capabilities
+`*Specifications subject to change without notice.`
 
-- Cut up to four separate 2" x 10" or 2" x 12" stringers at one time.
+###### Floor Builder Bridge Specifications*
 
-- Accommodates stringer angles from 25 degrees to 45 degrees.
+* Bridge widths of 9'2" to 16'2"
+* Standard hand crank control for bridge movement
+* Push button controls located on bridge control panel
+* Optional joystick control for bridge drive, tool firing, and tool shift
+* Automatic bridge return to home position
+* Optional laser pointer for positioning the bridge at stud and component locations
+* Nail guns mounted standard for deck fastening (optional mounting of screw guns)
+* Tool Bar #1: Decking guns mounted standard 12" oc shift to 6" oc (optional oc spacing available)
+* Tool Bar #2: Manually adjustable decking gun spacing (for decks built length of table)
+Automatic bridge return
 
-{{< youtube id="XXXXXXXXX" autoplay="true" color="white" yt_start="2" >}}
+`*Specifications subject to change without notice.`
 
-### Options
+###### Options
 
-- Under-Carriage Waste Conveyor (transports the waste from cuts from under the machine for more convenient clean-up.)
+* Laser pointer for bridge positioning
 
-### Have a Question?
+* Mounting of screw guns for deck fastening
+
+* Rim fire at 6" oc to fasten decking
+
+* Router for removal of decking around landings.
+
+###### Related or Recommended Accessories
+
+* In-feed and off-feed Roller Conveyor
+* [Handle Bar Router](/machine/handlebar_router/)
+* Rough-Opening Component Assembly Table ([Ro-Cat](/machine/ro-cat/)) for pre-built landings
+* Material Handling Carts - See ([Multiple Options](/intelligent-material-handling/))
+
+###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
 Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.

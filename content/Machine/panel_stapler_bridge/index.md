@@ -2,7 +2,7 @@
 title: Panel Stapler Bridge
 date: 2022-08-08T13:59:36-05:00
 kind: "machine"
-category: "Wood" # Wood, Steel, Stairs, Specialty"
+category: ["Wood"] # Wood, Steel, Stairs, Specialty"
 category_weight: 01
 weight: 00
 categoryImage: categoryImage.jpg
@@ -15,7 +15,7 @@ video: "4LlkAuRqX7s"
 singleTag: ""
 thisCategoryHeading: "For Stick and Modular Builders"
 categoryHeadingURL: "for-wood-builders"
-summary: "Many options are available on the Triad Panel Stapler Bridge, including the ability to handle staggered sheathing. Manual, semi-automatic, or virtually unmanned operation &hellips;"
+summary: "Many options are available on the Triad Panel Stapler Bridge, including the ability to handle staggered sheathing. Manual, semi-automatic, or virtually unmanned operation"
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
@@ -23,35 +23,40 @@ authorTitle: "Author's Title Goes in page Frontmatter"
 draft: false
 ---
 
-### Description
+###### Features
 
-Triad’s Open Stringer Saw (OSS) was designed to increase productivity and cut a perfect stringer every time. The OSS is powered by two soft start motors and uses two 30”x 80 tooth carbide tipped blades. The OSS is PC controlled and has automatic indexing and cutting. An in-feed and out-feed roller conveyor comes as standard equipment with the unit.
+- Custom built for 8' to 16' wall heights
+- Push button controls for one person operation
+- Single or double tool bars available
+- Tools can be mounted 6", 8", 12" on center
+- Tool bar designed to shift 3", 4", or 6" for seams
+- Dual pressure selector switch for varying material densities
+- Each tool is independently spring-loaded to adjust for material variances
 
-### Specifications*
+###### Specifications*
 
-- Electrical Standard: 240 Vac, 3 PH, 60 AMPs
+- Electrical Standard: 110 V, 1 PH, 5 AMPs
+- Air Requirements: 1/2 NPT at 100 PSI
 
-- Air Requirements: 100 PSI, 2 CFM
+`*Specifications subject to change without notice.`
 
-- Size: 36' L x 15'10" W
-
-- Weight: 2700 lbs.
-
-- `Specifications subject to change without notice.`
-
-### Capabilities
+###### Capabilities
 
 - Cut up to four separate 2" x 10" or 2" x 12" stringers at one time.
 
 - Accommodates stringer angles from 25 degrees to 45 degrees.
 
-{{< youtube id="XXXXXXXXX" autoplay="true" color="white" yt_start="2" >}}
+###### Options
 
-### Options
+- Joystick Control
+- Auto Return
+- Laser Pointer
+- Space-Fire, Perimeter-Fire Tools
+- Tilt Tool Bar
+- Double Tool Bar
+- Combination Router Bar [See the Triad MultiBridge](/machine/multibridge/))
 
-- Under-Carriage Waste Conveyor (transports the waste from cuts from under the machine for more convenient clean-up.)
-
-### Have a Question?
+###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
 Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.

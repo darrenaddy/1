@@ -10,7 +10,7 @@ featuredImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad StairBoss Pro Product Image"
 galleryEnable: false
 gallery: [ image1.png, image2.png, image3.png ]
-video: "4LlkAuRqX7s"
+video: "H0aIo__1NzM"
 singleTag: ""
 thisCategoryHeading: "For Professional Stair Builders"
 thisCategoryURL: "/for-professional-stair-builders/"
@@ -30,27 +30,27 @@ The Stair Boss is the product of a collaborative effort between Triad Machines a
 
 A user-friendly touch screen is incorporated for easy value input for the stringers to be cut with precision. The screen display shows a picture of the step before it's cut. The stringers are laid on the conveyor, which is at an angle, utilizing gravity to help keep them entirely flush through the cutting process.
 
-{{< youtube "9Biv7AcRT8E" >}}
+###### Video Demonstration
+
+{{< youtube id="H0aIo__1NzM" autoplay="true" color="white" yt_start="2" rel="0">}}
 
 ###### Specifications*
 
-- Electrical Standard: 240 Vac, 3 PH, 40 AMPs
+* Electrical Standard: 240 Vac, 3 PH, 40 AMPs
 
-- Air Requirements: 100 PSI
+* Air Requirements: 100 PSI
 
-- Size:
+* Size:
 
-- Weight: 2700 lbs.
+* Weight: 2700 lbs.
 
-- `Specifications subject to change without notice.`
+* `Specifications subject to change without notice.`
 
 ###### Capabilities
 
-- Up to 3" thick to 19" wide cutting area
+* Up to 3" thick to 19" wide cutting area
 
-- Cuts dimensional lumber, LVL, or any other special engineered material
-
-{{< youtube id="H0aIo__1NzM" autoplay="true" color="white" yt_start="2" >}}
+* Cuts dimensional lumber, LVL, or any other special engineered material
 
 ###### Have a Question?
 

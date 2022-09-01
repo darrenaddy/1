@@ -1,11 +1,11 @@
 ---
-title: Versa Steel Framing Table
+title: VersaSteel Framing Table
 date: 2022-08-08T14:12:43-05:00
 kind: "machine"
-category: "Steel" # Wood, Steel, Stairs, Specialty"
+category: ["Steel"] # Wood, Steel, Stairs, Specialty"
 category_weight: 02
 categoryImage: categoryImage.jpg
-tags: ["open stringer", "saw", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
+tags: ["framing", "table", "for-steel-stud-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 featuredImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad Versa Steel Framing Table Product Image"
 galleryEnable: false
@@ -22,35 +22,26 @@ authorTitle: "Author's Title Goes in page Frontmatter"
 draft: false
 ---
 
-### Description
+###### Description
 
-Triad’s Open Stringer Saw (OSS) was designed to increase productivity and cut a perfect stringer every time. The OSS is powered by two soft start motors and uses two 30”x 80 tooth carbide tipped blades. The OSS is PC controlled and has automatic indexing and cutting. An in-feed and out-feed roller conveyor comes as standard equipment with the unit.
+Triad’s VersaSteel Framing Table can build walls 16’ to 80’ long and is adjustable in width (wall heights) from 6’9” to 16’3” (custom sizes available upon request). This table is designed to increase your facility's production capabilities for steel stud wall panels.
 
-### Specifications*
+Materials are quickly set utilizing Triad's stud locator flippers, then fastened effortlessly with the Triad Twin Screw Dolly. The VersaSteel utilizes a rack and pinion situated under the table, for wall height adjustments. This provides a unique walk-through design giving workers easy access to deliver pre-built rough openings or put on strapping. A continuous squaring lip runs the length of the table to assure a quality, square wall. Production time is cut to only minutes using the Versa-Steel Framing Table.
 
-- Electrical Standard: 240 Vac, 3 PH, 60 AMPs
+{{< youtube id="V4_UgKvD6Gg" autoplay="true" color="white" yt_start="2" rel="0" >}}
 
-- Air Requirements: 100 PSI, 2 CFM
+###### Specifications*
 
-- Size: 36' L x 15'10" W
+- Electrical Standard: 110 V
+- Weight: Depends upon your table's size configuration.
 
-- Weight: 2700 lbs.
+`*Specifications subject to change without notice.`
 
-- `Specifications subject to change without notice.`
+###### Capabilities
 
-### Capabilities
+- Compatible with steel studs of 2x4, 2x6, or 2x8
 
-- Cut up to four separate 2" x 10" or 2" x 12" stringers at one time.
-
-- Accommodates stringer angles from 25 degrees to 45 degrees.
-
-{{< youtube id="XXXXXXXXX" autoplay="true" color="white" yt_start="2" >}}
-
-### Options
-
-- Under-Carriage Waste Conveyor (transports the waste from cuts from under the machine for more convenient clean-up.)
-
-### Have a Question?
+###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
 Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.

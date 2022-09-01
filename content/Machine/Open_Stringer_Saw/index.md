@@ -29,7 +29,7 @@ Triad’s Open Stringer Saw (OSS) was designed to increase productivity and cut 
 
 ###### Video Demonstration
 
-{{< youtube  4LlkAuRqX7s >}}
+{{< youtube id="4LlkAuRqX7s" autoplay="true" color="white" yt_start="2" rel="0" >}}
 
 ###### Specifications*
 

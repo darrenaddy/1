@@ -2,10 +2,10 @@
 title: Econo-Framer
 date: 2022-08-08T13:58:15-05:00
 kind: "machine"
-category: "Wood" # Wood, Steel, Stairs, Specialty"
+category: ["Wood"] # Wood, Steel, Stairs, Specialty"
 category_weight: 01
 categoryImage: categoryImage.png
-tags: ["open stringer", "saw", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
+tags: [ "panelization", "framing", "table", "for-wood-timber-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 featuredImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad Econo-Framer Product Image"
 galleryEnable: false
@@ -14,7 +14,7 @@ video: "4LlkAuRqX7s"
 singleTag: ""
 thisCategoryHeading: "For Stick and Modular Builders"
 categoryHeadingURL: "for-wood-builders"
-summary: "Whether you are looking for a simple component machine, or an entire modular line, Triad surely has just what you need."
+summary: "The Econo-Framer is our most economical motorized framing table, redesigned for plant or job site usage."
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
@@ -22,35 +22,42 @@ authorTitle: "Author's Title Goes in page Frontmatter"
 draft: false
 ---
 
-### Description
+###### Description
 
-Triad’s Open Stringer Saw (OSS) was designed to increase productivity and cut a perfect stringer every time. The OSS is powered by two soft start motors and uses two 30”x 80 tooth carbide tipped blades. The OSS is PC controlled and has automatic indexing and cutting. An in-feed and out-feed roller conveyor comes as standard equipment with the unit.
+The Econo-Framer is our most economical *motorized* framing table, redesigned to take advantage of the newest manufacturing methods, and suitable for plant or job site usage.
 
-### Specifications*
+The standard Econo-framer has one fixed side and one motor-driven adjustable outrigger side. Standard wall heights range from 6' 3" to 10' 3". The optional **tall wall** Econo-framer (pictured) has TWO motor-driven outriggers and can build walls with heights ranging from 6'9" to 12'3".
 
-- Electrical Standard: 240 Vac, 3 PH, 60 AMPs
+Air-activated pop-up rollers allow easy roll off of the finished wall panels.
 
-- Air Requirements: 100 PSI, 2 CFM
+Both versions are available for wall length maximums of either 16', 20', or 24'. Should you require even longer wall length maximums, or rail mounted [tool dollies](/machine/tool_dollies/), consider our popular [Diamond Quad Framing Table](/machine/diamond_quad_framing_table/).
 
-- Size: 36' L x 15'10" W
+No factory installation is necessary with the Econo-Framer. The Econo-Framer has leveling shoes on each leg to ensure quality operation of the wall framer on almost any hard surface.
 
-- Weight: 2700 lbs.
+###### Video Demonstration
 
-- `Specifications subject to change without notice.`
+{{< youtube id="4LlkAuRqX7s" autoplay="true" color="white" yt_start="2" rel="0" >}}
 
-### Capabilities
+###### Specifications*
 
-- Cut up to four separate 2" x 10" or 2" x 12" stringers at one time.
+* Electrical Standard: 110 Volt, 1PH
+* Air Requirements: 1/2 NPT 10 CFM at 90PSI
 
-- Accommodates stringer angles from 25 degrees to 45 degrees.
+`*Specifications subject to change without notice.`
 
-{{< youtube id="XXXXXXXXX" autoplay="true" color="white" yt_start="2" >}}
+###### Capabilities
 
-### Options
+* Wall Height range (Standard): 6'9" to 10'3" (single outrigger)
+* Wall Height (Tall Wall): 6'9" to 12'3" (dual outriggers)
+* Wall Lengths: Available in one of three lengths: 16', 20' or 24'
 
-- Under-Carriage Waste Conveyor (transports the waste from cuts from under the machine for more convenient clean-up.)
+###### Options
 
-### Have a Question?
+* Standard or Tall Wall versions available
+* Your choice of three maximum wall panel lengths (16', 20', or 24')
+
+###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
+
 Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.

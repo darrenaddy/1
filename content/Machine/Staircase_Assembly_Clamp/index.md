@@ -27,24 +27,26 @@ Every stair shop should have AT LEAST one Heavy Duty Stringer Cart. Shop efficie
 
 It's use is not limited to stair shops - virtually any warehousing or manufacturing application can make use of this handy, multi-level cart.
 
-{{< youtube "F3mJKYrSUYQ" >}}
+###### Video Demonstration
+
+{{< youtube id="F3mJKYrSUYQ" autoplay="true" color="white" yt_start="2" rel="0">}}
 
 ###### Specifications*
 
-- Extremely heavy duty construction withstands everyday use
-- Mar-resistant wheels
-- Each wheel is equipped with bearing grease zerks in axle and swivel assembly, providing easy movement
-- Dimensions: 60"H x 41"W x 60"L
+* Extremely heavy duty construction withstands everyday use
+* Mar-resistant wheels
+* Each wheel is equipped with bearing grease zerks in axle and swivel assembly, providing easy movement
+* Dimensions: 60"H x 41"W x 60"L
 
 - `Specifications subject to change without notice.`
 
 ###### Capabilities
 
-- Cart Capacity: Up to 4000 lbs
+* Cart Capacity: Up to 4000 lbs
 
 ###### Options
 
-- Available with or without the plywood shelving
+* Available with or without the plywood shelving
 
 ###### Have a Question?
 

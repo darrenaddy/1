@@ -1,5 +1,5 @@
 ---
-title: "For-Light-Gauge-Steel-Builders"
+title: "Wall-Panelization-for-Steel-Studs"
 date: 2022-07-25T16:28:50-05:00
 category: "steel-machines"
 hidden: false

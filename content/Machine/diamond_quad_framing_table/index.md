@@ -2,19 +2,19 @@
 title: Diamond Quad Framing Table
 date: 2022-08-08T13:55:03-05:00
 kind: "machine"
-category: "Wood" # Wood, Steel, Stairs, Specialty"
+category: ["Wood"] # Wood, Steel, Stairs, Specialty"
 category_weight: 01
 categoryImage: categoryImage.jpg
-tags: ["open stringer", "saw", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
+tags: [ "panelization", "framing", "table", "for-wood-timber-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 featuredImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad Diamond Quad Framing Table Product Image"
 galleryEnable: false
 gallery: [ image1.png, image2.png, image3.png ]
-video: "4LlkAuRqX7s"
+video: "lMQfQdEKluk"
 singleTag: ""
 thisCategoryHeading: "For Stick and Modular Builders"
-categoryHeadingURL: "for-wood-builders"
-summary: "Whether you are looking for a simple component machine, or an entire modular line, Triad surely has just what you need."
+categoryHeadingURL: "for-wood-timber-builders"
+summary: "The tried and true Diamond Quad Framing Table is our most popular framing table, available in a wide range of sizes."
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
@@ -22,35 +22,43 @@ authorTitle: "Author's Title Goes in page Frontmatter"
 draft: false
 ---
 
-### Description
+###### Description
 
-Triad’s Open Stringer Saw (OSS) was designed to increase productivity and cut a perfect stringer every time. The OSS is powered by two soft start motors and uses two 30”x 80 tooth carbide tipped blades. The OSS is PC controlled and has automatic indexing and cutting. An in-feed and out-feed roller conveyor comes as standard equipment with the unit.
+Triad’s The Diamond Quad Framing Table comes fully assembled and reduce your building costs down while building quality, square, and accurate walls.
 
-### Specifications*
+Color-coded stud locating flippers are exclusive to Triad. The locator brackets are slotted in order to assure exact center placement during table setup.
 
-- Electrical Standard: 240 Vac, 3 PH, 60 AMPs
+Trident or manual, roller bearing mounted, [tool dollies](/machine/tool_dollies/), each with one tool, provide sure and accurate nailing for studs in position on 2x4 or 2x6 wall panels.
 
-- Air Requirements: 100 PSI, 2 CFM
+Rack and pinion gears are used in conjunction with a freak drive with brake, gear box and torque limiter for a positive clamping action to square walls prior to nailing. Table width adjustments are be activated by a drum switch.
 
-- Size: 36' L x 15'10" W
+Only one air hook-up is required, regulator and in-line oiler are included.
 
-- Weight: 2700 lbs.
+###### Video Demonstration
 
-- `Specifications subject to change without notice.`
+{{< youtube id="lMQfQdEKluk" autoplay="true" color="white" yt_start="2" rel="0">}}
 
-### Capabilities
+###### Specifications*
 
-- Cut up to four separate 2" x 10" or 2" x 12" stringers at one time.
+* Electrical Standard: 110 Volt, 1PH
+* Air Requirements: 1/2 NPT 10 CFM at 90PSI
+* Machine Size: 16' to 80'
+* Machine Weight: 2,000 lbs
 
-- Accommodates stringer angles from 25 degrees to 45 degrees.
+ `*Specifications subject to change without notice.`
 
-{{< youtube id="XXXXXXXXX" autoplay="true" color="white" yt_start="2" >}}
+###### Capabilities
 
-### Options
+* Wall Height (standard): 6'9" to 10'3"
+* Wall Height (optional): 6'9" to 12'3" (see Options)
+* Wall Lengths Possible: 16' to 80' (see Options)
 
-- Under-Carriage Waste Conveyor (transports the waste from cuts from under the machine for more convenient clean-up.)
+###### Options
 
-### Have a Question?
+* Extend the maximum wall height capability from 10' 3" to a whopping 12' 3"
+* Can be built to your choice of maximum wall panel length, up to 80'
+
+###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
 Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.

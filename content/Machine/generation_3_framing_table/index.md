@@ -2,15 +2,15 @@
 title: Generation 3 Framing Table
 date: 2022-08-08T13:52:13-05:00
 kind: "machine"
-category: "Wood" # Wood, Steel, Stairs, Specialty"
+category: ["Wood"] # Wood, Steel, Stairs, Specialty"
 category_weight: 01
 categoryImage: categoryImage.jpg
-tags: ["open stringer", "saw", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
+tags: [ "panelization", "framing", "table", "for-wood-timber-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 featuredImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad Generation 3 Framing Table Product Image"
 galleryEnable: false
 gallery: [ image1.png, image2.png, image3.png ]
-video: "4LlkAuRqX7s"
+video: "gpMH0PmeaRU"
 singleTag: ""
 thisCategoryHeading: "For Stick and Modular Builders"
 categoryHeadingURL: "for-wood-builders"
@@ -22,35 +22,39 @@ authorTitle: "Author's Title Goes in page Frontmatter"
 draft: false
 ---
 
-### Description
+###### Description
 
-Triad’s Open Stringer Saw (OSS) was designed to increase productivity and cut a perfect stringer every time. The OSS is powered by two soft start motors and uses two 30”x 80 tooth carbide tipped blades. The OSS is PC controlled and has automatic indexing and cutting. An in-feed and out-feed roller conveyor comes as standard equipment with the unit.
+Triad’s Generation 3 Framing Table is custom built for 16' to 80' long walls (your choice of maximum length), and offers the greatest wall height range of any Triad Framing Table: With wall heights from 3'9" to 16'3" you can do anything from knee walls to commercial building wall panels. Studs are placed between color-coded stud locators. With just a push of a button, the width adjustment clamp is activated to clamp and square all components at a rate 18% faster than our previous (Gen II) model. The Generation 3 Framer features a wider table top support surface, as well as an innovative, optional, Pop-up Power Chain Conveyor. The Generation 3 was designed with the framer in mind, with our new Slip-Resistant Surface that allows the operator to move about on the machine's interior (when needed) on a comfortable and safe platform.
 
-### Specifications*
+###### Video Demonstration
 
-- Electrical Standard: 240 Vac, 3 PH, 60 AMPs
+{{< youtube id="gpMH0PmeaRU" autoplay="true" color="white" yt_start="2" rel="0" >}}
 
-- Air Requirements: 100 PSI, 2 CFM
+###### Specifications*
 
-- Size: 36' L x 15'10" W
+* Electrical Standard: 110 Volts, 1 PH, 10 AMPS
+* Air Requirements: 1/2 NPT @ 100 PSI
+* Weight: 6000 lbs. (for 20'L Table)
 
-- Weight: 2700 lbs.
+`*Specifications subject to change without notice.`
 
-- `Specifications subject to change without notice.`
+###### Capabilities
 
-### Capabilities
+* Wider working surface
+* Custom built from 12' to 80' lengths of walls
+* Power width adjust for various wall lengths
+* Cast iron counter-balanced stud locators
+* Includes rails to accommodate optional dollies
+* Continuous squaring lip for precision squaring
+* Squaring stops
 
-- Cut up to four separate 2" x 10" or 2" x 12" stringers at one time.
+###### Options
 
-- Accommodates stringer angles from 25 degrees to 45 degrees.
+* Optional tape track for placing window and door bridge
+* [Tool Dolly options](/machines/tool_dollies/)
+* Power chain conveyor
 
-{{< youtube id="XXXXXXXXX" autoplay="true" color="white" yt_start="2" >}}
-
-### Options
-
-- Under-Carriage Waste Conveyor (transports the waste from cuts from under the machine for more convenient clean-up.)
-
-### Have a Question?
+###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
 Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.

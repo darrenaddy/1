@@ -11,9 +11,11 @@
         </div>
         
         <div class="row p-4 mt-0">
-        {{ $pageArray := where .Site.Pages ".Params.Category" "Steel" }}
-        
-        {{ range where $pageArray.ByWeight "Params.tags" "intersect" (slice "bridge") }}   
+        {{ $pageArray := where .Site.Pages ".Params.category" "intersect" (slice "Steel") }}
+           
+            {{ $pageArray2 := where $pageArray ".Params.tags" "intersect" (slice "bridge") }}
+            
+            {{ range $pageArray2.ByWeight }}   
             <div class="col-lg-4 col-md-6 d-flex py-2" data-aos="zoom-in" data-aos-delay="50">
                 <a href="{{ .Permalink }}" class="index-anchor">    
                 <div class="card h-60">
@@ -39,7 +41,7 @@
                 </div>
                 </a>
             </div> 
-            {{ end }}  
+            {{ end }} 
             </div>
     </div>
 

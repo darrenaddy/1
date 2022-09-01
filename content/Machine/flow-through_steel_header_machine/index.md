@@ -2,19 +2,19 @@
 title: Flow-Through Steel Header Machine
 date: 2022-08-08T14:18:28-05:00
 kind: "machine"
-category: "Steel" # Wood, Steel, Stairs, Specialty"
+category: ["Steel"] # Wood, Steel, Stairs, Specialty"
 category_weight: 02
 categoryImage: categoryImage.jpg
-tags: ["open stringer", "saw", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
+tags: ["component", "headers", "for-light-gauge-steel-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 featuredImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad Flow-Through Steel Header Machine Product Image"
 galleryEnable: false
 gallery: [ image1.png, image2.png, image3.png ]
-video: "4LlkAuRqX7s"
+video: "NLWUmsl5PZs"
 singleTag: ""
 thisCategoryHeading: "For Steel Stud and Modular Builders"
 categoryHeadingURL: "for-light-gauge-steel-builders"
-summary: "Whether you are looking for a simple component machine, or an entire modular line, Triad surely has just what you need."
+summary: "Build a more consistent quality steel header, in less time, maximizing your available labor. Multiple header sizes possible."
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
@@ -22,35 +22,32 @@ authorTitle: "Author's Title Goes in page Frontmatter"
 draft: false
 ---
 
-### Description
+###### Description
 
-Triad’s Open Stringer Saw (OSS) was designed to increase productivity and cut a perfect stringer every time. The OSS is powered by two soft start motors and uses two 30”x 80 tooth carbide tipped blades. The OSS is PC controlled and has automatic indexing and cutting. An in-feed and out-feed roller conveyor comes as standard equipment with the unit.
+Triad's Flow-Through Steel Header machine, allows you to build a more consistent quality steel header, in less time - maximizing your available labor. Multiple header sizes are possible.
 
-### Specifications*
+Assemble your pieces on the mandrel, which provides a square, internal support. Adjust the width of the screw dollies, from 4" up to 16" apart. Feed the mandrel with header into the screw dolly area and engage with a foot switch. Easily glide the piece through on a roller conveyor table, as you drive four screws simultaneously at your desired spacing. The assembled header slides off the mandrel and it is ready to repeat the simple process for the next header.
 
-- Electrical Standard: 240 Vac, 3 PH, 60 AMPs
+Your choice of two mandrels is provided with the machine. Additional mandrels are also available, to meet all your header sizing requirements.
 
-- Air Requirements: 100 PSI, 2 CFM
+The Triad Flow-Through Steel Header Machine is air-driven with easy to understand controls and stop settings. Dump all air in the lines at the touch of a button.
 
-- Size: 36' L x 15'10" W
+###### Video Demonstration
 
-- Weight: 2700 lbs.
+{{< youtube id="NLWUmsl5PZs" autoplay="true" color="white" yt_start="2" rel="0" >}}
 
-- `Specifications subject to change without notice.`
+###### Specifications*
 
-### Capabilities
+* Electrical Standard: 120 V, 1 PH, 20 AMPs
+* Air Requirements: 100 PSI, 4 CFM
 
-- Cut up to four separate 2" x 10" or 2" x 12" stringers at one time.
+`*Specifications subject to change without notice.`
 
-- Accommodates stringer angles from 25 degrees to 45 degrees.
+###### Options
 
-{{< youtube id="XXXXXXXXX" autoplay="true" color="white" yt_start="2" >}}
+* Your choice of mandrel sizes (2 are included, with more sizes available.)
 
-### Options
-
-- Under-Carriage Waste Conveyor (transports the waste from cuts from under the machine for more convenient clean-up.)
-
-### Have a Question?
+###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
 Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.

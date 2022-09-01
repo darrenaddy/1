@@ -1,11 +1,11 @@
 ---
-title: Nexussteel Framing Table
+title: NexusSteel Framing Table
 date: 2022-08-08T14:14:39-05:00
 kind: "machine"
-category: "Steel" # Wood, Steel, Stairs, Specialty"
+category: ["Steel"] # Wood, Steel, Stairs, Specialty"
 category_weight: 02
 categoryImage: categoryImage.png
-tags: ["open stringer", "saw", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
+tags: [ "panelization", "framing", "table", "for-steel-stud-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 featuredImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad Nexussteel Framing Table Product Image"
 galleryEnable: false
@@ -14,7 +14,7 @@ video: "4LlkAuRqX7s"
 singleTag: ""
 thisCategoryHeading: "For Steel Stud and Modular Builders"
 categoryHeadingURL: "for-light-gauge-steel-builders"
-summary: "Whether you are looking for a simple component machine, or an entire modular line, Triad surely has just what you need."
+summary: "With an adjustable angle (pivoting) end, and one stationary, it's the most versatile steel stud framing table on the market."
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
@@ -22,35 +22,37 @@ authorTitle: "Author's Title Goes in page Frontmatter"
 draft: false
 ---
 
-### Description
+###### Description
 
-Triad’s Open Stringer Saw (OSS) was designed to increase productivity and cut a perfect stringer every time. The OSS is powered by two soft start motors and uses two 30”x 80 tooth carbide tipped blades. The OSS is PC controlled and has automatic indexing and cutting. An in-feed and out-feed roller conveyor comes as standard equipment with the unit.
+The NexusSteel Table for Steel Stud Framing can handle rake walls, tall walls, knee walls, balloon walls, gable walls, and more IN ADDITION to serving as a "standard" Generation 3 Framing Table. Available to accommodate different wall heights and lengths - our most versatile steel table! 
 
-### Specifications*
+With one stationary end AND one adjustable, pivoting end, (for a 0 to 12/12 pitch), this table was designed to handle: Rake Walls, Tall Walls, Knee Walls, Balloon Walls, Gable Walls (and more) in addition to serving as a (standard wall) Triad VersaSteel Framing Table. Available in a wide range of sizes to accommodate almost any commercial or residential builders requirements. Call us to discuss your requirements. 
 
-- Electrical Standard: 240 Vac, 3 PH, 60 AMPs
+The NexusSteel Framing Table also utilizes the dependable Triad Twin Screw Dollies, with two screw guns (brand of your choosing) for simultaneous top and bottom fastening, which can be moved along rails mounted on the ends of the table. The dollies simply operate with use of a push button thats fire to fasten the stud and tracks.
 
-- Air Requirements: 100 PSI, 2 CFM
+{{< youtube id="NUMWBmyy69c" autoplay="true" color="white" yt_start="2" rel="0" >}}
 
-- Size: 36' L x 15'10" W
+###### Specifications*
 
-- Weight: 2700 lbs.
+- Electrical Standard: 120 V, 1 PH, 20 AMPs
 
-- `Specifications subject to change without notice.`
+- Air Requirements: 100 PSI, .5 CFM
 
-### Capabilities
+ `*Specifications subject to change without notice.`
 
-- Cut up to four separate 2" x 10" or 2" x 12" stringers at one time.
+###### Capabilities
 
-- Accommodates stringer angles from 25 degrees to 45 degrees.
+- Table size determined by customer needs and specifications
+- Can fasten 2 x 4, 2 x 6, and 2 x 8 material
+- Wall lengths options (table length): 16' to 80' in 4 foot increments
+- Standard wall heights (table width): 6'9" to 20'3"
+- Balloon wall heights: 44' (maximum)
 
-{{< youtube id="XXXXXXXXX" autoplay="true" color="white" yt_start="2" >}}
+###### Options
 
-### Options
+- Two Twin Screw Dollies (HIGHLY Recommended)
 
-- Under-Carriage Waste Conveyor (transports the waste from cuts from under the machine for more convenient clean-up.)
-
-### Have a Question?
+###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
 Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.

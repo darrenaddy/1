@@ -25,6 +25,8 @@ draft: false
 
 The Triad XSL Stair Lift can be attached by hook to any overhead material handler, whether that be a overhead crane system, a gantry, or even a forklift. Adjustable to handle stair widths from a minimum of 30" to a maximum of 60", the lift uses mar-resistant gripping cleats. Handles on both sides for maneuverability. It is an all steel construction lift with a painted finish.
 
+{{< youtube id="c0MuJgEf8wA" autoplay="true" color="white" yt_start="2" rel="0" >}}
+
 ###### Specifications*
 
 - Electrical Standard: N/A
@@ -32,7 +34,7 @@ The Triad XSL Stair Lift can be attached by hook to any overhead material handle
 - Size:
 - Weight: 75 lbs.
 
-- `Specifications subject to change without notice.`
+`*Specifications subject to change without notice.`
 
 ###### Capabilities
 

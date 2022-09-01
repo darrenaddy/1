@@ -9,10 +9,10 @@
 {{ $directory := "img/"}}
 {{ $bgimage := printf "%s%s" $directory $combinedFilename }}
 {{ $assetImage := .Resources.GetMatch $bgimage}}
-{{ with $assetImage }}
-    <div class="breadcrumbs d-flex align-items-center" style="background-image:url('{{$assetImage.RelPermalink | safeURL }}');">
-{{ else }}
-   {{ warnf (printf "Page '%s', bgimage: %s" .TranslationKey $bgimage ) }}
+{{ with $assetImage }}    
+<div class="breadcrumbs d-flex align-items-center" style="background-image:url('{{$assetImage.RelPermalink | safeURL }}');">
+  {{ else }}
+  {{ warnf (printf "Page '%s', bgimage: %s" .TranslationKey $bgimage ) }}
 {{ end }}
     <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
         <img src="/img/logo-egg.png" alt="Triad logo" class="image-fluid"> 
@@ -79,18 +79,7 @@
 
             </div>
             <div class="entry-footer">
-              <i class="bi bi-folder"></i>
-              <ul class="cats">
-                <li><a href="#">{{ .Params.thisCategoryHeading }}</a></li>
-              </ul>
-
-              <i class="bi bi-tags"></i>
-              <ul class="tags">
-                  {{ $tags := .Params.tags }}
-                  {{ range $tags }}
-                    <li><a href="tags/{{ . }}/">{{ . | upper }}</a></li>
-                  {{ end }}
-              </ul>
+              
             </div>
           </article><!-- End blog entry -->
         </div>
