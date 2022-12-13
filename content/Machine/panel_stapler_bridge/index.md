@@ -3,15 +3,16 @@ title: Panel Stapler Bridge
 date: 2022-08-08T13:59:36-05:00
 kind: "machine"
 category: ["Wood"] # Wood, Steel, Stairs, Specialty"
-category_weight: 01
-weight: 00
+description: "Wall panel equipment for today's builder, off-site manufacturing, modular construction, wall panelization center, including wall panel components and subcomponents machines."
+keywords: ["sheathing", "bridge", "equipment", "for-wood-builders"]
+weight: 208
 categoryImage: categoryImage.jpg
-tags: ["sheathing", "bridge", "for-wood-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
+tags: ["sheathing", "bridge", "equipment", "for-wood-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 featuredImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad Panel Stapler Bridge Product Image"
 galleryEnable: false
 gallery: [ image1.png, image2.png, image3.png ]
-video: "4LlkAuRqX7s"
+video: ""
 singleTag: ""
 thisCategoryHeading: "For Stick and Modular Builders"
 categoryHeadingURL: "for-wood-builders"
@@ -19,7 +20,7 @@ summary: "Many options are available on the Triad Panel Stapler Bridge, includin
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
-authorTitle: "Author's Title Goes in page Frontmatter"
+authorTitle: "Author's Title Goes in page Front Matter"
 draft: false
 ---
 
@@ -59,4 +60,4 @@ draft: false
 ###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
-Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.
+Or, if you prefer, feel free to call the factory at **1-800-568-7423 ext. 133** (Business Hours: 8 AM to 5 PM Central, weekdays). Email direct: sales@merrickmachine.com** Business Hours: 8 AM to 5 PM Central, weekdays.

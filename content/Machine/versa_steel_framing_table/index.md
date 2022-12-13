@@ -3,14 +3,16 @@ title: VersaSteel Framing Table
 date: 2022-08-08T14:12:43-05:00
 kind: "machine"
 category: ["Steel"] # Wood, Steel, Stairs, Specialty"
-category_weight: 02
+description: "Steel stud wall panel equipment for off-site builders, modular construction, components, subcomponents and all floor and wall panelization lines."
+keywords: ["framing", "table", "panelization", "wall panel equipment", "for-steel-stud-builders"]  
+weight: 2
 categoryImage: categoryImage.jpg
-tags: ["framing", "table", "for-steel-stud-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
+tags: ["framing", "table", "panelization", "for-steel-stud-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 featuredImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad Versa Steel Framing Table Product Image"
 galleryEnable: false
 gallery: [ image1.png, image2.png, image3.png ]
-video: "4LlkAuRqX7s"
+video: ""
 singleTag: ""
 thisCategoryHeading: "For Steel Stud and Modular Builders"
 categoryHeadingURL: "for-light-gauge-steel-builders"
@@ -18,7 +20,7 @@ summary: "Whether you are looking for a simple component machine, or an entire m
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
-authorTitle: "Author's Title Goes in page Frontmatter"
+authorTitle: "Author's Title Goes in page Front Matter"
 draft: false
 ---
 
@@ -44,4 +46,4 @@ Materials are quickly set utilizing Triad's stud locator flippers, then fastened
 ###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
-Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.
+Or, if you prefer, feel free to call the factory at **1-800-568-7423 ext. 133** (Business Hours: 8 AM to 5 PM Central, weekdays). Email direct: sales@merrickmachine.com** Business Hours: 8 AM to 5 PM Central, weekdays.

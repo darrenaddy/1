@@ -3,7 +3,9 @@ title: Floor Builder System
 date: 2022-08-08T14:06:03-05:00
 kind: "machine"
 category: ["Wood"] # Wood, Steel, Stairs, Specialty"
-category_weight: 01
+description: "floor deck cassette equipment for today's builder, off-site manufacturing, modular construction, wall panelization center, including wall panel components and subcomponents machines."
+keyword: ["floor", "framing", "decking", "equipment", "for-wood-timber-builders"]
+weight: 402
 categoryImage: categoryImage.jpg
 tags: ["floor", "framing", "decking", "for-wood-timber-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 featuredImage: "" #images in same (page bundle) folder for responsive processing
@@ -12,19 +14,21 @@ galleryEnable: false
 gallery: [ image1.png, image2.png, image3.png ]
 video: ""
 singleTag: ""
-thisCategoryHeading: "For Stick and Modular Builders"
+thisCategoryHeading: "For Steel Stud OR Wood Builders"
 categoryHeadingURL: "for-wood-timber-builders"
 summary: "The Triad Floor Builder System is designed to be a state-of-the-art, single-table, floor system."
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
-authorTitle: "Author's Title Goes in page Frontmatter"
+authorTitle: "Author's Title Goes in page Front Matter"
 draft: false
 ---
 
 ###### Description
 
 Triad's Floor Builder System is a combination Framing Table, Material Bridge, and Decking Bridge (which can be outfitted with your choice of compatible nail or screw guns). The system accommodates 2x8 through 2x12 dimensional lumber, floor trusses, and I-joists. They can span either width *or* length within the table.
+
+The system includes: framing table, material bridge, and nailing/decking bridge which can be outfitted with nails or screws.
 
 The table can jig decks up to 16" increments from the base size up to 80' in length and up to 16' in width, with custom sizes also available.
 
@@ -53,7 +57,6 @@ The table can jig decks up to 16" increments from the base size up to 80' in len
 * Nail guns mounted standard for deck fastening (optional mounting of screw guns)
 * Tool Bar #1: Decking guns mounted standard 12" oc shift to 6" oc (optional oc spacing available)
 * Tool Bar #2: Manually adjustable decking gun spacing (for decks built length of table)
-Automatic bridge return
 
 `*Specifications subject to change without notice.`
 
@@ -77,4 +80,4 @@ Automatic bridge return
 ###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
-Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.
+Or, if you prefer, feel free to call the factory at **1-800-568-7423 ext. 133** (Business Hours: 8 AM to 5 PM Central, weekdays). Email direct: sales@merrickmachine.com** Business Hours: 8 AM to 5 PM Central, weekdays.

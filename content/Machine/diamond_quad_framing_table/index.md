@@ -3,7 +3,9 @@ title: Diamond Quad Framing Table
 date: 2022-08-08T13:55:03-05:00
 kind: "machine"
 category: ["Wood"] # Wood, Steel, Stairs, Specialty"
-category_weight: 01
+description: "Wall panel equipment for today's builder, off-site manufacturing, modular construction, wall panelization center, including wall panel components and subcomponents machines."
+keywords: ["panelization", "framing", "table", "wall panel", "equipment", "for-wood-timber-builders"]
+weight: 104
 categoryImage: categoryImage.jpg
 tags: [ "panelization", "framing", "table", "for-wood-timber-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 featuredImage: "" #images in same (page bundle) folder for responsive processing
@@ -18,7 +20,7 @@ summary: "The tried and true Diamond Quad Framing Table is our most popular fram
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
-authorTitle: "Author's Title Goes in page Frontmatter"
+authorTitle: "Author's Title Goes in page Front Matter"
 draft: false
 ---
 
@@ -61,4 +63,4 @@ Only one air hook-up is required, regulator and in-line oiler are included.
 ###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
-Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.
+Or, if you prefer, feel free to call the factory at **1-800-568-7423 ext. 133** (Business Hours: 8 AM to 5 PM Central, weekdays). Email direct: sales@merrickmachine.com** Business Hours: 8 AM to 5 PM Central, weekdays.

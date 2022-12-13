@@ -1,0 +1,66 @@
+ <div class="col-lg-4">
+        <div class="sidebar p-4">
+         <!-- End sidebar search formn-->
+          <h2 class="sidebar-title">Sidebar Under Construction</h2>
+          <hr />
+          <h3 class="sidebar-title">General Machine Categories</h3>
+          <div class="sidebar-item categories">
+            <ul>
+              <li><a href="#">For Wood <span>(25)</span></a></li>
+              <li><a href="#">For Steel <span>(22)</span></a></li>
+              <li><a href="/for-professional-stair-builders/">For Stairs <span>(9)</span></a></li>
+              <li><a href="#">For Material Handling <span>(22)</span></a></li>
+              <li><a href="#">For Pallet-Making <span>(1)</span></a></li>
+              <li><a href="#">For Drawer-Making <span>(1)</span></a></li>
+            </ul>
+          </div><!-- End sidebar categories-->
+
+          <h3 class="sidebar-title">Recent News</h3>
+          <div class="sidebar-item recent-posts">
+            <div class="post-item clearfix">
+              <img src="assets/img/blog/blog-recent-1.jpg" alt="">
+              <h4><a href="blog-single.html">Links to a Lowell LinkedIn article</a></h4>
+              <time datetime="2020-01-01">Jan 1, 2020</time>
+            </div>
+
+            <div class="post-item clearfix">
+              <img src="assets/img/blog/blog-recent-2.jpg" alt="">
+              <h4><a href="blog-single.html">Press Release: Triad StairBoss Pro</a></h4>
+              <time datetime="2020-01-01">Jan 1, 2020</time>
+            </div>
+
+            <div class="post-item clearfix">
+              <img src="assets/img/blog/blog-recent-3.jpg" alt="">
+              <h4><a href="blog-single.html">Material Handling: Plate Cart Redesigned</a></h4>
+              <time datetime="2020-01-01">Jan 1, 2020</time>
+            </div>
+
+            <div class="post-item clearfix">
+              <img src="assets/img/blog/blog-recent-4.jpg" alt="">
+              <h4><a href="blog-single.html">See Triad Machines at Upcoming BCMC Show</a></h4>
+              <time datetime="2020-01-01">Jan 1, 2020</time>
+            </div>
+
+          </div><!-- End sidebar recent posts-->
+
+          <h3 class="sidebar-title">Stair-Related Tags</h3>
+          <div class="sidebar-item tags">
+            <ul>
+              <li><a href="#">Stringer Saw</a></li>
+              <li><a href="#">Open Stringers</a></li>
+              <li><a href="#">Opencut Stringers</a></li>
+              <li><a href="#">Skirt-boards</a></li>
+              <li><a href="#">Stair Router</a></li>
+              <li><a href="#">Stair Assembly Clamp</a></li>
+              <li><a href="#">Stair Lift</a></li>
+              <li><a href="#">CNC</a></li>
+              <li><a href="#">Fanuc</a></li>
+              <li><a href="#">Wedge & Glue Block Machine</a></li>
+              <li><a href="#">Upcycle Scrap</a></li>
+              <li><a href="bullnose_saw">Bullnose Saw</a></li>
+              <li><a href="#">Balluster / Handrail Machine</a></li>
+              <li><a href="#">Stringer Cart</a></li>
+            </ul>
+          </div><!-- End sidebar tags-->
+        </div><!-- End sidebar -->
+      </div>

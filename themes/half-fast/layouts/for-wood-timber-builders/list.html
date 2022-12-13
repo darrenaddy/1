@@ -7,13 +7,17 @@
         <div class="bgimage" style="background-image: url('{{$bgimage.RelPermalink | safeURL }}');">
         <div class="section-header py-4" style="color:black;">
             
-            <h2>All Machines for Wood/Timber Builders</h2>
+            <h2 style="color:black;">All Machines for Wood & Timber Builders</h2>
+            <div class="row p-4"><ul class="text-center"><li><a href="#tables" class="btn-sm m-2">Tables for Wall Panelization</a></li> <li><a href="#bridges" class="btn-sm m-2">For Sheathing</a></li> <li><a href="#component" class="btn-sm m-2">Components</a></li> <li><a href="#floor" class="btn-sm m-2">Floors & Decking</a></li></ul></div>
         </div>
         
-        <div class="row p-4 mt-0">
-        {{ $pageArray := where .Site.Pages ".Params.Category" "Wood" }}
-        {{ $paginator := .Paginate $pageArray }}
-        {{ range $paginator.Pages.ByWeight }}   
+        <div class="row p-4 mt-0" id="tables">
+         <h3>Tables</h3> 
+        {{ $pageArray := where .Site.Pages ".Params.category" "intersect" (slice "Wood") }}
+           
+            {{ $pageArray2 := where $pageArray ".Params.tags" "intersect" (slice "panelization") }}
+            
+            {{ range $pageArray2.ByWeight }}   
             <div class="col-lg-4 col-md-6 d-flex py-2" data-aos="zoom-in" data-aos-delay="50">
                 <a href="{{ .Permalink }}" class="index-anchor">    
                 <div class="card h-60">
@@ -39,46 +43,114 @@
                 </div>
                 </a>
             </div> 
-            {{ end }}  
+            {{ end }} 
             </div>
+
+            <div class="row p-4 mt-0" id="bridges">
+              <h3>For Sheathing</h3> 
+             {{ $pageArray := where .Site.Pages ".Params.category" "intersect" (slice "Wood") }}
+                
+                 {{ $pageArray2 := where $pageArray ".Params.tags" "intersect" (slice "sheathing") }}
+                 
+                 {{ range $pageArray2.ByWeight }}   
+                 <div class="col-lg-4 col-md-6 d-flex py-2" data-aos="zoom-in" data-aos-delay="50">
+                     <a href="{{ .Permalink }}" class="index-anchor">    
+                     <div class="card h-60">
+                         {{ if .Params.categoryImage }}
+                             {{ with .Resources.GetMatch .Params.categoryImage }}
+                                 
+                             <div class="card-img">
+                                 <img width="100%" src="{{ .RelPermalink }}" alt="{{ .Title }}" class="image-fluid">
+                             </div>  
+                                 
+                             {{ end }}
+                         {{ end }}
+                         <div class="card-body">  
+                                 <h5 class="card-title"><a href="{{ .Permalink }}">{{ .Title | truncate 35 }}</a></h5>
+                                 <p class="card-text pb-2">
+                                     {{ .Summary | safeHTML | truncate 180 }} <br />
+                                     <div class="row justify-content-center"><a href="{{ .Permalink }}" class="btn"> Details...</a>
+                                 </div>
+                                 </p>
+                                    
+                         </div>
+                         
+                     </div>
+                     </a>
+                 </div> 
+                 {{ end }} 
+                 </div>
+
+                 <div class="row p-4 mt-0" id="component">
+                  <h3>Component Building</h3> 
+                 {{ $pageArray := where .Site.Pages ".Params.category" "intersect" (slice "Wood") }}
+                    
+                     {{ $pageArray2 := where $pageArray ".Params.tags" "intersect" (slice "component") }}
+                     
+                     {{ range $pageArray2.ByWeight }}   
+                     <div class="col-lg-4 col-md-6 d-flex py-2" data-aos="zoom-in" data-aos-delay="50">
+                         <a href="{{ .Permalink }}" class="index-anchor">    
+                         <div class="card h-60">
+                             {{ if .Params.categoryImage }}
+                                 {{ with .Resources.GetMatch .Params.categoryImage }}
+                                     
+                                 <div class="card-img">
+                                     <img width="100%" src="{{ .RelPermalink }}" alt="{{ .Title }}" class="image-fluid">
+                                 </div>  
+                                     
+                                 {{ end }}
+                             {{ end }}
+                             <div class="card-body">  
+                                     <h5 class="card-title"><a href="{{ .Permalink }}">{{ .Title | truncate 35 }}</a></h5>
+                                     <p class="card-text pb-2">
+                                         {{ .Summary | safeHTML | truncate 180 }} <br />
+                                         <div class="row justify-content-center"><a href="{{ .Permalink }}" class="btn"> Details...</a>
+                                     </div>
+                                     </p>
+                                        
+                             </div>
+                             
+                         </div>
+                         </a>
+                     </div> 
+                     {{ end }} 
+                     </div>
+
+                     <div class="row p-4 mt-0" id="floor">
+                      <h3>Floor Decks</h3> 
+                     {{ $pageArray := where .Site.Pages ".Params.category" "intersect" (slice "Wood") }}
+                        
+                         {{ $pageArray2 := where $pageArray ".Params.tags" "intersect" (slice "floor") }}
+                         
+                         {{ range $pageArray2.ByWeight }}   
+                         <div class="col-lg-4 col-md-6 d-flex py-2" data-aos="zoom-in" data-aos-delay="50">
+                             <a href="{{ .Permalink }}" class="index-anchor">    
+                             <div class="card h-60">
+                                 {{ if .Params.categoryImage }}
+                                     {{ with .Resources.GetMatch .Params.categoryImage }}
+                                         
+                                     <div class="card-img">
+                                         <img width="100%" src="{{ .RelPermalink }}" alt="{{ .Title }}" class="image-fluid">
+                                     </div>  
+                                         
+                                     {{ end }}
+                                 {{ end }}
+                                 <div class="card-body">  
+                                         <h5 class="card-title"><a href="{{ .Permalink }}">{{ .Title | truncate 35 }}</a></h5>
+                                         <p class="card-text pb-2">
+                                             {{ .Summary | safeHTML | truncate 180 }} <br />
+                                             <div class="row justify-content-center"><a href="{{ .Permalink }}" class="btn"> Details...</a>
+                                         </div>
+                                         </p>
+                                            
+                                 </div>
+                                 
+                             </div>
+                             </a>
+                         </div> 
+                         {{ end }} 
+                         </div>
     </div>
-
-
-    
-<div class="row">
-    <div class="col-md-4">  </div>
-    <div class="col-md-4 blog">
-        {{ if gt .Paginator.TotalPages 1 }}
-        <ul class="blog-pagination">
-          {{ if .Paginator.HasPrev }}
-            <li><a href="{{ .Paginator.Prev.URL }}">&laquo; Prev</a></li>
-          {{ else }}
-            <li><span>&laquo; Prev</span></li>
-          {{ end }}
-
-          {{ $scratch := newScratch }}
-          {{ $scratch.Set "current" .Paginator.PageNumber }} 
-
-          {{ range .Paginator.Pagers }}
-            {{ if eq .PageNumber ($scratch.Get "current") }}
-              <li class="active"><span><em>{{ .PageNumber }}</em></span></li>
-            {{ else }}
-            <li><a href="{{ .URL }}">{{ .PageNumber }}</a></li>
-            {{ end }}
-          {{ end }}
-
-          {{ if .Paginator.HasNext }}
-            <li><a href="{{ .Paginator.Next.URL }}">Next &raquo;</a></li>
-          {{ else }}
-            <li><span >Next &raquo;</span></li>
-          {{ end }}
-          </ul>
-        {{ end }}
-
-    </div>
-    <div class="col-md-4">  </div>
-</div>
 </div>
 </section>
-
 {{ end }}

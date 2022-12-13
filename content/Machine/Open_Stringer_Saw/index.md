@@ -1,8 +1,10 @@
 ---
 title: "Open Stringer Saw"
 date: 2022-06-21T14:30:14-05:00
-category: "Stairs" # Wood, Steel, Stairs, Specialty"
-Weight: 02
+category: ["Stairs"] # Wood, Steel, Stairs, Specialty - must be an array
+description: "Professional stair building equipment for all stair construction phases - for the stair shop or lumber yard profit center."
+keywords: ["open stringer", "saw", "for-pro-stair-builders"] 
+weight: 02
 categoryImage: categoryImage.jpg
 tags: ["open stringer", "saw", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 tags_weight: 1
@@ -11,7 +13,7 @@ featuredImage: "" #images in same (page bundle) folder for responsive processing
 galleryEnable: true
 gallery: [ "slide-1.jpg", "slide-2.jpg", "slide-5.jpg" ]
 genericAlt: "Triad {{ .Title }} Product Image"
-video: "4LlkAuRqX7s"
+video: ""
 singleTag: ""
 thisCategoryHeading: "For Professional Stair Builders"
 thisCategoryURL: "/for-professional-stair-builders/"
@@ -19,7 +21,7 @@ summary: "Whether you are looking for a simple component machine, or an entire m
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
-authorTitle: "Author's Title Goes in page Frontmatter"
+authorTitle: "Author's Title Goes in page Front Matter"
 draft: false
 ---
 
@@ -56,5 +58,5 @@ Triad’s Open Stringer Saw (OSS) was designed to increase productivity and cut 
 ###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
-Or, if you prefer, feel free to call the factory at **1-800-568-7423**
+Or, if you prefer, feel free to call the factory at **1-800-568-7423 ext. 133** (Business Hours: 8 AM to 5 PM Central, weekdays). Email direct: sales@merrickmachine.com**
 Our business hours are: 8 AM to 5 PM Central, weekdays.

@@ -1,0 +1,16 @@
+<div class="sidebar-item recent-posts">
+    
+    <div class="post-item clearfix">
+        {{ if in .Params.tags "panelization" }}
+            {{ if in .Params.category "Wood" }}
+                <a href="/machine/tool_dollies.html">
+            {{ else }}
+                {{ if in .Params.category "Steel" }}
+                    <a href="/machine/screw_dollies.html">
+                {{ end }}
+            {{ end }}
+        <img src="/img/DollyOptions.jpg" alt="Tool Dolly options for this framing table">
+        </a>
+        {{ end }}
+    </div>
+    </div>

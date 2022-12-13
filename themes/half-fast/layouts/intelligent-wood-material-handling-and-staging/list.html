@@ -1,0 +1,52 @@
+{{ define "main" }}
+{{ $bgimage := resources.Get "img/concrete-bg.jpg" }}
+
+   
+<section id="category-pages" class="mentor-events pt-0">
+    <div class="container" data-aos="fade-up">
+        <div class="bgimage" style="background-image: url('{{$bgimage.RelPermalink | safeURL }}');">
+        <div class="section-header py-4" style="color: #ffffff;">
+            
+            <h2>Intelligent Wood Material Handling & Staging</h2>
+        </div>
+        
+        <div class="row p-4 mt-0">
+            {{ $p := where site.RegularPages "Params.category" "intersect" (slice "Wood") }}
+        {{ $p := where $p "Params.tags" "intersect" (slice "material-handling") }}
+        {{ range $p.ByWeight }}   
+            <div class="col-lg-4 col-md-6 d-flex py-2" data-aos="zoom-in" data-aos-delay="50">
+                <a href="{{ .Permalink }}" class="index-anchor">    
+                <div class="card h-60">
+                    {{ if .Params.categoryImage }}
+                        {{ with .Resources.GetMatch .Params.categoryImage }}
+                            
+                        <div class="card-img">
+                            <img width="100%" src="{{ .RelPermalink }}" alt="{{ .Title }}" class="image-fluid">
+                        </div>  
+                        {{ else }} <p>Image Missing</p>   
+                        {{ end }}
+                    {{ end }}
+                    <div class="card-body">  
+                            <h5 class="card-title"><a href="{{ .Permalink }}">{{ .Title | truncate 35 }}</a></h5>
+                            <p class="card-text pb-2">
+                                {{ .Summary | safeHTML | truncate 180 }} <br />
+                                <div class="row justify-content-center"><a href="{{ .Permalink }}" class="btn"> Details...</a>
+                            </div>
+                            </p>
+                               
+                    </div>
+                    
+                </div>
+                </a>
+            </div> 
+            {{ end }}  
+            </div>
+    </div>
+
+
+    
+
+</div>
+</section>
+
+{{ end }}

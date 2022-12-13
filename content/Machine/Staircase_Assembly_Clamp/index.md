@@ -2,9 +2,11 @@
 title: Staircase Assembly Clamp
 date: 2022-06-23T15:33:22-05:00
 kind: "machine"
-category: "Stairs" # Wood, Steel, Stairs, Specialty"
+category: ["Stairs"] # Wood, Steel, Stairs, Specialty"
 categoryImage: categoryImage.jpg
-Weight: 06
+description: "Professional stair building equipment for all stair construction phases - for the stair shop or lumber yard profit center."
+keywords: ["staircase", "assembly", "clamp", "for-pro-stair-builders"]
+weight: 06
 tags: ["staircase", "assembly", "clamp", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 productImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad Staircase Assembly Clamp Product Image"
@@ -17,15 +19,15 @@ summary: "The easy way to transport stringer material and finished stringers in 
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
-authorTitle: "Author's Title Goes in page Frontmatter"
+authorTitle: "Author's Title Goes in page Front Matter"
 draft: false
 ---
 
 ###### Description
 
-Every stair shop should have AT LEAST one Heavy Duty Stringer Cart. Shop efficiency depends upon proper material staging near your stringer saw or router. Finished stringers can also be easily transported to your next stage (such as the Triad Staircase Assembly Clamp).
+ The Triad Staircase Assembly Clamp is a versatile work bench designed and built specifically for the requirement of the staircase assembly process.
 
-It's use is not limited to stair shops - virtually any warehousing or manufacturing application can make use of this handy, multi-level cart.
+Triad's Staircase Assembly Clamp will accommodate up to 16 risers at a max width of 50 inches. It provides an assembly jig for staircase assembly. The unit is fitted with air-operated clamping cylinders to securely hold the stringers, treads and risers in position for glue and wedge application. Treads and risers are hand fed into position. Seven side retaining members are mounted on each side and are so positioned to allow for two or three nails to be inserted through the stringers into the treads. Custom Sizes available upon request.
 
 ###### Video Demonstration
 
@@ -33,22 +35,24 @@ It's use is not limited to stair shops - virtually any warehousing or manufactur
 
 ###### Specifications*
 
-* Extremely heavy duty construction withstands everyday use
-* Mar-resistant wheels
-* Each wheel is equipped with bearing grease zerks in axle and swivel assembly, providing easy movement
-* Dimensions: 60"H x 41"W x 60"L
+* Electrical Standard: N/A
+* Air Requirements: .1 CFM at 90 PSI
+* Size: 16" L x 5'W x 4'H
+* Weight: 1500 lbs.
 
-- `Specifications subject to change without notice.`
+`Specifications subject to change without notice.`
 
 ###### Capabilities
 
-* Cart Capacity: Up to 4000 lbs
+* Clamping Pressure: 728 lbs.
+* Up to 50" width capacity
+* Up to 16 risers
 
 ###### Options
 
-* Available with or without the plywood shelving
+* XL version will commodate up to 20 risers.
 
 ###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
-Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.
+Or, if you prefer, feel free to call the factory at **1-800-568-7423 ext. 133** (Business Hours: 8 AM to 5 PM Central, weekdays). Email direct: sales@merrickmachine.com** Business Hours: 8 AM to 5 PM Central, weekdays.

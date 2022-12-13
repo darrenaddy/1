@@ -3,14 +3,16 @@ title: Pallet Table
 date: 2022-08-09T09:18:49-05:00
 kind: "machine"
 category: "Specialty" # Wood, Steel, Stairs, Specialty"
-category_weight: 02
+description: "Makers of equipment for pro builders and specialty industries."
+keywords: ["pallet", "table", "for-specialty-industries"]
+weight: 02
 categoryImage: categoryImage.jpg
 tags: ["pallet", "table", "for-specialty-industries"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 featuredImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad Pallet Table Product Image"
 galleryEnable: false
 gallery: [ image1.png, image2.png, image3.png ]
-video: "4LlkAuRqX7s"
+video: ""
 singleTag: ""
 thisCategoryHeading: "For Specialty Industries"
 categoryHeadingURL: "for-specialty-industries"
@@ -18,7 +20,7 @@ summary: "The Pallet Table facilitates the construction (or repair) of quality p
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
-authorTitle: "Author's Title Goes in page Frontmatter"
+authorTitle: "Author's Title Goes in page Front Matter"
 draft: false
 ---
 
@@ -42,4 +44,4 @@ The Triad Pallet Table is designed to be a low volume, "in house" production as 
 ###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
-Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.
+Or, if you prefer, feel free to call the factory at **1-800-568-7423 ext. 133** (Business Hours: 8 AM to 5 PM Central, weekdays). Email direct: sales@merrickmachine.com** Business Hours: 8 AM to 5 PM Central, weekdays.

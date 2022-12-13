@@ -1,9 +1,9 @@
-baseURL = '/'
+baseURL = 'http://triadmachines.com/'
 languageCode = 'en-us'
 title = 'Triad Machines'
+description = "Triad Machines: Industry-leading equipment for professional timber or steel stud builders, modular, off-site manufacturing, panelization, components, subcomponents, stair-building equipment and more."
 theme = 'half-fast'
 relativeURLS = true
-disableKinds = "sitemap"
 paginate = 9
 
 [menu]
@@ -22,10 +22,10 @@ paginate = 9
   weight = 10
 
   [[menu.main]]
-  name = 'Sheathing Bridges'
-  identifier = 'sheathing_bridges'
+  name = 'Sheathing Operations'
+  identifier = 'sheathing_operations_for_wood'
   parent = 'wood'
-  URL = '/bridges-for-sheathing-wood-wall-panels/'
+  URL = '/sheathing-operations-for-wood-builders/'
   weight = 11
 
   [[menu.main]]
@@ -37,16 +37,16 @@ paginate = 9
 
   [[menu.main]]
   name = 'Floor Cassettes & Decking'
-  identifier = 'floor-cassettes-and-decking'
+  identifier = 'wood-floor-cassettes-and-decking'
   parent = 'wood'
   URL = '/floor-cassettes-and-decking/'
   weight = 13
 
   [[menu.main]]
   name = 'Intelligent Material Handling & Staging'
-  identifier = 'intelligent-material-handling-and-staging'
+  identifier = 'wood-intelligent-material-handling-and-staging'
   parent = 'wood'
-  URL = '/intelligent-material-handling-and-staging/'
+  URL = '/intelligent-wood-material-handling-and-staging/'
   weight = 14
 
   [[menu.main]]
@@ -63,10 +63,10 @@ paginate = 9
   weight = 20
 
   [[menu.main]]
-  name = 'Sheathing Bridges'
-  identifier = 'sheathing_bridges_for_steel'
+  name = 'Sheathing Operations'
+  identifier = 'sheathing_operations_for_steel'
   parent = 'steel'
-  URL = '/bridges-for-sheathing-steel-stud-wall-panels/'
+  URL = '/sheathing-operations-for-steel-builders/'
   weight = 21
 
   [[menu.main]]
@@ -78,22 +78,22 @@ paginate = 9
 
   [[menu.main]]
   name = 'Floor Cassettes & Decking'
-  identifier = 'floor-cassettes-and-decking'
+  identifier = 'steel-floor-cassettes-and-decking'
   parent = 'steel'
   URL = '/floor-cassettes-and-decking/'
   weight = 23
 
   [[menu.main]]
   name = 'Intelligent Material Handling & Staging'
-  identifier = 'intelligent-material-handling-and-staging'
+  identifier = 'steel-intelligent-material-handling-and-staging'
   parent = 'steel'
-  URL = '/intelligent-material-handling-and-staging/'
+  URL = '/intelligent-steel-material-handling-and-staging/'
   weight = 24
   
   [[menu.main]]
   name = 'Modular'
   identifier = 'modular'
-  URL = '/for-modular-builders/'
+  URL = '/machine/for-modular-builders/'
   weight = 3
   
   [[menu.main]]
@@ -187,10 +187,13 @@ paginate = 9
 
   [[menu.main]]
   name = 'Contact Us'
-  URL = './#contact-us'
+  URL = './#qq'
   weight = 6
 
 ############################## taxonomies ###############################
+
+disableKinds = ["taxonomy", "term"]
+ignoreErrors = ["error-disable-taxonomy"]
 [taxonomies]
   category = 'categories'
   tag = 'tags'

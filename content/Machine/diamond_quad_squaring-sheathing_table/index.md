@@ -3,14 +3,16 @@ title: Diamond Quad Squaring/Sheathing Table
 date: 2022-08-08T13:57:54-05:00
 kind: "machine"
 category: ["Wood"] # Wood, Steel, Stairs, Specialty"
-category_weight: 01
+description: "Wall panel equipment for today's builder, off-site manufacturing, modular construction, wall panelization center, including wall panel components and subcomponents machines."
+keywords: ["panelization", "squaring", "sheathing", "table", "wall panel", "equipment", "for-wood-timber-builders"]
+weight: 19
 categoryImage: categoryImage.jpg
-tags: [ "panelization", "framing", "table", "for-wood-timber-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
+tags: ["framing", "table", "for-wood-timber-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 featuredImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad Diamond Quad Squaring-Sheathing Table Product Image"
 galleryEnable: false
 gallery: [ image1.png, image2.png, image3.png ]
-video: "xblnXJzJD7A"
+video: ""
 singleTag: ""
 thisCategoryHeading: "For Stick and Modular Builders"
 categoryHeadingURL: "for-wood-timber-builders"
@@ -18,7 +20,7 @@ summary: "A separate Squaring/Sheathing Table frees up your Framing Table faster
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
-authorTitle: "Author's Title Goes in page Frontmatter"
+authorTitle: "Author's Title Goes in page Front Matter"
 draft: false
 ---
 
@@ -33,10 +35,6 @@ Heavy-Duty rollers are used to roll walls on and off the table. Rollers are 6" O
 Squaring stops exist at the front end of the table and a continuous squaring lip runs the full length of the table on both sides.
 
 The table can be built in lengths from 16' to 80', and is compatible with Triad's [Diamond Quad Framing table](/machine/diamond_quad_framing_table/), [Generation 3 Framing Table, and the](/machine/generation_3_framing_table/), and [Econ-O-Framer](/machine/econo-framer/).
-
-###### Video Description
-
-{{< youtube id="xblnXJzJD7A" autoplay="true" color="white" yt_start="2" rel="0" >}}
 
 ###### Specifications*
 
@@ -58,4 +56,4 @@ The table can be built in lengths from 16' to 80', and is compatible with Triad'
 ###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
-Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.
+Or, if you prefer, feel free to call the factory at **1-800-568-7423 ext. 133** (Business Hours: 8 AM to 5 PM Central, weekdays). Email direct: sales@merrickmachine.com** Business Hours: 8 AM to 5 PM Central, weekdays.

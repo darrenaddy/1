@@ -1,13 +1,21 @@
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L3LBG3RS4T"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-L3LBG3RS4T');
+    </script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="{{ if .Params.Description }}{{ trim .Params.Description "\n" }}{{else if .Site.Params.Description}}{{ trim .Site.Params.Description "\n"}}{{ end }}">
-    <meta name="keywords" content="{{ if .Params.Keywords }}{{ delimit .Params.Keywords ", " }}{{ end }}">
-    {{ if eq (getenv "HUGO_ENV") "production" }}
+    <meta name="keywords" content="{{ if .Params.Keywords }}{{ delimit .Params.Keywords ", " }}{{ end }}"> 
     <meta name="robots" content="index,follow">
-    {{ else }}
-    <meta name="robots" content="noindex,nofollow">
-    {{ end }}
+
+
 
 
     <!-- Favicons -->
@@ -32,9 +40,12 @@
         <meta name="msapplication-TileColor" content="#FFFFFF">
         <meta name="msapplication-TileImage" content="/img/favicon-144.png">
 
-        <!-- Windows 8.1 + IE11 and above —>
+        <!-- Windows 8.1 + IE11 and above -->
         <meta name="msapplication-config" content="/img/browserconfig.xml" />
-  
+    <!-- Pagefind UI -->
+    <link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
+    <script src="/_pagefind/pagefind-ui.js" type="text/javascript"></script>
+
     <!-- Google Fonts -->
   
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -61,4 +72,5 @@
     * Author: BootstrapMade.com
     * License: https://bootstrapmade.com/license/
     ======================================================== -->
+    <script> (function(){ window.ldfdr = window.ldfdr || {}; (function(d, s, ss, fs){ fs = d.getElementsByTagName(s)[0]; function ce(src){ var cs = d.createElement(s); cs.src = src; setTimeout(function(){fs.parentNode.insertBefore(cs,fs)}, 1); } ce(ss); })(document, 'script', 'https://sc.lfeeder.com/lftracker_v1_3JMvZ8gQA9P42pOd.js'); })(); </script><script> (function(){ window.ldfdr = window.ldfdr || {}; (function(d, s, ss, fs){ fs = d.getElementsByTagName(s)[0]; function ce(src){ var cs = d.createElement(s); cs.src = src; setTimeout(function(){fs.parentNode.insertBefore(cs,fs)}, 1); } ce(ss); })(document, 'script', 'https://sc.lfeeder.com/lftracker_v1_3JMvZ8gQA9P42pOd.js'); })(); </script>
   </head>

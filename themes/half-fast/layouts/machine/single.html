@@ -1,19 +1,38 @@
 {{ define "main"}}
-<main id="main">
+
 
 <!-- ========== Machine Name and Breadcrumbs ========== -->
-{{ $category := .Page.Params.Category }}
+{{ $category := "Stairs" }}
+{{ if in .Params.category "Specialty"}}
+  {{ $category = "Specialty"}}
+{{ end }}
+{{ if in .Params.category "Modular" }}
+  {{ $category = "Modular"}}
+{{ end }}
+{{ if or (in .Params.category "Wood") (eq .Params.category "Wood") }}
+    {{ $category = "Wood" }}
+{{ end }}
+{{ if or (in .Params.category "Steel") (eq .Params.category "Steel") }}
+    {{ $category = "Steel" }}  
+{{ end }}
+{{ if or (eq .Params.thisCategoryHeading "For Steel Stud OR Wood Builders") (eq .Params.thisCategoryHeading "For intelligent material handling") }}
+    {{ $category = "WS" }}
+{{ end }}
+{{ if and (eq .Params.category "Stairs") (eq .Params.thisCategoryHeading "For intelligent material handling") }}
+    {{ $category = "Stairs" }}
+{{ end }}
 {{ $filenameBeginning := $category }}
-{{ $filenameEnding := "-breadcrumbs-bg.jpg" }}
+{{ $filenameEnding := "-breadcrumbs-bg.png" }}
 {{ $combinedFilename := printf "%s%s" $filenameBeginning $filenameEnding }}
-{{ $directory := "img/"}}
+{{ $directory := "/img/"}}
 {{ $bgimage := printf "%s%s" $directory $combinedFilename }}
-{{ $assetImage := .Resources.GetMatch $bgimage}}
-{{ with $assetImage }}    
-<div class="breadcrumbs d-flex align-items-center" style="background-image:url('{{$assetImage.RelPermalink | safeURL }}');">
+
+{{ with $bgimage }}    
+<div class="breadcrumbs d-flex align-items-center" style="background-image:url('{{ $bgimage | safeURL }}');">
   {{ else }}
   {{ warnf (printf "Page '%s', bgimage: %s" .TranslationKey $bgimage ) }}
 {{ end }}
+
     <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
         <img src="/img/logo-egg.png" alt="Triad logo" class="image-fluid"> 
       <h2>{{ .Params.title }}</h2>
@@ -24,8 +43,9 @@
       </ol>
     </div>
 </div><!-- End Breadcrumbs -->
-   <!-- ======= Blog Single Section ======= -->
-   <section id="blog" class="blog">
+
+<!-- ======= Blog Single Section ======= -->
+ <section id="blog" class="blog">
     <div class="container" data-aos="fade-up">
 
       <div class="row d-flex justify-content-center">
@@ -86,69 +106,70 @@
       </div>
 
 
-    <div class="col-lg-4">
-        <div class="sidebar p-4">
-         <!-- End sidebar search formn-->
+<div class="col-lg-4">
+  <div class="sidebar p-4">
+    <div class="sidebar-item recent-posts">
+      <div class="post-item clearfix">
+        {{ if and (in .Params.tags "table") (in .Params.tags "panelization") }}
+              {{ if in .Params.category "Steel" }}
+                  <a href="/machine/screw_dollies/">
+                  <img src="/img/DollyOptions.jpg" alt="Tool Dolly options for this framing table">
+                  </a>
+                  <br /><br />
+              {{ end }}
+        {{ end }}
+        
+        <br /><br />
+          {{ if in .Params.tags "table" }}
+              {{ if in .Params.category "Wood" }}
+                  <a href="/bridges-for-sheathing-wood-wall-panels/">
+              {{ else }}
+                  {{ if in .Params.category "Steel" }}
+                      <a href="/bridges-for-sheathing-steel-stud-wall-panels/">
+                  {{ end }}
+              {{ end }}
+              <img src="/img/BridgeOptions.jpg" alt="Bridge Dolly options for this framing table">
+              </a>
+              <br /><br />
+          {{ end }}
+      </div>
+      </div>
 
-          <h3 class="sidebar-title">General Machine Categories</h3>
-          <div class="sidebar-item categories">
-            <ul>
-              <li><a href="#">For Wood <span>(25)</span></a></li>
-              <li><a href="#">For Steel <span>(22)</span></a></li>
-              <li><a href="/for-professional-stair-builders/">For Stairs <span>(9)</span></a></li>
-              <li><a href="#">For Material Handling <span>(22)</span></a></li>
-              <li><a href="#">For Pallet-Making <span>(1)</span></a></li>
-              <li><a href="#">For Drawer-Making <span>(1)</span></a></li>
-            </ul>
-          </div><!-- End sidebar categories-->
-
-          <h3 class="sidebar-title">Recent News</h3>
+          <h3 class="sidebar-title">Recent Triad News</h3>
           <div class="sidebar-item recent-posts">
             <div class="post-item clearfix">
-              <img src="assets/img/blog/blog-recent-1.jpg" alt="">
-              <h4><a href="blog-single.html">Links to a Lowell LinkedIn article</a></h4>
-              <time datetime="2020-01-01">Jan 1, 2020</time>
+              <img src="" alt="">
+              <h4><a href="https://www.linkedin.com/feed/update/urn:li:activity:6974805390664327169/" target="_blank">Exhibiting NOW at BCMC Show: Booth #1301</a></h4>
+              <time datetime="2020-01-01">Sept. 12, 2022</time>
             </div>
 
             <div class="post-item clearfix">
-              <img src="assets/img/blog/blog-recent-2.jpg" alt="">
-              <h4><a href="blog-single.html">Press Release: Triad StairBoss Pro</a></h4>
-              <time datetime="2020-01-01">Jan 1, 2020</time>
+              <img src="" alt="">
+              <h4><a href="https://shedbuilderexpo.com/" target="_blank">Triad will be an exhibitor at Shed Builders Expo, end of Sept.</a></h4>
+              <time datetime="2020-01-01">Sept 1, 2022</time>
+            </div>
+
+            <div class="post-item clearfix">
+              <img src="" alt="">
+              <h4><a href="">Press Release: Triad StairBoss Pro</a></h4>
+              <time datetime="2020-01-01">Jun 1, 2021</time>
             </div>
 
             <div class="post-item clearfix">
               <img src="assets/img/blog/blog-recent-3.jpg" alt="">
               <h4><a href="blog-single.html">Material Handling: Plate Cart Redesigned</a></h4>
-              <time datetime="2020-01-01">Jan 1, 2020</time>
+              <time datetime="2020-01-01">Jan 6, 2020</time>
             </div>
 
             <div class="post-item clearfix">
-              <img src="assets/img/blog/blog-recent-4.jpg" alt="">
-              <h4><a href="blog-single.html">See Triad Machines at Upcoming BCMC Show</a></h4>
-              <time datetime="2020-01-01">Jan 1, 2020</time>
+              <img src="" alt="">
+              <h4><a href="/pdf/ca.pdf">Triad featured in Component Advertiser</a></h4>
+              <time datetime="2020-01-01">Dec 1, 2021</time>
             </div>
 
           </div><!-- End sidebar recent posts-->
 
-          <h3 class="sidebar-title">Stair-Related Tags</h3>
-          <div class="sidebar-item tags">
-            <ul>
-              <li><a href="#">Stringer Saw</a></li>
-              <li><a href="#">Open Stringers</a></li>
-              <li><a href="#">Opencut Stringers</a></li>
-              <li><a href="#">Skirt-boards</a></li>
-              <li><a href="#">Stair Router</a></li>
-              <li><a href="#">Stair Assembly Clamp</a></li>
-              <li><a href="#">Stair Lift</a></li>
-              <li><a href="#">CNC</a></li>
-              <li><a href="#">Fanuc</a></li>
-              <li><a href="#">Wedge & Glue Block Machine</a></li>
-              <li><a href="#">Upcycle Scrap</a></li>
-              <li><a href="#">Bullnose Saw</a></li>
-              <li><a href="#">Balluster / Handrail Machine</a></li>
-              <li><a href="#">Stringer Cart</a></li>
-            </ul>
-          </div><!-- End sidebar tags-->
+          <!-- End sidebar tags-->
         </div><!-- End sidebar -->
       </div><!-- End blog sidebar -->
     </div>

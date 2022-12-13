@@ -3,14 +3,16 @@ title: Pop-Up Friction Station
 date: 2022-08-08T14:10:28-05:00
 kind: "machine"
 category: ["Wood"] # Wood, Steel, Stairs, Specialty"
-category_weight: 01
+description: "Wall panel equipment for today's builder, off-site manufacturing, modular construction, wall panelization center, including wall panel components and subcomponents machines."
+keywords: ["panelization", "table", "wall panel", "equipment", "for-wood-timber-builders"]
+weight: 112
 categoryImage: categoryImage.jpg
 tags: ["panelization", "table", "for-wood-timber-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 featuredImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad Pop-Up Friction Station Product Image"
 galleryEnable: false
 gallery: [ image1.png, image2.png, image3.png ]
-video: "4LlkAuRqX7s"
+video: ""
 singleTag: ""
 thisCategoryHeading: "For Stick and Modular Builders"
 categoryHeadingURL: "for-wood-builders"
@@ -18,7 +20,7 @@ summary: "This innovative, space-saving solution can turn any CONVEYOR into a st
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
-authorTitle: "Author's Title Goes in page Frontmatter"
+authorTitle: "Author's Title Goes in page Front Matter"
 draft: false
 ---
 
@@ -46,4 +48,4 @@ Especially handy for making wise use of limited square footage, the Triad Pop-Up
 ###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
-Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.
+Or, if you prefer, feel free to call the factory at **1-800-568-7423 ext. 133** (Business Hours: 8 AM to 5 PM Central, weekdays). Email direct: sales@merrickmachine.com** Business Hours: 8 AM to 5 PM Central, weekdays.

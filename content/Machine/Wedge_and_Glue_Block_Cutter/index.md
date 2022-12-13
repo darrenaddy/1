@@ -2,8 +2,10 @@
 title: Wedge and Glue Block Cutter
 date: 2022-06-23T15:38:16-05:00
 kind: "machine"
-category: "Stairs" # Wood, Steel, Stairs, Specialty"
-Weight: 08
+category: ["Stairs"] # Wood, Steel, Stairs, Specialty"
+description: "Professional stair building equipment for all stair construction phases - for the stair shop or lumber yard profit center."
+keywords: ["wedge", "glue block", "saw", "for-pro-stair-builders"]
+weight: 08
 tags: ["wedge", "glue block", "saw", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 productImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad Wedge and Glue Block Cutter Product Image"
@@ -17,7 +19,7 @@ summary: "Turn your waste lumber into wedges and/or glue blocks that your shop c
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
-authorTitle: "Author's Title Goes in page Frontmatter"
+authorTitle: "Author's Title Goes in page Front Matter"
 draft: false
 ---
 
@@ -58,4 +60,4 @@ It is obvious why this machine is one of Triad's most popular machines for the p
 ###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
-Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.
+Or, if you prefer, feel free to call the factory at **1-800-568-7423 ext. 133** (Business Hours: 8 AM to 5 PM Central, weekdays). Email direct: sales@merrickmachine.com** Business Hours: 8 AM to 5 PM Central, weekdays.

@@ -3,14 +3,16 @@ title: Stud Stitcher Bridge
 date: 2022-08-08T14:00:15-05:00
 kind: "machine"
 category: ["Wood"] # Wood, Steel, Stairs, Specialty"
-category_weight: 01
+description: "Wall panel equipment for today's builder, off-site manufacturing, modular construction, wall panelization center, including wall panel components and subcomponents machines."
+keywords: ["panelization", "automation", "framing", "bridge", "for-wood-timber-builders"]
+weight: 105
 categoryImage: categoryImage.jpg
 tags: ["panelization", "framing", "bridge", "for-wood-timber-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 featuredImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad Stud Stitcher Bridge Product Image"
 galleryEnable: false
 gallery: [ image1.png, image2.png, image3.png ]
-video: "4LlkAuRqX7s"
+video: ""
 singleTag: ""
 thisCategoryHeading: "For Stick and Modular Builders"
 categoryHeadingURL: "for-wood-timber-builders"
@@ -18,11 +20,11 @@ summary: "The Stud Stitcher replaces two people on tool dollies (one on each sid
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
-authorTitle: "Author's Title Goes in page Frontmatter"
+authorTitle: "Author's Title Goes in page Front Matter"
 draft: false
 ---
 
-### Description
+###### Description
 
 Triad's Stud Stitcher Bridge is a one-man framing operation designed for use with the Gen II Framing Table. The operator guides the Stud Stitcher Bridge over a clamped wall and the bridge is ready to fire. The Stud Stitcher clamps the stud horizontally and vertically and places four nails (two on each side of a 2x4 wall) simultaneously fastening both plates and stud. The operator returns the bridge to park with the optional auto-return feature as the wall is moved down the line either with a power chain conveyor or manually.
 
@@ -35,8 +37,6 @@ Triad's Stud Stitcher Bridge is a one-man framing operation designed for use wit
 
 `*Specifications subject to change without notice.`
 
-{{< youtube id="XXXXXXXXX" autoplay="true" color="white" yt_start="2" >}}
-
 ###### Capabilities
 
 - For wall heights ranging from 9' to 16'
@@ -48,4 +48,4 @@ Triad's Stud Stitcher Bridge is a one-man framing operation designed for use wit
 ###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
-Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.
+Or, if you prefer, feel free to call the factory at **1-800-568-7423 ext. 133** (Business Hours: 8 AM to 5 PM Central, weekdays). Email direct: sales@merrickmachine.com** Business Hours: 8 AM to 5 PM Central, weekdays.

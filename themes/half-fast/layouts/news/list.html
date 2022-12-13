@@ -1,0 +1,11 @@
+{{ define "main" }} 
+    {{ $paginator := .Paginate (where .Data.Pages "Type" "eq" "news") (index .Site.Params "paginate" | default 5) }} 
+    {{ range where .Paginator.Pages "Type" "eq" "news" }}
+        {{ if or (fileExists (print "layouts/partials/content-type/" .Type ".html") ) (fileExists (print "themes/half-fast/layouts/partials/content-type/" .Type ".html")) }} 
+            {{ partial (print "content-type/" .Type ".html") (dict "ctx" . "template_type" "multiple") }} 
+        {{ else }}
+            {{ partial "content-type/article.html" (dict "ctx" . "template_type" "multiple") }} 
+        {{ end }}
+    {{ end }} 
+    {{ partial "paginator.html" . }} 
+{{ end }}

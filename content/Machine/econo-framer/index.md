@@ -3,14 +3,14 @@ title: Econo-Framer
 date: 2022-08-08T13:58:15-05:00
 kind: "machine"
 category: ["Wood"] # Wood, Steel, Stairs, Specialty"
-category_weight: 01
+weight: 108
 categoryImage: categoryImage.png
 tags: [ "panelization", "framing", "table", "for-wood-timber-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 featuredImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad Econo-Framer Product Image"
 galleryEnable: false
 gallery: [ image1.png, image2.png, image3.png ]
-video: "4LlkAuRqX7s"
+video: ""
 singleTag: ""
 thisCategoryHeading: "For Stick and Modular Builders"
 categoryHeadingURL: "for-wood-builders"
@@ -18,7 +18,7 @@ summary: "The Econo-Framer is our most economical motorized framing table, redes
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
-authorTitle: "Author's Title Goes in page Frontmatter"
+authorTitle: "Author's Title Goes in page Front Matter"
 draft: false
 ---
 
@@ -33,10 +33,6 @@ Air-activated pop-up rollers allow easy roll off of the finished wall panels.
 Both versions are available for wall length maximums of either 16', 20', or 24'. Should you require even longer wall length maximums, or rail mounted [tool dollies](/machine/tool_dollies/), consider our popular [Diamond Quad Framing Table](/machine/diamond_quad_framing_table/).
 
 No factory installation is necessary with the Econo-Framer. The Econo-Framer has leveling shoes on each leg to ensure quality operation of the wall framer on almost any hard surface.
-
-###### Video Demonstration
-
-{{< youtube id="4LlkAuRqX7s" autoplay="true" color="white" yt_start="2" rel="0" >}}
 
 ###### Specifications*
 
@@ -60,4 +56,4 @@ No factory installation is necessary with the Econo-Framer. The Econo-Framer has
 
 Ask it NOW via our [Quick Question Form](#qq)
 
-Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.
+Or, if you prefer, feel free to call the factory at **1-800-568-7423 ext. 133** (Business Hours: 8 AM to 5 PM Central, weekdays). Email direct: sales@merrickmachine.com** Business Hours: 8 AM to 5 PM Central, weekdays.

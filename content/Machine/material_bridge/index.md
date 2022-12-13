@@ -3,38 +3,51 @@ title: Material Bridge
 date: 2022-08-08T14:02:22-05:00
 kind: "machine"
 category: ["Wood", "Steel"] # Wood, Steel, Stairs, Specialty"
-category_weight: 01
+description: "Wall panel equipment for today's builder, off-site manufacturing, modular construction, wall panelization center, including wall panel components and subcomponents machines."
+keywords: ["sheathing", "bridge", "material-handling", "equipment", "for-modular-builders"] 
+weight: 203
 categoryImage: categoryImage.png
 tags: ["sheathing", "bridge", "material-handling", "for-modular-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 featuredImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad Material Bridge Product Image"
 galleryEnable: false
 gallery: [ image1.png, image2.png, image3.png ]
-video: "4LlkAuRqX7s"
+video: ""
 singleTag: ""
 thisCategoryHeading: "For Stick and Modular Builders"
 categoryHeadingURL: "for-wood-builders"
-summary: "Whether you are looking for a simple component machine, or an entire modular line, Triad surely has just what you need."
+summary: "Save time and steps by keeping your sheathing right where you need it, anywhere over the table."
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
-authorTitle: "Author's Title Goes in page Frontmatter"
+authorTitle: "Author's Title Goes in page Front Matter"
 draft: false
 ---
+###### Description
 
-### Description
+The Triad Material Bridge is designed to move
+along the table and hold material for the wall
+panels. This allows the operator to place the
+material "on the fly" and eliminates extra
+walking.
 
-Triad’s Open Stringer Saw (OSS) was designed to increase productivity and cut a perfect stringer every time. The OSS is powered by two soft start motors and uses two 30”x 80 tooth carbide tipped blades. The OSS is PC controlled and has automatic indexing and cutting. An in-feed and out-feed roller conveyor comes as standard equipment with the unit.
+The bridge is guided by a track, squared to the
+table. Adding the Material Bridge to any wall
+panel table saves labor for faster production times.
+
+###### Capacity
+
+- 10,000 lb. weight capacity
+- 3' height clearance
+- 4' wide platform area
 
 ###### Specifications*
 
-- Electrical Standard: 240 Vac, 3 PH, 60 AMPs
+- Electrical Standard: 120V, 1 PH, 10 AMPs
 
-- Air Requirements: 100 PSI, 2 CFM
+- Air Requirements: 100 PSI, 1/2" NPT
 
-- Size: 36' L x 15'10" W
-
-- Weight: 2700 lbs.
+- 1/2 HP DC Drive
 
 - `Specifications subject to change without notice.`
 
@@ -53,4 +66,4 @@ Triad’s Open Stringer Saw (OSS) was designed to increase productivity and cut 
 ###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
-Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.
+Or, if you prefer, feel free to call the factory at **1-800-568-7423 ext. 133** (Business Hours: 8 AM to 5 PM Central, weekdays). Email direct: sales@merrickmachine.com** Business Hours: 8 AM to 5 PM Central, weekdays.

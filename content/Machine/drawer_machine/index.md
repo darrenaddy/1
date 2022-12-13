@@ -2,8 +2,9 @@
 title: Drawer Machine
 date: 2022-08-09T09:19:05-05:00
 kind: "machine"
-category: ["Specialty"] # Wood, Steel, Stairs, Specialty"
-category_weight: 02
+category: "Specialty" # Wood, Steel, Stairs, Specialty"
+keywords: ["drawer", "assembly", "for-drawer-builders"]
+weight: 02
 categoryImage: categoryImage.jpg
 tags: ["drawer", "assembly", "for-drawer-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 featuredImage: "" #images in same (page bundle) folder for responsive processing
@@ -18,7 +19,7 @@ summary: "Triad's clean, uncomplicated Drawer Machine will speed your production
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
-authorTitle: "Author's Title Goes in page Frontmatter"
+authorTitle: "Author's Title Goes in page Front Matter"
 draft: false
 ---
 
@@ -31,7 +32,7 @@ Push button controls operate the machine.The positive two direction squaring and
 
 ###### Video Demonstration
 
-{{< youtube id="Qf6ydS0UyEc" autoplay="true" color="white" yt_start="2" rel="0" >}}
+{{< youtube id="6zbCCQenulA" autoplay="true" color="white" yt_start="2" rel="0" >}}
 
 ###### Specifications*
 
@@ -53,4 +54,4 @@ Push button controls operate the machine.The positive two direction squaring and
 ###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
-Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.
+Or, if you prefer, feel free to call the factory at **1-800-568-7423 ext. 133** (Business Hours: 8 AM to 5 PM Central, weekdays). Email direct: sales@merrickmachine.com** Business Hours: 8 AM to 5 PM Central, weekdays.

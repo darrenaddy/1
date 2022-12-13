@@ -1,20 +1,19 @@
 {{ define "main" }}
-  
-    {{ $bgimage := resources.Get "img/Stairs-breadcrumbs-bg.jpg" }}
-  
+{{ $bgimage := resources.Get "img/Stairs-breadcrumbs-bg.jpg" }}
+
    
 <section id="category-pages" class="mentor-events pt-0">
     <div class="container" data-aos="fade-up">
         <div class="bgimage" style="background-image: url('{{$bgimage.RelPermalink | safeURL }}');">
-        <div class="section-header py-4" style="color:white;">
+        <div class="section-header py-4" style="color:black;">
             
-            <h2>All Machines for Pro Stair Builders</h2>
+            <h2 style="color:black;">All Machines for Professional Stair Builders</h2>
         </div>
         
         <div class="row p-4 mt-0">
-        {{ $pageArray := where .Site.Pages ".Params.Category" "Stairs" }}
-        {{ $paginator := .Paginate $pageArray }}
-        {{ range $paginator.Pages.ByWeight }}   
+        {{ $pageArray := where .Site.Pages ".Params.category" "intersect" (slice "Stairs") }}
+            
+            {{ range $pageArray.ByWeight }}   
             <div class="col-lg-4 col-md-6 d-flex py-2" data-aos="zoom-in" data-aos-delay="50">
                 <a href="{{ .Permalink }}" class="index-anchor">    
                 <div class="card h-60">
@@ -40,46 +39,9 @@
                 </div>
                 </a>
             </div> 
-            {{ end }}  
-            </div>
+            {{ end }} 
+            </div>          
     </div>
-
-
-    
-<div class="row">
-    <div class="col-md-4">  </div>
-    <div class="col-md-4">
-        {{ if gt .Paginator.TotalPages 1 }}
-        <ul class="pagination">
-          {{ if .Paginator.HasPrev }}
-            <li><a href="{{ .Paginator.Prev.URL }}">&laquo; Prev</a></li>
-          {{ else }}
-            <li><span>&laquo; Prev</span></li>
-          {{ end }}
-
-          {{ $scratch := newScratch }}
-          {{ $scratch.Set "current" .Paginator.PageNumber }} 
-
-          {{ range .Paginator.Pagers }}
-            {{ if eq .PageNumber ($scratch.Get "current") }}
-              <li class="active"><span><em>{{ .PageNumber }}</em></span></li>
-            {{ else }}
-            <li><a href="{{ .URL }}">{{ .PageNumber }}</a></li>
-            {{ end }}
-          {{ end }}
-
-          {{ if .Paginator.HasNext }}
-            <li><a href="{{ .Paginator.Next.URL }}">Next &raquo;</a></li>
-          {{ else }}
-            <li><span >Next &raquo;</span></li>
-          {{ end }}
-          </ul>
-        {{ end }}
-
-    </div>
-    <div class="col-md-4">  </div>
-</div>
 </div>
 </section>
-
 {{ end }}

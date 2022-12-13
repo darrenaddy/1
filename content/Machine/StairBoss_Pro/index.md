@@ -2,10 +2,12 @@
 title: StairBoss Pro
 date: 2022-06-28T17:38:16-05:00
 kind: "machine"
-category: "Stairs" # Wood, Steel, Stairs, Specialty"
+category: ["Stairs"] # Wood, Steel, Stairs, Specialty"
 categoryImage: categoryImage.jpg
-Weight: 01
-tags: ["open stringer", "saw", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
+description: "The most versatile stair router in the world - found in stair shops all over North America."
+keywords: ["open stringer", "closed stringer", "skirt board", "end cut", "end scribe", "router", "for-pro-stair-builders"] 
+weight: 01
+tags: ["open stringer", "closed stringer", "skirt board", "end cut", "end scribe", "router", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 featuredImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad StairBoss Pro Product Image"
 galleryEnable: false
@@ -18,7 +20,7 @@ summary: "The industry's PREMIER stair router. It looks like nothing else & it p
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
-authorTitle: "Author's Title Goes in page Frontmatter"
+authorTitle: "Author's Title Goes in page Front Matter"
 draft: false
 ---
 
@@ -55,4 +57,4 @@ A user-friendly touch screen is incorporated for easy value input for the string
 ###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
-Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.
+Or, if you prefer, feel free to call the factory at **1-800-568-7423 ext. 133** (Business Hours: 8 AM to 5 PM Central, weekdays). Email direct: sales@merrickmachine.com** Business Hours: 8 AM to 5 PM Central, weekdays.

@@ -4,15 +4,14 @@
 <section id="category-pages" class="mentor-events pt-0">
     <div class="container" data-aos="fade-up">
         <div class="bgimage" style="background-image:url('{{$bgimage.RelPermalink | safeURL }}');">
-        <div class="section-header py-4">
-            
-            <h2  style="color:white;">All Framing Tables for Steel Stud Panels</h2>
+        <div class="section-header py-4 justify-items-center">
+            <h2  style="color:white;">All Framing & Squaring & Sheathing Tables for Steel Stud Wall Panelization</h2>
         </div>
         
         <div class="row p-4 mt-0">
             {{ $pageArray := where .Site.Pages ".Params.category" "intersect" (slice "Steel") }}
            
-            {{ $pageArray2 := where $pageArray "Params.tags" "intersect" (slice "panelization") }}
+            {{ $pageArray2 := where $pageArray ".Params.tags" "intersect" (slice "panelization") }}
             
             {{ range $pageArray2.ByWeight }}   
             <div class="col-lg-4 col-md-6 d-flex py-2" data-aos="zoom-in" data-aos-delay="50">

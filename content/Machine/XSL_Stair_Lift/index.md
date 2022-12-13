@@ -2,10 +2,12 @@
 title: XSL Stair Lift
 date: 2022-06-23T15:39:39-05:00
 kind: "machine"
-category: "Stairs" # Wood, Steel, Stairs, Specialty"
+category: ["Stairs"] # Wood, Steel, Stairs, Specialty"
+description: "Professional stair building equipment for all stair construction phases - for the stair shop or lumber yard profit center."
+keywords: ["staircase", "lift", "material handling", "for-pro-stair-builders"]
 categoryImage: categoryImage.jpg
 tags: ["staircase", "lift", "material handling", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
-Weight: 09
+weight: 9
 productImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad XSL Stair Lift Product Image"
 carouselEnable: false
@@ -17,7 +19,7 @@ summary: "Triad's XSL Stair Lift provides easy lifting and transport of assemble
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
-authorTitle: "Author's Title Goes in page Frontmatter"
+authorTitle: "Author's Title Goes in page Front Matter"
 draft: false
 ---
 
@@ -49,4 +51,4 @@ The Triad XSL Stair Lift can be attached by hook to any overhead material handle
 ###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
-Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.
+Or, if you prefer, feel free to call the factory at **1-800-568-7423 ext. 133** (Business Hours: 8 AM to 5 PM Central, weekdays). Email direct: sales@merrickmachine.com** Business Hours: 8 AM to 5 PM Central, weekdays.

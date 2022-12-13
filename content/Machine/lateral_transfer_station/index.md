@@ -3,54 +3,55 @@ title: Lateral Transfer Station
 date: 2022-08-08T13:53:40-05:00
 kind: "machine"
 category: ["Wood", "Steel"] # Wood, Steel, Stairs, Specialty"
-category_weight: 01
+description: "Wall panel equipment for today's builder, off-site manufacturing, modular construction, wall panelization center, including wall panel components and subcomponents machines."
+keywords: ["material-handling", "lateral", "wall panel", "conveyor", "equipment", "for-modular-builders"]
+weight: 111
 categoryImage: categoryImage.jpg
-tags: [ "panelization", "material-handling", "conveyor", "for-modular-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
+tags: ["material-handling", "lateral", "wall panel", "conveyor", "for-modular-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 featuredImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad Lateral Transfer Station Product Image"
 galleryEnable: false
 gallery: [ image1.png, image2.png, image3.png ]
-video: "4LlkAuRqX7s"
+video: ""
 singleTag: ""
-thisCategoryHeading: "For Wood OR Steel Builders"
+thisCategoryHeading: "For Steel Stud OR Wood Builders"
 categoryHeadingURL: "for-wood-builders"
-summary: "Whether you are looking for a simple component machine, or an entire modular line, Triad surely has just what you need."
+summary: "Eliminate bottlenecks in your wall panel lines, or support multiple lines, with the Lateral Transfer Table. Simple 2 button controls!"
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
-authorTitle: "Author's Title Goes in page Frontmatter"
+authorTitle: "Author's Title Goes in page Front Matter"
 draft: false
 ---
 
-### Description
+###### Description
 
-Triad’s Open Stringer Saw (OSS) was designed to increase productivity and cut a perfect stringer every time. The OSS is powered by two soft start motors and uses two 30”x 80 tooth carbide tipped blades. The OSS is PC controlled and has automatic indexing and cutting. An in-feed and out-feed roller conveyor comes as standard equipment with the unit.
+The Transfer Table will accommodate two parallel lines. It can convey wall panels straight across from either line or receive a panel from one line and unload it on the other. The infeed and out feed devices can be powered or manual. Powered infeed and out feed devices will be interlocked with the Transfer Table to prevent accidental unloading or overrunning. 
 
-###### Specifications*
+A single start command will inhibit the unloading of a panel; the second start command will transfer the panel between lines and a third start command will set it to return automatically when completed. As easy as 1-2-3! With only a two button controller and built-in communication with our Triad Intelligent Power Conveyors, eliminating bottlenecks in your wall panel lines (and/or support for multiple lines running simultaneously) just became a reality.
 
-- Electrical Standard: 240 Vac, 3 PH, 60 AMPs
+{{< youtube id="yCn8V5zaNnE" autoplay="true" color="white" yt_start="2" rel="0">}}
 
-- Air Requirements: 100 PSI, 2 CFM
+###### Features and Specifications*
 
-- Size: 36' L x 15'10" W
+- Cerebralogic Control System for simplified controls
+- Variable speed motor control
+- Two 1 HP chain conveyor motors
+- Chain speed up to 78 fpm
+- Conveyors come in 16', 20' or 24' length
+- Monorail guidance system comes in 16' increments
+- Stack-Light and position lamps for visual machine status
+- Audible horn sounds when transferring with a 3-second warning
 
-- Weight: 2700 lbs.
+___
 
-- `Specifications subject to change without notice.`
+- Electrical Standard: 120 Vac, 1 PH, 30 AMPs
 
-###### Capabilities
+- Air Requirements: N/A
 
-- Cut up to four separate 2" x 10" or 2" x 12" stringers at one time.
-
-- Accommodates stringer angles from 25 degrees to 45 degrees.
-
-{{< youtube id="XXXXXXXXX" autoplay="true" color="white" yt_start="2" >}}
-
-###### Options
-
-- Under-Carriage Waste Conveyor (transports the waste from cuts from under the machine for more convenient clean-up.)
+`*Features and specifications subject to change without notice.`
 
 ###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
-Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.
+Or, if you prefer, feel free to call the factory at **1-800-568-7423 ext. 133** (Business Hours: 8 AM to 5 PM Central, weekdays). Email direct: sales@merrickmachine.com** Business Hours: 8 AM to 5 PM Central, weekdays.

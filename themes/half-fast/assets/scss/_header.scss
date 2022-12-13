@@ -7,12 +7,23 @@
   padding: 0;
   color: rgba($white, .8);
   height: 40px;
+  @media screen and (min-width: 993px) {
+    .topbar {
+      display: block !important;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .topbar {
+    display: none !important;
+    }
+  }
 
   .contact-info {
 
     i {
       font-style: normal;
-      color: $primary;
+      color: $white;
 
       a, span {
         padding-left: 5px;
@@ -46,6 +57,7 @@
   }
 }
 
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -55,6 +67,8 @@
   transition: all 0.5s;
   z-index: 997;
   background: $white, 0.2;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+  
  
   
   &.header-fixed {

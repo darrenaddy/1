@@ -3,48 +3,48 @@ title: Duo-4 Ladder Machine
 date: 2022-08-08T14:03:32-05:00
 kind: "machine"
 category: ["Wood"] # Wood, Steel, Stairs, Specialty"
-category_weight: 01
+description: "Wall panel equipment for today's builder, off-site manufacturing, modular construction, wall panelization center, including wall panel components and subcomponents machines."
+keywords: ["component", "nailer", "for-wood-timber-builders"]
+weight: 304
 categoryImage: categoryImage.jpg
-tags: ["open stringer", "saw", "for-pro-stair-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
+tags: ["component", "nailer", "for-wood-timber-builders"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 featuredImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad Duo-4 Ladder Machine Product Image"
 galleryEnable: false
 gallery: [ image1.png, image2.png, image3.png ]
-video: "4LlkAuRqX7s"
+video: ""
 singleTag: ""
 thisCategoryHeading: "For Stick and Modular Builders"
 categoryHeadingURL: "for-wood-builders"
-summary: "Whether you are looking for a simple component machine, or an entire modular line, Triad surely has just what you need."
+summary: "Quickly assemble either floor trusses or ladders with the DUO-4 Ladder Machine."
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
-authorTitle: "Author's Title Goes in page Frontmatter"
+authorTitle: "Author's Title Goes in page Front Matter"
 draft: false
 ---
 
-### Description
+###### Description
 
-Triad’s Open Stringer Saw (OSS) was designed to increase productivity and cut a perfect stringer every time. The OSS is powered by two soft start motors and uses two 30”x 80 tooth carbide tipped blades. The OSS is PC controlled and has automatic indexing and cutting. An in-feed and out-feed roller conveyor comes as standard equipment with the unit.
+The Triad Duo-4 is designed for quick size changes to accommodate either floor trusses or ladders. Clamping is from two directions to ensure tight joints and rigid finished products. The moving bridge completely retracts to accommodate lift-off of the finished product. The studs or ladder rungs are positioned on 16" centers, using stud locators. End squaring stops square up the plates and the hand-operated controls consist of a clamp lever and a nail button. One button fires all four guns simultaneously.
+
+{{< youtube id="UGjp4PuJils" autoplay="true" color="white" yt_start="2" rel="0" >}}
 
 ###### Specifications*
 
-- Electrical Standard: 240 Vac, 3 PH, 60 AMPs
+- Electrical Standard: 240 Vac, 3 PH, 30 AMPs
 
-- Air Requirements: 100 PSI, 2 CFM
+- Air Requirements: 100 PSI, 4 CFM
 
-- Size: 36' L x 15'10" W
+- Weight: 2200 lbs.
 
-- Weight: 2700 lbs.
-
-- `Specifications subject to change without notice.`
+`*Specifications subject to change without notice.`
 
 ###### Capabilities
 
 - Cut up to four separate 2" x 10" or 2" x 12" stringers at one time.
 
 - Accommodates stringer angles from 25 degrees to 45 degrees.
-
-{{< youtube id="XXXXXXXXX" autoplay="true" color="white" yt_start="2" >}}
 
 ###### Options
 
@@ -53,4 +53,4 @@ Triad’s Open Stringer Saw (OSS) was designed to increase productivity and cut 
 ###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
-Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.
+Or, if you prefer, feel free to call the factory at **1-800-568-7423 ext. 133** (Business Hours: 8 AM to 5 PM Central, weekdays). Email direct: sales@merrickmachine.com** Business Hours: 8 AM to 5 PM Central, weekdays.

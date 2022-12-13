@@ -3,14 +3,16 @@ title: Material Cart
 date: 2022-08-08T14:09:05-05:00
 kind: "machine"
 category: ["Wood", "Steel", "Stairs"] # Wood, Steel, Stairs, Specialty"
-category_weight: 01
+description: "Wall panel equipment for today's builder, off-site manufacturing, modular construction, wall panelization center, including wall panel components and subcomponents machines."
+keywords: ["material-handling", "cart", "equipment", "for all professional builders"]
+weight: 1
 categoryImage: categoryImage.png
-tags: ["material-handling", "plate", "cart"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
+tags: ["material-handling", "cart"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 featuredImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad Material Cart Product Image"
 galleryEnable: false
 gallery: [ image1.png, image2.png, image3.png ]
-video: "4LlkAuRqX7s"
+video: ""
 singleTag: ""
 thisCategoryHeading: "For intelligent material handling"
 categoryHeadingURL: "material_handling"
@@ -18,39 +20,33 @@ summary: "Material staging and material handling are an important part of increa
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
-authorTitle: "Author's Title Goes in page Frontmatter"
+authorTitle: "Author's Title Goes in page Front Matter"
 draft: false
 ---
 
-### Description
+###### Description
 
-Triad’s Open Stringer Saw (OSS) was designed to increase productivity and cut a perfect stringer every time. The OSS is powered by two soft start motors and uses two 30”x 80 tooth carbide tipped blades. The OSS is PC controlled and has automatic indexing and cutting. An in-feed and out-feed roller conveyor comes as standard equipment with the unit.
+Triad's popular Material Cart now has an updated design that makes use of laser cut parts to produce a lighter, easier to maneuver cart, without sacrificing it's weight-carrying capacity.
 
-###### Specifications*
+Each wheel is equipped with bearing and grease zerks in axle and swivel assembly, pro-vides for easy movement. The material cart is ideal for use in mills and virtually all  warehouse and manufacturing applications.
 
-- Electrical Standard: 240 Vac, 3 PH, 60 AMPs
+Side stake pockets are provided allowing more face platform surface.
 
-- Air Requirements: 100 PSI, 2 CFM
+###### Features and Specifications*
 
-- Size: 36' L x 15'10" W
+- 2000 lb. weight capacity
+- Large 6" and 12" phenolic center wheels allow for easy movement
+- Side stake pockets for more face platform surface
+- 5" steel channel frame
+- Dimensions: 14" H x 40" W x 60" L
 
-- Weight: 2700 lbs.
-
-- `Specifications subject to change without notice.`
-
-###### Capabilities
-
-- Cut up to four separate 2" x 10" or 2" x 12" stringers at one time.
-
-- Accommodates stringer angles from 25 degrees to 45 degrees.
-
-{{< youtube id="XXXXXXXXX" autoplay="true" color="white" yt_start="2" >}}
+`*Specifications subject to change without notice.`
 
 ###### Options
 
-- Under-Carriage Waste Conveyor (transports the waste from cuts from under the machine for more convenient clean-up.)
+- Do you need more weight capacity? Then you need the [Triad Heavy Duty Material Cart](/machine/heavy_duty_material_cart/)! It featured DOUBLE the weight capacity of the standard Material Cart.
 
 ###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
-Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.
+Or, if you prefer, feel free to call the factory at **1-800-568-7423 ext. 133** (Business Hours: 8 AM to 5 PM Central, weekdays). Email direct: sales@merrickmachine.com** Business Hours: 8 AM to 5 PM Central, weekdays.

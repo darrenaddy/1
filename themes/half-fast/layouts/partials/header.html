@@ -1,18 +1,20 @@
 <!-- ======= Top Bar ======= -->
-<section id="topbar" class="d-flex align-items-center">
-    <div class="container-fluid d-flex justify-content-center justify-content-md-between">
-    
-        <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:sales@merrickmachine.com">Click to Email!</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><a href="tel:18005687423">Click to Call!</a></i>
-        </div>    
+<section id="topbar" class="align-items-center d-none d-lg-block d-xl-block d-xxl-block">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex mx-auto">
+        <i class="bi bi-envelope d-flex align-items-center">&nbsp;<a href="mailto:sales@merrickmachine.com">sales@merrickmachine.com</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 800 568-7423</span></i>
+	<div class="cta ms-4">
+        <a href="http://triadruvoparts.com" class="scrollto" target="_blank">Parts & Service</a>
+      </div>
+      </div> 
     </div>
-</section>
+  </section>
   
 <header id="header" class="header d-flex">
-    <div class="container-fluid mx-auto">     
+    <div class="container-fluid">     
         <!-- .navbar -->
-        <nav class='navbar navbar-expand-lg navbar-light bg-white'>
+        <nav class='navbar navbar-expand-lg navbar-light bg-white justify-content-center'>
             <div class='container-fluid'>
               <a class='navbar-brand text-black' href='/'><img src="/img/logo.png" class="logo" alt="Triad Logo"></a>
               <button class='navbar-toggler ms-auto' type='button' data-bs-toggle='offcanvas' data-bs-target='#offcanvasExample' aria-controls='offcanvasExample'>
@@ -30,7 +32,7 @@
                   </a>
                 </div>
                 <div class='offcanvas-body p-lg-0'>
-                  <ul class='navbar-nav'>
+                  <ul class='navbar-nav mx-auto'>
                             {{ $currentPage := . }}
                             {{ range $index, $element := .Site.Menus.main }}
                                 {{ if .HasChildren }}
@@ -59,7 +61,6 @@
                                     {{ end }}
                                 {{ end }}
                                 <!--  <button class="btn"><a href="http://triadruvoparts.com" class="getstarted" target="_blank">Parts & Service</a></button>-->
-                                <li class="nav-item" style="color:white;"><a href="http://triadruvoparts.com" class="getstarted" target="_blank">- Parts & Service -</a></li> 
                             </ul>
                     </div>
                 </div>

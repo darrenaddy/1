@@ -2,23 +2,25 @@
 title: MultiBridge
 date: 2022-08-09T09:03:39-05:00
 kind: "machine"
-category: ["Steel", "Wood"] # Wood, Steel, Stairs, Specialty"
-category_weight: 02
+category: ["Wood", "Steel"] # Wood, Steel, Stairs, Specialty"
+description: "Wall panel equipment for today's builder, off-site manufacturing, modular construction, wall panelization center, including wall panel components and subcomponents machines."
+keywords: ["panelization", "mobile", "framing", "table", "wall panel", equipment","for-wood-timber-builders"] 
+weight: 207
 categoryImage: categoryImage.jpg
 tags: ["sheathing", "bridge"] #["framing", "table", "mobile", "stick-builder" "shed-builder"]
 featuredImage: "" #images in same (page bundle) folder for responsive processing
 genericAlt: "Triad MultiBridge Product Image"
 galleryEnable: false
 gallery: [ image1.png, image2.png, image3.png ]
-video: "4LlkAuRqX7s"
+video: ""
 singleTag: ""
 thisCategoryHeading: "For Steel Stud OR Wood Builders"
-categoryHeadingURL: "for-light-gauge-steel-builders"
+categoryHeadingURL: "For Steel Stud OR Wood Builders"
 summary: "A Triad MultiBridge gives you TWO gantries with your choice of combined functionalities. So many great options!"
 testimonialItem: false
 testimonialQuote: "Testimonial (in page Front Matter) Goes Here"
 testimonialAuthor: "Name of who said it (found in Front Matter) Goes Here"
-authorTitle: "Author's Title Goes in page Frontmatter"
+authorTitle: "Author's Title Goes in page Front Matter"
 draft: false
 ---
 
@@ -55,4 +57,4 @@ We have had builders purchase a nailing bridge on one gantry, and a panel staple
 ###### Have a Question?
 
 Ask it NOW via our [Quick Question Form](#qq)
-Or, if you prefer, feel free to call the factory at **1-800-568-7423** Business Hours: 8 AM to 5 PM Central, weekdays.
+Or, if you prefer, feel free to call the factory at **1-800-568-7423 ext. 133** (Business Hours: 8 AM to 5 PM Central, weekdays). Email direct: sales@merrickmachine.com** Business Hours: 8 AM to 5 PM Central, weekdays.
